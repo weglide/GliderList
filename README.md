@@ -54,8 +54,8 @@ If a value is not known, it should be displayed as ``-``.
  3. 15
  4. standard
  5. club
- 6. double seater
-
+ 6. double
+ 
 * **competition-year** (e.g. dmst-2020): Number
 
  _Competition index for different competitions and years._ 
