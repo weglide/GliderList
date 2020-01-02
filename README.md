@@ -11,43 +11,54 @@ Intent of the following data schema is to be readable for humans and machines wh
 This is the Definition of the list attributes in the following form:
 
 * **Attribute Name**: Type
-  _Description._
-  1. Choice 1 (if restricted)
+
+ _Description._
+  
+ 1. Choice 1 (if restricted)
 
 If a value is not known, it should be displayed as ``-``.
 
 ### Attributes
 
 * **short name**: Custom hash function
-  _Human decodable unique identifier._
+
+ _Human decodable unique identifier._
 
 * **type**: Number
-  _Type of aircraft._
-  1. glider
-  2. hang glider
-  3. paraglider
-  4. model glider
+
+ _Type of aircraft._
+  
+ 1. glider
+ 2. hang glider
+ 3. paraglider
+ 4. model glider
   
 * **manufacturer**: String
-  _Manufacturer of the aircraft._
+
+ _Manufacturer of the aircraft._
 
 * **model**: String
-  _Aircraft model (without variants)._
+
+ _Aircraft model (without variants)._
 
 * **variant**: String
-  _Variant of the aircraft model. Create one aircraft for every variant._
+
+ _Variant of the aircraft model. Create one aircraft for every variant._
   
 * **class**: Number
-  _Competition class._
-  1. open
-  2. 18
-  3. 15
-  4. standard
-  5. club
-  6. double seater
+
+ _Competition class._
+  
+ 1. open
+ 2. 18
+ 3. 15
+ 4. standard
+ 5. club
+ 6. double seater
 
 * **competition-year** (e.g. dmst-2020): Number
-  _Competition index for different competitions and years._ 
+
+ _Competition index for different competitions and years._ 
 
 ## Contribute
 
