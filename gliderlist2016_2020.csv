@@ -137,12 +137,12 @@ ID,Glider,Models,Manufacturer,Competition Class,2016,2017,2018,2019,2020
 136,AK 5,AK 5,Akaflieg Karlsruhe,Club,102,102,102,102,102
 137,Cirrus B 18.34m,Cirrus B 18.34m,Schempp-Hirth,Club,102,102,102,102,102
 138,DG 300 FG,DG 300 FG,DG Flugzeugbau,Club,102,102,102,102,102
-139,Pegase,Pegase,Club,102,102,102,102,102
+139,Pegase,Pegase,Centrair,Club,102,102,102,102,102
 140,ASW 19,ASW 19,Alexander Schleicher,Club,100,100,100,100,100
 141,Cirrus,Cirrus( VTC 17.74m)?,Schempp-Hirth,Club,100,100,100,100,100
-142,D 37,D 37,Club,100,100,100,100,100
+142,D 37,D 37,Akaflieg Darmstadt,Club,100,100,100,100,100
 143,DG 100,DG 100,DG Flugzeugbau,Club,100,100,100,100,100
-144,Elfe 17m,Elfe 17m,Club,100,100,100,100,100
+144,Elfe 17m,Elfe 17m,Neukom,Club,100,100,100,100,100
 145,Hornet,Hornet,Glasflügel,Club,100,100,100,100,100
 146,LS 1-e/f,LS 1-[ef],Rolladen-Schneider,Club,100,100,100,100,100
 147,Phöbus B3/C,Phöbus( B3| C),Club,100,100,100,100,100
@@ -165,25 +165,25 @@ ID,Glider,Models,Manufacturer,Competition Class,2016,2017,2018,2019,2020
 164,D 38,D 38,Club,98,98,98,98,98
 165,Astir CS,Astir CS( 77)?,Club,96,96,96,96,96
 166,Club Libelle,Club Libelle,Glasflügel,Club,96,96,96,96,96
-167,Elfe,Elfe S[34],Club,96,96,96,96,96
+167,Elfe,Elfe S[34],Neukom,Club,96,96,96,96,96
 168,IS 29 D,IS 29 D,Club,96,96,96,96,96
 169,LS 1-0 FG,LS 1-0 FG,Rolladen-Schneider,Club,96,96,96,96,96
 170,Mistral C,Mistral C,Club,96,96,96,96,96
 171,Phöbus B,Phöbus B,Club,96,96,96,96,96
 172,Salto 15.5m,Salto 15.5m,Glasflügel,Club,96,96,96,96,96
 173,SHK,SHK,Schempp-Hirth,Club,96,96,96,96,96
-174,VSO-10,VSO-10,Club,96,96,96,96,96
-175,Mü 22b,Mü 22b,Club,95,95,95,95,95
-176,Astir CS Top,Astir CS Top,Club,94,94,94,94,94
-177,Elfe FG,,Club,94,94,94,94,94
-178,Phöbus A,Phöbus A,Club,94,94,94,94,94
-179,Silent 2,Silent 2,Club,94,94,94,94,94
-180,TST-10,TST-10 Atlas( M)?,Club,94,94,94,94,94
-181,VSO-10 C,VSO-10 C,Club,94,94,94,94,94
+174,VSO-10,VSO-10,VSO,Club,96,96,96,96,96
+175,Mü 22b,Mü 22b,Akaflieg München,Club,95,95,95,95,95
+176,Astir CS Top,Astir CS Top,Grob Aircraft,Club,94,94,94,94,94
+177,Elfe FG,Elfe FG,Neukom,Club,94,94,94,94,94
+178,Phöbus A,Phöbus A,Bölkow,Club,94,94,94,94,94
+179,Silent 2,Silent 2,Alisport,Club,94,94,94,94,94
+180,TST-10,TST-10 Atlas( M)?,TeST Gliders,Club,94,94,94,94,94
+181,VSO-10 C,VSO-10 C,VSO,Club,94,94,94,94,94
 182,Apis WR,Apis WR,Club,93,93,93,93,93
-183,Astir CS Jeans,Astir CS Jeans,Club,93,93,93,93,93
+183,Astir CS Jeans,Astir CS Jeans,Grob Aircraft,Club,93,93,93,93,93
 184,Carat,Carat,Club,93,93,93,93,93
-185,ASK 23,ASK 23( B)?,Club,92,92,92,92,92
+185,ASK 23,ASK 23( B)?,Alexander SchleicherClub,92,92,92,92,92
 186,fs 25,fs 25,Akaflieg Stuttgart,Club,92,92,92,92,92
 187,Kiwi,Kiwi,Club,92,92,92,92,92
 188,Phönix,Phönix,Club,92,92,92,92,92
@@ -206,47 +206,47 @@ ID,Glider,Models,Manufacturer,Competition Class,2016,2017,2018,2019,2020
 205,SB 5,SB 5[abc],Akaflieg Braunschweig,Club,86,86,86,86,86
 206,SF 27,SF 27 (A|MA),Scheibe-Flugzeugbau,Club,86,86,86,86,86
 207,SF 30,SF 30,Scheibe-Flugzeugbau,Club,86,86,86,86,86
-208,SIE 3,SIE 3,Club,86,86,86,86,86
-209,Solo L 33,Solo L 33,Club,86,86,86,86,86
-210,Std. Austria,Std. Austria,Club,86,86,86,86,86
+208,Sie-3,Sie-3,Paul Siebert,Club,86,86,86,86,86
+209,Solo L 33,Solo L 33,-,Club,86,86,86,86,86
+210,Std. Austria,Std. Austria,Schempp-Hirth,Club,86,86,86,86,86
 211,SZD 30 Pirat,SZD 30 Pirat,PZL Bielsko,Club,86,86,86,86,86
-212,VT-16 Orlic,VT-16 Orlic( 2)?,Club,86,86,86,86,86
+212,VT-16 Orlic,VT-16 Orlic( 2)?,-,Club,86,86,86,86,86
 213,Zugvogel,Zugvogel (I|II|IV),Scheibe-Flugzeugbau,Club,86,86,86,86,86
 214,Ka 6 E,Ka 6 E,Alexander Schleicher,Club,85,85,85,85,85
 215,Ka10,Ka10,Alexander Schleicher,Club,85,85,85,85,85
 216,PW 5,PW 5,PZL Świdnik,Club,85,85,85,85,85
-217,Alpin,Alpin( T)?,Club,84,84,84,84,84
-218,H 30,H 30,Club,84,84,84,84,84
-219,Lambada UFM-15,Lambada UFM-15,Club,84,84,84,84,84
-220,Silent AE-1,Silent AE-1( pure)?,Club,84,84,84,84,84
-221,Silent Club,Silent Club( pure)?,Club,84,84,84,84,84
+217,Alpin,Alpin( T)?,TeST Gliders,Club,84,84,84,84,84
+218,H 30,H 30,Glasflügel,Club,84,84,84,84,84
+219,Lambada UFM-15,Lambada UFM-15,Urban Air,Club,84,84,84,84,84
+220,Silent AE-1,Silent AE-1( pure)?,Air Energy,Club,84,84,84,84,84
+221,Silent Club,Silent Club( pure)?,Air Energy,Club,84,84,84,84,84
 222,SF 26,SF 26,Scheibe-Flugzeugbau,Club,83,83,83,83,83
 223,ASK 14,ASK 14,Alexander Schleicher,Club,82,82,82,82,82
 224,Ka 6,Ka 6,Alexander Schleicher,Club,82,82,82,82,82
-225,Lambada UFM-13,Lambada UFM-13,Club,82,82,82,82,82
-226,SZD 22 Mucha Std.,SZD 22 Mucha Std.,Club,82,82,82,82,82
-227,Sagitta,Sagitta,Club,82,82,82,82,82
-228,SFS 31,SFS 31,Club,82,82,82,82,82
-229,LOM 57,LOM 57(/1)?,Club,82,82,82,82,82
-230,Duo Banjo,Duo Banjo,Club,80,80,80,80,80
-231,Mucha,Mucha,Club,80,80,80,80,80
-232,LCF 2,LCF 2,Club,80,80,80,80,80
-233,Weihe 50,Weihe 50,Club,80,80,80,80,80
+225,Lambada UFM-13,Lambada UFM-13,Urban Air,Club,82,82,82,82,82
+226,SZD 22 Mucha Std.,SZD 22 Mucha Std.,SZD,Club,82,82,82,82,82
+227,Sagitta,Sagitta N.V. Vliegtuigbouw,Club,82,82,82,82,82
+228,SFS 31,SFS 31,Scheibe-Flugzeugbau,Club,82,82,82,82,82
+229,LOM 57,LOM 57(/1)?,VEB Lommatzsch,Club,82,82,82,82,82
+230,Duo Banjo,Duo Banjo,ProFe,Club,80,80,80,80,80
+231,Mucha,Mucha,SZD,Club,80,80,80,80,80
+232,LCF 2,LCF 2,LCF,Club,80,80,80,80,80
+233,Weihe 50,Weihe 50,DFS,Club,80,80,80,80,80
 234,L-Spatz,L-Spatz,Scheibe-Flugzeugbau,Club,78,78,78,78,78
 235,Lunak LF 107,Lunak LF 107,Rudý Letov,Club,78,78,78,78,78
 236,Swift S-1,Swift S-1,ZRPSL,Club,77,77,77,77,77
-237,Banjo,Banjo,Club,76,76,76,76,76
+237,Banjo,Banjo,ProFe,Club,76,76,76,76,76
 238,K 8,K 8,Alexander Schleicher,Club,76,76,76,76,76
 239,Minimoa,Minimoa,Schempp-Hirth,Club,76,76,76,76,76
-240,Ahrens Delphin V1,Ahrens Delphin V1,Club,-,-,76,76,76
-241,AV 36,AV 36,Club,74,74,74,74,74
-242,RF 4,RF 4,Club,74,74,74,74,74
+240,Ahrens Delphin V1,Ahrens Delphin V1,Arthur Ahrens,Club,-,-,76,76,76
+241,AV.36,AV.36,Fauvel,Club,74,74,74,74,74
+242,RF 4,RF 4,Fournier,Club,74,74,74,74,74
 243,Spatz 13m,Spatz 13m,Scheibe-Flugzeugbau,Club,74,74,74,74,74
-244,Piccolo,Piccolo,Club,68,68,68,68,68
-245,Song,Song,Club,65,65,65,65,65
-246,Stratos 2e,Stratos 2e,Club,-,-,-,64,64
-247,Rhönsperber,Rhönsperber,Club,62,62,62,62,62
-248,Rhönbussard,Rhönbussard,Club,60,60,60,60,60
+244,Piccolo,Piccolo,Technoflug,Club,68,68,68,68,68
+245,Song,Song,Gramex,Club,65,65,65,65,65
+246,Stratos 2e,Stratos 2e,HFL Leichtflugzeugbau,Club,-,-,-,64,64
+247,Rhönsperber,Rhönsperber,DFS,Club,62,62,62,62,62
+248,Rhönbussard,Rhönbussard,DFS,Club,60,60,60,60,60
 249,Grunau Baby,Grunau Baby,Club,54,54,54,54,54
 250,Ka/1 /3 /4,Ka [134],Alexander Schleicher,Club,54,54,54,54,54
 251,Twin Shark,Twin Shark,HpH Sailplanes,Double,-,-,115,115,113
@@ -257,10 +257,10 @@ ID,Glider,Models,Manufacturer,Competition Class,2016,2017,2018,2019,2020
 256,DG 1000 20m,DG 1000[STM] 20m,DG Flugzeugbau,Double,110,110,110,110,110
 257,Duo Discus,Duo Discus( T)?,Schempp-Hirth,Double,110,110,110,110,110
 258,fs 33,fs 33,Akaflieg Stuttgart,Double,109,109,109,109,109
-259,Calif A 21,Calif A 21( SJ)?,Double,108,108,108,108,108
-260,B 12,B 12,Double,106,106,106,106,106
+259,Calif A 21,Calif A 21( SJ)?,Caproni,Double,108,108,108,108,108
+260,B 12,B 12,Akaflieg Berlin,Double,106,106,106,106,106
 261,DG 1000 18m,DG 1000[STM] 18m,DG Flugzeugbau,Double,106,106,106,106,106
-262,Janus C FG,Janus C[TM]? FG,Double,106,106,106,106,106
+262,Janus C FG,Janus C[TM]? FG,Schempp-Hirth,Double,106,106,106,106,106
 263,DG 500 20m,DG 500M? 20m,DG Flugzeugbau,Double,104,104,104,104,104
 264,DG 505 M Orion 20m,DG 505 M Orion 20m,DG Flugzeugbau,Double,104,104,104,104,104
 265,DG 1001 18m FG,DG 1001 18m FG,DG Flugzeugbau,Double,104,104,104,104,104
