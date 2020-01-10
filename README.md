@@ -56,6 +56,10 @@ If a value is not known, it should be displayed as ``-``.
  5. club
  6. double
  
+ * **motor**: Boolean
+ 
+ _Has any kind of motor._
+ 
 * **competition-year** (e.g. dmst-2020): Number
 
  _Competition index for different competitions and years._ 
