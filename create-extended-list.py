@@ -1,9 +1,8 @@
 #! python3.7
 import csv
 import exrex
-import json
 import os.path
-#test
+
 SIMPLELIST = 'indexlist.csv'
 EXTENDEDLIST = 'extended_indexlist.csv'
 
