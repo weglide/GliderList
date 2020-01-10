@@ -119,7 +119,7 @@ ID,Glider,Models,Manufacturer,Competition Class,2016,2017,2018,2019,2020
 118,Discus 2,Discus 2(a|b|T|bT|c 15m|cT 15m)?,Schempp-Hirth,Standard,108,108,108,108,108
 119,LAK-19 15m,LAK-19 15m,Sportinė Aviacija,Standard,108,108,108,108,108
 120,LS 8,LS 8(T|e neo| neo)?,DG Flugzeugbau,Standard,108,108,108,108,108
-121,AK 8,AK 8,Standard,107,107,107,107,107
+121,AK 8,AK 8,Akaflieg Karlsruhe,Standard,107,107,107,107,107
 122,ASW 24,ASW 24( B| E)?,Alexander Schleicher,Standard,107,107,107,107,107
 123,Discus,Discus( a| b| bT| bM)?,Schempp-Hirth,Standard,107,107,107,107,107
 124,Genesis,Genesis,Standard,107,107,107,107,107
@@ -134,7 +134,7 @@ ID,Glider,Models,Manufacturer,Competition Class,2016,2017,2018,2019,2020
 133,LS 3 Std,LS 3 Std,Rolladen-Schneider,Club,103,103,103,103,103
 134,SB 12,SB 12,Akaflieg Braunschweig,Club,103,103,103,103,102
 135,mini LAK-FES,mini LAK-FES,Sportinė Aviacija,Club,-,103,105,105,103
-136,AK 5,AK 5,Club,102,102,102,102,102
+136,AK 5,AK 5,Akaflieg Karlsruhe,Club,102,102,102,102,102
 137,Cirrus B 18.34m,Cirrus B 18.34m,Schempp-Hirth,Club,102,102,102,102,102
 138,DG 300 FG,DG 300 FG,DG Flugzeugbau,Club,102,102,102,102,102
 139,Pegase,Pegase,Club,102,102,102,102,102
@@ -233,8 +233,8 @@ ID,Glider,Models,Manufacturer,Competition Class,2016,2017,2018,2019,2020
 232,LCF 2,LCF 2,Club,80,80,80,80,80
 233,Weihe 50,Weihe 50,Club,80,80,80,80,80
 234,L-Spatz,L-Spatz,Scheibe-Flugzeugbau,Club,78,78,78,78,78
-235,Lunak LF 107,Lunak LF 107,Club,78,78,78,78,78
-236,Swift S-1,Swift S-1,Club,77,77,77,77,77
+235,Lunak LF 107,Lunak LF 107,Rudý Letov,Club,78,78,78,78,78
+236,Swift S-1,Swift S-1,ZRPSL,Club,77,77,77,77,77
 237,Banjo,Banjo,Club,76,76,76,76,76
 238,K 8,K 8,Alexander Schleicher,Club,76,76,76,76,76
 239,Minimoa,Minimoa,Schempp-Hirth,Club,76,76,76,76,76
@@ -307,7 +307,7 @@ ID,Glider,Models,Manufacturer,Competition Class,2016,2017,2018,2019,2020
 306,RF-5B,RF-5B,Fournier,Double,74,74,74,74,74
 307,SF 25 E,SF 25 E,Scheibe-Flugzeugbau,Double,74,74,74,74,74
 308,G 109 B,G 109 B,Grob Aircraft,Double,72,72,72,72,72
-309,MDM-1 Fox,MDM-1 Fox,Margański & Mysłowski,Double,72,72,72,72,72
+309,MDM-1 Fox,MDM-1 Fox,ZRPSL,Double,72,72,72,72,72
 310,Taifun 17e,Taifun 17e,Valentin Flugzeugbau,Double,70,70,70,70,70
 311,Dimona,Dimona,Diamond Aircraft,Double,68,68,68,68,68
 312,G 109,G 109,Grob Aircraft,Double,68,68,68,68,68
