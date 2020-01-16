@@ -1,8 +1,8 @@
 ID,Glider,Models,Manufacturer,Competition Class,Winglets,Double Seater,Engine,2016,2017,2018,2019,2020
-1,EB 29,EB 29,Binder,Open,,,,125,125,127,127,125
-1,EB 29,EB 29R,Binder,Open,,,,125,125,127,127,125
-1,EB 29,EB 29D,Binder,Open,,,,125,125,127,127,125
-1,EB 29,EB 29DR,Binder,Open,,,,125,125,127,127,125
+1,EB 29,EB 29,Binder,Open,,,x,125,125,127,127,125
+1,EB 29,EB 29R,Binder,Open,,,x,125,125,127,127,125
+1,EB 29,EB 29D,Binder,Open,,,x,125,125,127,127,125
+1,EB 29,EB 29DR,Binder,Open,,,x,125,125,127,127,125
 2,NimEta,NimEta,ETA Aircraft,Open,,,,125,125,127,127,125
 3,EB 28,EB 28,Binder,Open,,,,124,124,126,126,124
 4,Antares 23m,Antares 23m,Lange Aviation,Open,,,,123,123,125,125,123
