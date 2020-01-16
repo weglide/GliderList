@@ -66,10 +66,10 @@ Kestrel 19m,Kestrel 19m,Glasflügel,Open,,,,112,112,112,112,112
 Stemme S10,Stemme S10,Stemme,Open,,x,x,110,110,112,112,110
 Stemme S10,Stemme S10-VT,Stemme,Open,,x,x,110,110,112,112,110
 ASW 12,ASW 12,Alexander Schleicher,Open,,,,110,110,110,110,110
-DG 500 22m,DG 500 22m,DG Flugzeugbau,Open,,,,110,110,110,110,110
-DG 500 22m,DG 500M 22m,DG Flugzeugbau,Open,,,x,110,110,110,110,110
-DG 500 22m,DG 505 22m,DG Flugzeugbau,Open,,,,110,110,110,110,110
-DG 500 22m,DG 505M 22m,DG Flugzeugbau,Open,,,x,110,110,110,110,110
+DG 500 22m,DG 500 22m,DG Flugzeugbau,Open,,x,,110,110,110,110,110
+DG 500 22m,DG 500M 22m,DG Flugzeugbau,Open,,x,x,110,110,110,110,110
+DG 500 22m,DG 505 22m,DG Flugzeugbau,Open,,x,,110,110,110,110,110
+DG 500 22m,DG 505M 22m,DG Flugzeugbau,Open,,x,x,110,110,110,110,110
 B13,B13,Akaflieg Berlin,Open,,,x,109,109,109,109,109
 Mü 27,Mü 27,Akaflieg München,Open,,,,106,106,106,106,106
 JS1 18m,JS1 18m,Jonker Sailplanes,18,,,,119,119,121,121,120
@@ -97,35 +97,35 @@ Ventus 2c 18m,Ventus 2cM 18m,Schempp-Hirth,18,,,x,118,118,118,118,118
 HPH 304 Shark,HPH 304 Shark,HpH Sailplanes,18,,,,118,118,120,118,118
 HPH 304 Shark,HPH 304S Shark,HpH Sailplanes,18,,,,118,118,120,118,118
 ASH 26,ASH 26,Alexander Schleicher,18,,,,117,117,117,117,117
-ASH 26,ASH 26 E,Alexander Schleicher,18,,,,117,117,117,117,117
+ASH 26,ASH 26 E,Alexander Schleicher,18,,,x,117,117,117,117,117
 LAK 17 18m,LAK 17 18m,Sportinė Aviacija,18,,,,117,117,117,117,117
 LS 6 18m,LS 6 18m,Rolladen-Schneider,18,,,,117,117,117,117,117
-LS 9,LS 9,Rolladen-Schneider,18,,,,117,117,117,117,117
+LS 9,LS 9,Rolladen-Schneider,18,,,x,117,117,117,117,117
 DG 600 18m,DG 600 18m,DG Flugzeugbau,18,,,,116,116,116,116,116
-DG 600 18m,DG 600M 18m,DG Flugzeugbau,18,,,,116,116,116,116,116
+DG 600 18m,DG 600M 18m,DG Flugzeugbau,18,,,x,116,116,116,116,116
 LS 6 17.5m,LS 6 17.5m,Rolladen-Schneider,18,,,,116,116,116,116,116
 Ventus c 17.6m,Ventus c 17.6m,Schempp-Hirth,18,,,,115,115,115,115,115
-Ventus c 17.6m,Ventus cT 17.6m,Schempp-Hirth,18,,,,115,115,115,115,115
-Ventus c 17.6m,Ventus cM 17.6m,Schempp-Hirth,18,,,,115,115,115,115,115
+Ventus c 17.6m,Ventus cT 17.6m,Schempp-Hirth,18,,,x,115,115,115,115,115
+Ventus c 17.6m,Ventus cM 17.6m,Schempp-Hirth,18,,,x,115,115,115,115,115
 Discus 2c 18m,Discus 2c 18m,Schempp-Hirth,18,,,,114,114,114,114,114
-Discus 2c 18m,Discus 2cT 18m,Schempp-Hirth,18,,,,114,114,114,114,114
+Discus 2c 18m,Discus 2cT 18m,Schempp-Hirth,18,,,x,114,114,114,114,114
 LS 8 18m,LS 8 18m,DG Flugzeugbau,18,,,,114,114,114,114,114
-LS 8 18m,LS 8T 18m,DG Flugzeugbau,18,,,,114,114,114,114,114
+LS 8 18m,LS 8T 18m,DG Flugzeugbau,18,,,x,114,114,114,114,114
 LAK 19 18m,LAK 19 18m,Sportinė Aviacija,18,,,,114,114,116,114,114
 ASW 28 18m,ASW 28 18m,Alexander Schleicher,18,,,,114,114,116,114,114
-ASW 28 18m,ASW 28 E 18m,Alexander Schleicher,18,,,,114,114,116,114,114
+ASW 28 18m,ASW 28 E 18m,Alexander Schleicher,18,,,x,114,114,116,114,114
 DG 600 17m,DG 600 17m,DG Flugzeugbau,18,,,,113,113,113,113,113
-DG 600 17m,DG 600M 17m,DG Flugzeugbau,18,,,,113,113,113,113,113
+DG 600 17m,DG 600M 17m,DG Flugzeugbau,18,,,x,113,113,113,113,113
 Ventus 16.6m,Ventus a 16.6m,Schempp-Hirth,18,,,,113,113,113,113,113
 Ventus 16.6m,Ventus b 16.6m,Schempp-Hirth,18,,,,113,113,113,113,113
-Ventus 16.6m,Ventus bT 16.6m,Schempp-Hirth,18,,,,113,113,113,113,113
+Ventus 16.6m,Ventus bT 16.6m,Schempp-Hirth,18,,,x,113,113,113,113,113
 ASW 20 16.6m,ASW 20 16.6m,Alexander Schleicher,18,,,,112,112,112,112,112
 Glasflügel 304 17m,Glasflügel 304 17m,Glasflügel,18,,,,112,112,112,112,112
 Glasflügel 304 CZ 17.4m,Glasflügel 304 CZ 17.4m,HpH Sailplanes,18,,,,112,112,112,112,112
-ASW 20 Top 16.6m,ASW 20 Top 16.6m,Alexander Schleicher,18,,,,110,110,110,110,110
+ASW 20 Top 16.6m,ASW 20 Top 16.6m,Alexander Schleicher,18,,,x,110,110,110,110,110
 Kestrel 17m,Kestrel 17m,Glasflügel,18,,,,110,110,110,110,110
 DG 200 17m,DG 200 17m,DG Flugzeugbau,18,,,,109,109,109,109,109
-DG 400 17m,DG 400 17m,DG Flugzeugbau,18,,,,109,109,109,109,109
+DG 400 17m,DG 400 17m,DG Flugzeugbau,18,,,x,109,109,109,109,109
 LS 3 17m,LS 3 17m,Rolladen-Schneider,18,,,,109,109,109,109,109
 Mosquito 17m,Mosquito 17m,Glasflügel,18,,,,109,109,109,109,109
 BS-1,BS-1,Glasflügel,18,,,,108,108,108,108,108
