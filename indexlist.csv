@@ -50,7 +50,7 @@ ID,Glider,Models,Manufacturer,Competition Class,2016,2017,2018,2019,2020
 49,LS 10 18m,LS 10 18m,Rolladen-Schneider,18,118,118,120,120,118
 50,Ventus 2 cxa,Ventus 2 cxa,Schempp-Hirth,18,119,119,119,119,119
 51,ASG 29 18m,ASG 29 18m,Alexander Schleicher,18,119,119,121,119,119
-52,DG 800 18m,DG 80[08] 18m,DG Flugzeugbau,18,118,118,118,118,118
+52,DG 800 18m,DG 80(0|0S|8) 18m,DG Flugzeugbau,18,118,118,118,118,118
 53,LF 20 18m,LF 20 18m,Lange Aviation,18,118,118,118,118,118
 54,SB 14,SB 14,Akaflieg Braunschweig,18,118,118,118,118,118
 55,Ventus 2c 18m,Ventus 2c[TM]? 18m,Schempp-Hirth,18,118,118,118,118,118
@@ -91,7 +91,7 @@ ID,Glider,Models,Manufacturer,Competition Class,2016,2017,2018,2019,2020
 90,ASW 27,ASW 27,Alexander Schleicher,15,114,114,114,114,114
 91,ASG 29,ASG 29( E| Es)?,Alexander Schleicher,15,114,114,114,114,114
 92,Mü 31,Mü 31,Akaflieg München,15,114,114,114,114,114
-93,DG 800 15m,DG 80[08] 15m,DG Flugzeugbau,15,113,113,113,113,113
+93,DG 800 15m,DG 80(0|0S|8) 15m,DG Flugzeugbau,15,113,113,113,113,113
 94,LAK 17 15m,LAK 17 15m,Sportinė Aviacija,15,113,113,113,113,113
 95,LS 10 15m,LS 10 15m,Rolladen-Schneider,15,113,113,113,113,113
 96,SZD 56 Diana,SZD 56 Diana,PZL Bielsko,15,112,112,112,112,112
