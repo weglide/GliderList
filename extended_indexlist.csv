@@ -418,69 +418,69 @@ G103 Twin 2,G103 Twin 2,Grob Aircraft,Double,,,,92,92,92,92,92
 Twin Astir Trainer FG,Twin Astir Trainer FG,Grob Aircraft,Double,,,,92,92,92,92,92
 PW 6,PW 6,PZL Świdnik,Double,,,,86,86,86,86,86
 SF 34 FG,SF 34 FG,Scheibe-Flugzeugbau,Double,,,,86,86,86,86,86
-SZD 50 Puchacz,SZD 50 Puchacz,PZL Bielsko,Double,,,,84,84,84,84,84
-IS 28 B2,IS 28 B2,ICA,Double,,,,84,84,84,84,84
-Bergfalke IV,Bergfalke IV,Scheibe-Flugzeugbau,Double,,,,80,80,80,80,80
-Condor 4,Condor 4,Alexander Schleicher,Double,,,,80,80,80,80,80
-Kranich 3,Kranich 3,DFS,Double,,,,80,80,80,80,80
-L23 SuperBlanik,L23 SuperBlanik,LET,Double,,,,80,80,80,80,80
-ASK 13,ASK 13,Alexander Schleicher,Double,,,,78,78,78,78,78
-Pipistrel Sinus,Pipistrel Sinus,Pipistrel,Double,,,,78,78,78,78,78
-RF-10,RF-10,Fournier,Double,,,,78,78,78,78,78
-RF-5B,RF-5B,Fournier,Double,,,,78,78,78,78,78
-SF 28 A,SF 28 A,Scheibe-Flugzeugbau,Double,,,,78,78,78,78,78
-ASK 16,ASK 16,Alexander Schleicher,Double,,,,76,76,76,76,76
-Bergfalke III,Bergfalke III,Scheibe-Flugzeugbau,Double,,,,76,76,76,76,76
-Bocian,Bocian,PZL Bielsko,Double,,,,76,76,76,76,76
-IS 28 M,IS 28 M,ICA,Double,,,,76,76,76,76,76
-Ka2,Ka2,Alexander Schleicher,Double,,,,76,76,76,76,76
-Kranich 2,Kranich 2,DFS,Double,,,,76,76,76,76,76
-SZD 45 A Ogar,SZD 45 A Ogar,PZL Bielsko,Double,,,,76,76,76,76,76
-PZL KR-03A Puchatek,PZL KR-03A Puchatek,PZL Krosno,Double,,,,75,75,75,75,75
-Bergfalke II,Bergfalke II,Scheibe-Flugzeugbau,Double,,,,74,74,74,74,74
-RF-5,RF-5,Fournier,Double,,,,74,74,74,74,74
-SF 25 E,SF 25 E,Scheibe-Flugzeugbau,Double,,,,74,74,74,74,74
-G 109 B,G 109 B,Grob Aircraft,Double,,,,72,72,72,72,72
-MDM-1 Fox,MDM-1 Fox,ZRPSL,Double,,,,72,72,72,72,72
-Taifun 17e,Taifun 17e,Valentin Flugzeugbau,Double,,,,70,70,70,70,70
-Dimona,Dimona,Diamond Aircraft,Double,,,,68,68,68,68,68
-G 109,G 109,Grob Aircraft,Double,,,,68,68,68,68,68
-H36 Dimona,H36 Dimona,Diamond Aircraft,Double,,,,68,68,68,68,68
-HK36 Super Dimona,HK36 Super Dimona,Diamond Aircraft,Double,,,,68,68,68,68,68
-Samburo AVo68-R,Samburo AVo68-R,M&D Flugzeugbau,Double,,,,67,67,67,67,67
-SF 25 C (2000),SF 25 C 2000,Scheibe-Flugzeugbau,Double,,,,67,67,67,67,67
-SF 25C-S Falke 76,SF 25C-S Falke 76,Scheibe-Flugzeugbau,Double,,,,67,67,67,67,67
-SF 25B Falke,SF 25B Falke,Scheibe-Flugzeugbau,Double,,,,65,65,65,65,65
-Rhönlerche,Rhönlerche,Alexander Schleicher,Double,,,,54,54,54,54,54
-Specht,Specht,Scheibe-Flugzeugbau,Double,,,,54,54,54,54,54
-JS1C 21m,JS1C TJ 21m,Jonker Sailplanes,Open,,,,122,122,124,122,122
-JS1 18m,JS1 TJ 18m,Jonker Sailplanes,18,,,,119,119,121,121,120
+SZD 50 Puchacz,SZD 50 Puchacz,PZL Bielsko,Double,,x,,84,84,84,84,84
+IS 28 B2,IS 28 B2,ICA,Double,,x,,84,84,84,84,84
+Bergfalke IV,Bergfalke IV,Scheibe-Flugzeugbau,Double,,x,,80,80,80,80,80
+Condor 4,Condor 4,Alexander Schleicher,Double,,x,,80,80,80,80,80
+Kranich 3,Kranich 3,DFS,Double,,x,,80,80,80,80,80
+L23 SuperBlanik,L23 SuperBlanik,LET,Double,,x,,80,80,80,80,80
+ASK 13,ASK 13,Alexander Schleicher,Double,,x,,78,78,78,78,78
+Pipistrel Sinus,Pipistrel Sinus,Pipistrel,Double,,x,x,78,78,78,78,78
+RF-10,RF-10,Fournier,Double,,x,x,78,78,78,78,78
+RF-5B,RF-5B,Fournier,Double,,x,x,78,78,78,78,78
+SF 28 A,SF 28 A,Scheibe-Flugzeugbau,Double,,x,x,78,78,78,78,78
+ASK 16,ASK 16,Alexander Schleicher,Double,,x,x,76,76,76,76,76
+Bergfalke III,Bergfalke III,Scheibe-Flugzeugbau,Double,,x,,76,76,76,76,76
+Bocian,Bocian,PZL Bielsko,Double,,x,,76,76,76,76,76
+IS 28 M,IS 28 M,ICA,Double,,x,,76,76,76,76,76
+Ka2,Ka2,Alexander Schleicher,Double,,x,,76,76,76,76,76
+Kranich 2,Kranich 2,DFS,Double,,x,,76,76,76,76,76
+SZD 45 A Ogar,SZD 45 A Ogar,PZL Bielsko,Double,,x,,76,76,76,76,76
+PZL KR-03A Puchatek,PZL KR-03A Puchatek,PZL Krosno,Double,,x,,75,75,75,75,75
+Bergfalke II,Bergfalke II,Scheibe-Flugzeugbau,Double,,x,,74,74,74,74,74
+RF-5,RF-5,Fournier,Double,,x,x,74,74,74,74,74
+SF 25 E,SF 25 E,Scheibe-Flugzeugbau,Double,,x,x,74,74,74,74,74
+G 109 B,G 109 B,Grob Aircraft,Double,,x,x,72,72,72,72,72
+MDM-1 Fox,MDM-1 Fox,ZRPSL,Double,,x,,72,72,72,72,72
+Taifun 17e,Taifun 17e,Valentin Flugzeugbau,Double,,x,x,70,70,70,70,70
+Dimona,Dimona,Diamond Aircraft,Double,,x,x,68,68,68,68,68
+G 109,G 109,Grob Aircraft,Double,,x,x,68,68,68,68,68
+H36 Dimona,H36 Dimona,Diamond Aircraft,Double,,x,x,68,68,68,68,68
+HK36 Super Dimona,HK36 Super Dimona,Diamond Aircraft,Double,,x,x,68,68,68,68,68
+Samburo AVo68-R,Samburo AVo68-R,M&D Flugzeugbau,Double,,x,x,67,67,67,67,67
+SF 25 C (2000),SF 25 C 2000,Scheibe-Flugzeugbau,Double,,x,x,67,67,67,67,67
+SF 25C-S Falke 76,SF 25C-S Falke 76,Scheibe-Flugzeugbau,Double,,x,x,67,67,67,67,67
+SF 25B Falke,SF 25B Falke,Scheibe-Flugzeugbau,Double,,x,x,65,65,65,65,65
+Rhönlerche,Rhönlerche,Alexander Schleicher,Double,,x,,54,54,54,54,54
+Specht,Specht,Scheibe-Flugzeugbau,Double,,x,,54,54,54,54,54
+JS1C 21m,JS1C TJ 21m,Jonker Sailplanes,Open,,,x,122,122,124,122,122
+JS1 18m,JS1 TJ 18m,Jonker Sailplanes,18,,,x,119,119,121,121,120
 DG 800 18m,DG 800S 18m,DG Flugzeugbau,18,,,,118,118,118,118,118
 DG 800 15m,DG 800S 15m,DG Flugzeugbau,15,,,,113,113,113,113,113
 HpH 304 Shark,HpH 304 S Shark,HpH Sailplanes,18,,,,118,118,120,118,118
-HpH 304 Shark,HpH 304 MS Shark,HpH Sailplanes,18,,,,118,118,120,118,118
-HpH 304 Shark,HpH 304 ES Shark,HpH Sailplanes,18,,,,118,118,120,118,118
-HpH 304 Shark,HpH 304 SJ Shark,HpH Sailplanes,18,,,,118,118,120,118,118
+HpH 304 Shark,HpH 304 MS Shark,HpH Sailplanes,18,,,x,118,118,120,118,118
+HpH 304 Shark,HpH 304 ES Shark,HpH Sailplanes,18,,,x,118,118,120,118,118
+HpH 304 Shark,HpH 304 SJ Shark,HpH Sailplanes,18,,,x,118,118,120,118,118
 HpH 304C Wasp,HpH 304C Wasp,HpH Sailplanes,Standard,,,,104,104,104,104,104
-HpH 304 TS Twin Shark,HpH 304 TS Twin Shark,HpH Sailplanes,Double,,,,-,-,115,115,113
+HpH 304 TS Twin Shark,HpH 304 TS Twin Shark,HpH Sailplanes,Double,,x,x,-,-,115,115,113
 LAK-17 21m,LAK-17B 21m,Sportinė Aviacija,Open,,,,119,119,119,119,119
-LAK-17 21m,LAK-17B T 21m,Sportinė Aviacija,Open,,,,119,119,119,119,119
-LAK-17 21m,LAK-17B FES 21m,Sportinė Aviacija,Open,,,,119,119,119,119,119
+LAK-17 21m,LAK-17B T 21m,Sportinė Aviacija,Open,,,x,119,119,119,119,119
+LAK-17 21m,LAK-17B FES 21m,Sportinė Aviacija,Open,,,x,119,119,119,119,119
 LAK-17 18m,LAK-17A 18m,Sportinė Aviacija,18,,,,117,117,117,117,117
-LAK-17 18m,LAK-17A T 18m,Sportinė Aviacija,18,,,,117,117,117,117,117
+LAK-17 18m,LAK-17A T 18m,Sportinė Aviacija,18,,,x,117,117,117,117,117
 LAK-17 18m,LAK-17B 18m,Sportinė Aviacija,18,,,,117,117,117,117,117
-LAK-17 18m,LAK-17B T 18m,Sportinė Aviacija,18,,,,117,117,117,117,117
-LAK-17 18m,LAK-17B FES 18m,Sportinė Aviacija,18,,,,117,117,117,117,117
+LAK-17 18m,LAK-17B T 18m,Sportinė Aviacija,18,,,x,117,117,117,117,117
+LAK-17 18m,LAK-17B FES 18m,Sportinė Aviacija,18,,,x,117,117,117,117,117
 LAK-19 18m,LAK-19 18m,Sportinė Aviacija,18,,,,114,114,116,114,114
 LAK-17 15m,LAK-17A 15m,Sportinė Aviacija,15,,,,113,113,113,113,113
-LAK-17 15m,LAK-17A T 15m,Sportinė Aviacija,15,,,,113,113,113,113,113
+LAK-17 15m,LAK-17A T 15m,Sportinė Aviacija,15,,,x,113,113,113,113,113
 LAK-17 15m,LAK-17B 15m,Sportinė Aviacija,15,,,,113,113,113,113,113
-LAK-17 15m,LAK-17B T 15m,Sportinė Aviacija,15,,,,113,113,113,113,113
-LAK-17 15m,LAK-17B FES 15m,Sportinė Aviacija,15,,,,113,113,113,113,113
-Antares 23,Antares 23E,Lange Aviation,Open,,,,123,123,125,125,123
-Antares 23,Antares 23T,Lange Aviation,Open,,,,123,123,125,125,123
-Antares 20,Antares 20E,Lange Aviation,Open,,,,120,120,122,122,120
+LAK-17 15m,LAK-17B T 15m,Sportinė Aviacija,15,,,x,113,113,113,113,113
+LAK-17 15m,LAK-17B FES 15m,Sportinė Aviacija,15,,,x,113,113,113,113,113
+Antares 23,Antares 23E,Lange Aviation,Open,,,x,123,123,125,125,123
+Antares 23,Antares 23T,Lange Aviation,Open,,,x,123,123,125,125,123
+Antares 20,Antares 20E,Lange Aviation,Open,,,x,120,120,122,122,120
 Discus 2c 18m,Discus 2cFES 18m,Schempp-Hirth,18,,,,114,114,114,114,114
-Discus 2,Discus 2cFES 15m,Schempp-Hirth,Standard,,,,108,108,108,108,108
-ASG 29 18m,ASG 29 E 18m,Alexander Schleicher,18,,,,119,119,121,119,119
-ASG 29 18m,ASG 29 Es 18m,Alexander Schleicher,18,,,,119,119,121,119,119
+Discus 2,Discus 2cFES 15m,Schempp-Hirth,Standard,,,x,108,108,108,108,108
+ASG 29 18m,ASG 29 E 18m,Alexander Schleicher,18,,,x,119,119,121,119,119
+ASG 29 18m,ASG 29 Es 18m,Alexander Schleicher,18,,,x,119,119,121,119,119
