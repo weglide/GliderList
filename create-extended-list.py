@@ -33,8 +33,8 @@ class ListBuilder:
         for glider in self.created_extended:
             if not glider['Models'] in index_lookup:
                 self.imported_extended.append(add_columns(glider))
-                
-            else: 
+
+            else:
                 index = index_lookup.index(glider['Models'])
                 for key in glider.keys():
                     if key not in self.imported_extended[index].keys() and key.isdigit():
@@ -42,10 +42,6 @@ class ListBuilder:
                             self.imported_extended[index][key] = get_last_index(glider, key)
                         else:
                             self.imported_extended[index][key] = glider[key]
-
-                    
-
-
 
     def save_extended_dict(self):
         with open(EXTENDEDLIST, mode = 'w') as writefile:
@@ -104,13 +100,13 @@ def read_list(path, should_escape):
 insert = lambda _dict, obj, pos: {k: v for k, v in (list(_dict.items())[:pos] + list(obj.items()) + list(_dict.items())[pos:])}
 
 def add_columns(glider):
-    required_columns = ['ID', 'Glider', 'Models', 'Manufacturer', 'Competition Class', 'Engine', 'Double Seater', 'Winglets']
+    required_columns = ['Glider', 'Models', 'Manufacturer', 'Competition Class', 'Engine', 'Double Seater', 'Winglets']
     for key in required_columns:
         if key not in glider.keys():
-            glider = insert(glider, {key:''}, 5)
+            glider = insert(glider, {key:''}, 4)
             #glider[key] = ''
     return glider
-    
+
 if __name__ == "__main__":
     list_builder = ListBuilder()
     list_builder.get_list(0)
