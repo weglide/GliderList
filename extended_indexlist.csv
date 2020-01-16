@@ -3,49 +3,49 @@ ID,Glider,Models,Manufacturer,Competition Class,Winglets,Double Seater,Engine,20
 1,EB 29,EB 29R,Binder,Open,,,x,125,125,127,127,125
 1,EB 29,EB 29D,Binder,Open,,,x,125,125,127,127,125
 1,EB 29,EB 29DR,Binder,Open,,,x,125,125,127,127,125
-2,NimEta,NimEta,ETA Aircraft,Open,,,,125,125,127,127,125
-3,EB 28,EB 28,Binder,Open,,,,124,124,126,126,124
-4,Antares 23m,Antares 23m,Lange Aviation,Open,,,,123,123,125,125,123
-5,Quintus,Quintus,Schempp-Hirth,Open,,,,123,123,125,125,123
-6,Eta,Eta,ETA Aircraft,Open,,,,125,125,127,125,125
+2,NimEta,NimEta,ETA Aircraft,Open,,,x,125,125,127,127,125
+3,EB 28,EB 28,Binder,Open,,,x,124,124,126,126,124
+4,Antares 23m,Antares 23m,Lange Aviation,Open,,,x,123,123,125,125,123
+5,Quintus,Quintus,Schempp-Hirth,Open,,,x,123,123,125,125,123
+6,Eta,Eta,ETA Aircraft,Open,,,x,125,125,127,125,125
 7,Nimbus 4,Nimbus 4,Schempp-Hirth,Open,,,,124,124,124,124,124
-7,Nimbus 4,Nimbus 4T,Schempp-Hirth,Open,,,,124,124,124,124,124
-7,Nimbus 4,Nimbus 4M,Schempp-Hirth,Open,,,,124,124,124,124,124
+7,Nimbus 4,Nimbus 4T,Schempp-Hirth,Open,,,x,124,124,124,124,124
+7,Nimbus 4,Nimbus 4M,Schempp-Hirth,Open,,,x,124,124,124,124,124
 8,ASW 22 BL,ASW 22 BL,Alexander Schleicher,Open,,,,124,124,124,124,124
-8,ASW 22 BL,ASW 22 BLE,Alexander Schleicher,Open,,,,124,124,124,124,124
-9,ASH 30 Mi,ASH 30 Mi,Alexander Schleicher,Open,,,,124,124,126,124,124
+8,ASW 22 BL,ASW 22 BLE,Alexander Schleicher,Open,,,x,124,124,124,124,124
+9,ASH 30 Mi,ASH 30 Mi,Alexander Schleicher,Open,,,x,124,124,126,124,124
 10,ASH 25 >= 26m,ASH 25 >= 26m,Alexander Schleicher,Open,,,,123,123,123,123,123
-10,ASH 25 >= 26m,ASH 25 E >= 26m,Alexander Schleicher,Open,,,,123,123,123,123,123
-10,ASH 25 >= 26m,ASH 25 M >= 26m,Alexander Schleicher,Open,,,,123,123,123,123,123
-10,ASH 25 >= 26m,ASH 25 Mi >= 26m,Alexander Schleicher,Open,,,,123,123,123,123,123
-11,ASH 25 EB 28,ASH 25 EB 28,Binder,Open,,,,123,123,123,123,123
+10,ASH 25 >= 26m,ASH 25 E >= 26m,Alexander Schleicher,Open,,,x,123,123,123,123,123
+10,ASH 25 >= 26m,ASH 25 M >= 26m,Alexander Schleicher,Open,,,x,123,123,123,123,123
+10,ASH 25 >= 26m,ASH 25 Mi >= 26m,Alexander Schleicher,Open,,,x,123,123,123,123,123
+11,ASH 25 EB 28,ASH 25 EB 28,Binder,Open,,,x,123,123,123,123,123
 12,ASW 22 B,ASW 22 B,Alexander Schleicher,Open,,,,123,123,123,123,123
-12,ASW 22 B,ASW 22 BE,Alexander Schleicher,Open,,,,123,123,123,123,123
+12,ASW 22 B,ASW 22 BE,Alexander Schleicher,Open,,,x,123,123,123,123,123
 13,Nimbus 4D,Nimbus 4D,Schempp-Hirth,Open,,,,123,123,124,123,123
-13,Nimbus 4D,Nimbus 4DT,Schempp-Hirth,Open,,,,123,123,124,123,123
-13,Nimbus 4D,Nimbus 4DM,Schempp-Hirth,Open,,,,123,123,124,123,123
-14,Antares 20m,Antares 20m,Lange Aviation,Open,,,,120,120,122,122,120
-15,LAK-20 23m,LAK-20T 23m,Sportinė Aviacija,Open,,,,120,120,122,122,120
-15,LAK-20 23m,LAK-20M 23m,Sportinė Aviacija,Open,,,,120,120,122,122,120
+13,Nimbus 4D,Nimbus 4DT,Schempp-Hirth,Open,,,x,123,123,124,123,123
+13,Nimbus 4D,Nimbus 4DM,Schempp-Hirth,Open,,,x,123,123,124,123,123
+14,Antares 20m,Antares 20m,Lange Aviation,Open,,,x,120,120,122,122,120
+15,LAK-20 23m,LAK-20T 23m,Sportinė Aviacija,Open,,,x,120,120,122,122,120
+15,LAK-20 23m,LAK-20M 23m,Sportinė Aviacija,Open,,,x,120,120,122,122,120
 16,ASH 25,ASH 25,Alexander Schleicher,Open,,,,122,122,122,122,122
-16,ASH 25,ASH 25 E,Alexander Schleicher,Open,,,,122,122,122,122,122
-16,ASH 25,ASH 25 M,Alexander Schleicher,Open,,,,122,122,122,122,122
-17,LAK-20 26m,LAK-20T 26m,Sportinė Aviacija,Open,,,,122,122,122,122,122
-17,LAK-20 26m,LAK-20M 26m,Sportinė Aviacija,Open,,,,122,122,122,122,122
+16,ASH 25,ASH 25 E,Alexander Schleicher,Open,,,x,122,122,122,122,122
+16,ASH 25,ASH 25 M,Alexander Schleicher,Open,,,x,122,122,122,122,122
+17,LAK-20 26m,LAK-20T 26m,Sportinė Aviacija,Open,,,x,122,122,122,122,122
+17,LAK-20 26m,LAK-20M 26m,Sportinė Aviacija,Open,,,x,122,122,122,122,122
 18,Nimbus 3 25.5m,Nimbus 3 25.5m,Schempp-Hirth,Open,,,,122,122,122,122,122
-18,Nimbus 3 25.5m,Nimbus 3T 25.5m,Schempp-Hirth,Open,,,,122,122,122,122,122
-18,Nimbus 3 25.5m,Nimbus 3M 25.5m,Schempp-Hirth,Open,,,,122,122,122,122,122
+18,Nimbus 3 25.5m,Nimbus 3T 25.5m,Schempp-Hirth,Open,,,x,122,122,122,122,122
+18,Nimbus 3 25.5m,Nimbus 3M 25.5m,Schempp-Hirth,Open,,,x,122,122,122,122,122
 19,JS1C 21m,JS1C 21m,Jonker Sailplanes,Open,,,,122,122,124,122,122
 20,AS 22-2,AS 22-2,Alexander Schleicher,Open,,,,121,121,121,121,121
 21,ASW 22 24m,ASW 22 24m,Alexander Schleicher,Open,,,,121,121,121,121,121
-21,ASW 22 24m,ASW 22E 24m,Alexander Schleicher,Open,,,,121,121,121,121,121
+21,ASW 22 24m,ASW 22E 24m,Alexander Schleicher,Open,,,x,121,121,121,121,121
 22,Nimbus 3 24.5m,Nimbus 3 24.5m,Schempp-Hirth,Open,,,,121,121,121,121,121
-22,Nimbus 3 24.5m,Nimbus 3T 24.5m,Schempp-Hirth,Open,,,,121,121,121,121,121
-23,ASH 31 Mi 21m,ASH 31 Mi 21m,Alexander Schleicher,Open,,,,121,121,123,121,121
-24,LF 20 20m,LF 20 20m,Lange Aviation,Open,,,,120,120,120,120,120
+22,Nimbus 3 24.5m,Nimbus 3T 24.5m,Schempp-Hirth,Open,,,x,121,121,121,121,121
+23,ASH 31 Mi 21m,ASH 31 Mi 21m,Alexander Schleicher,Open,,,x,121,121,123,121,121
+24,LF 20 20m,LF 20 20m,Lange Aviation,Open,,,x,120,120,120,120,120
 25,Nimbus 3D,Nimbus 3D,Schempp-Hirth,Open,,,,120,120,120,120,120
-25,Nimbus 3D,Nimbus 3DT,Schempp-Hirth,Open,,,,120,120,120,120,120
-25,Nimbus 3D,Nimbus 3DM,Schempp-Hirth,Open,,,,120,120,120,120,120
+25,Nimbus 3D,Nimbus 3DT,Schempp-Hirth,Open,,,x,120,120,120,120,120
+25,Nimbus 3D,Nimbus 3DM,Schempp-Hirth,Open,,,x,120,120,120,120,120
 26,ASW 22 22m,ASW 22 22m,Alexander Schleicher,Open,,,,119,119,119,119,119
 27,Nimbus 3 22.9m,Nimbus 3 22.9m,Schempp-Hirth,Open,,,,119,119,119,119,119
 28,Glasflügel 604 24m,Glasflügel 604 24m,Glasflügel,Open,,,,118,118,118,118,118
@@ -58,32 +58,32 @@ ID,Glider,Models,Manufacturer,Competition Class,Winglets,Double Seater,Engine,20
 35,Nimbus 2,Nimbus 2,Schempp-Hirth,Open,,,,114,114,114,114,114
 35,Nimbus 2,Nimbus 2b,Schempp-Hirth,Open,,,,114,114,114,114,114
 35,Nimbus 2,Nimbus 2c,Schempp-Hirth,Open,,,,114,114,114,114,114
-35,Nimbus 2,Nimbus 2M,Schempp-Hirth,Open,,,,114,114,114,114,114
+35,Nimbus 2,Nimbus 2M,Schempp-Hirth,Open,,,x,114,114,114,114,114
 36,Jantar 2,Jantar 2a,PZW,Open,,,,113,113,113,113,113
 36,Jantar 2,Jantar 2b,PZW,Open,,,,113,113,113,113,113
 37,Jantar 19m,Jantar 19m,PZW,Open,,,,112,112,112,112,112
 38,Kestrel 19m,Kestrel 19m,Glasflügel,Open,,,,112,112,112,112,112
-39,Stemme S10,Stemme S10,Stemme,Open,,,,110,110,112,112,110
-39,Stemme S10,Stemme S10-VT,Stemme,Open,,,,110,110,112,112,110
+39,Stemme S10,Stemme S10,Stemme,Open,,,x,110,110,112,112,110
+39,Stemme S10,Stemme S10-VT,Stemme,Open,,,x,110,110,112,112,110
 40,ASW 12,ASW 12,Alexander Schleicher,Open,,,,110,110,110,110,110
 41,DG 500 22m,DG 500 22m,DG Flugzeugbau,Open,,,,110,110,110,110,110
-41,DG 500 22m,DG 500M 22m,DG Flugzeugbau,Open,,,,110,110,110,110,110
+41,DG 500 22m,DG 500M 22m,DG Flugzeugbau,Open,,,x,110,110,110,110,110
 41,DG 500 22m,DG 505 22m,DG Flugzeugbau,Open,,,,110,110,110,110,110
-41,DG 500 22m,DG 505M 22m,DG Flugzeugbau,Open,,,,110,110,110,110,110
-42,B13,B13,Akaflieg Berlin,Open,,,,109,109,109,109,109
+41,DG 500 22m,DG 505M 22m,DG Flugzeugbau,Open,,,x,110,110,110,110,110
+42,B13,B13,Akaflieg Berlin,Open,,,x,109,109,109,109,109
 43,Mü 27,Mü 27,Akaflieg München,Open,,,,106,106,106,106,106
 44,JS1 18m,JS1 18m,Jonker Sailplanes,18,,,,119,119,121,121,120
 45,Ventus 3 18m,Ventus 3 18m,Schempp-Hirth,18,,,,-,-,121,121,120
-45,Ventus 3 18m,Ventus 3F 18m,Schempp-Hirth,18,,,,-,-,121,121,120
-45,Ventus 3 18m,Ventus 3E 18m,Schempp-Hirth,18,,,,-,-,121,121,120
-45,Ventus 3 18m,Ventus 3M 18m,Schempp-Hirth,18,,,,-,-,121,121,120
+45,Ventus 3 18m,Ventus 3F 18m,Schempp-Hirth,18,,,x,-,-,121,121,120
+45,Ventus 3 18m,Ventus 3E 18m,Schempp-Hirth,18,,,x,-,-,121,121,120
+45,Ventus 3 18m,Ventus 3M 18m,Schempp-Hirth,18,,,x,-,-,121,121,120
 46,JS3 18m,JS3 18m,Jonker Sailplanes,18,,,,-,-,121,121,120
-46,JS3 18m,JS3 FES 18m,Jonker Sailplanes,18,,,,-,-,121,121,120
-46,JS3 18m,JS3 TJ 18m,Jonker Sailplanes,18,,,,-,-,121,121,120
+46,JS3 18m,JS3 FES 18m,Jonker Sailplanes,18,,,x,-,-,121,121,120
+46,JS3 18m,JS3 TJ 18m,Jonker Sailplanes,18,,,x,-,-,121,121,120
 47,Antares 18,Antares 18,Lange Aviation,18,,,,119,118,120,120,118
 47,Antares 18,Antares 18S,Lange Aviation,18,,,,119,118,120,120,118
-47,Antares 18,Antares 18T,Lange Aviation,18,,,,119,118,120,120,118
-48,ASH 31 Mi 18m,ASH 31 Mi 18m,Alexander Schleicher,18,,,,118,118,120,120,118
+47,Antares 18,Antares 18T,Lange Aviation,18,,,x,119,118,120,120,118
+48,ASH 31 Mi 18m,ASH 31 Mi 18m,Alexander Schleicher,18,,,x,118,118,120,120,118
 49,LS 10 18m,LS 10 18m,Rolladen-Schneider,18,,,,118,118,120,120,118
 50,Ventus 2 cxa,Ventus 2 cxa,Schempp-Hirth,18,,,,119,119,119,119,119
 51,ASG 29 18m,ASG 29 18m,Alexander Schleicher,18,,,,119,119,121,119,119
