@@ -73,14 +73,14 @@ DG 500 22m,DG 505M 22m,DG Flugzeugbau,Open,,x,,x,110,110,110,110,110
 B13,B13,Akaflieg Berlin,Open,,,,x,109,109,109,109,109
 Mü 27,Mü 27,Akaflieg München,Open,,,,,106,106,106,106,106
 JS1 18m,JS1 18m,Jonker Sailplanes,18,,,,,119,119,121,121,120
-Ventus 3 18m,Ventus 3 18m,Schempp-Hirth,18,,,,,-,-,121,121,120
-Ventus 3 18m,Ventus 3F 18m,Schempp-Hirth,18,,,x,x,-,-,121,121,120
-Ventus 3 18m,Ventus 3T 18m,Schempp-Hirth,18,,,,x,-,-,121,121,120
-Ventus 3 18m,Ventus 3M 18m,Schempp-Hirth,18,,,,x,-,-,121,121,120
-JS3 18m,JS3 18m,Jonker Sailplanes,18,,,,,-,-,121,121,120
-JS3 18m,JS3 FES 18m,Jonker Sailplanes,18,,,x,x,-,-,121,121,120
-JS3 18m,JS3 TJ 18m,Jonker Sailplanes,18,,,,x,-,-,121,121,120
-Antares 18,Antares 18,Lange Aviation,18,,,,,119,118,120,120,118
+Ventus 3 18m,Ventus 3 18m,Schempp-Hirth,18,,,,,121,121,121,121,120
+Ventus 3 18m,Ventus 3F 18m,Schempp-Hirth,18,,,x,x,121,121,121,121,120
+Ventus 3 18m,Ventus 3T 18m,Schempp-Hirth,18,,,,x,121,121,121,121,120
+Ventus 3 18m,Ventus 3M 18m,Schempp-Hirth,18,,,,x,121,121,121,121,120
+JS3 18m,JS3 18m,Jonker Sailplanes,18,,,,,121,121,121,121,120
+JS3 18m,JS3 FES 18m,Jonker Sailplanes,18,,,x,x,121,121,121,121,120
+JS3 18m,JS3 TJ 18m,Jonker Sailplanes,18,,,,x,121,121,121,121,120
+Antares 18,Antares 18,Lange Aviation,18,,,,,121,121,121,121,120
 Antares 18,Antares 18S,Lange Aviation,18,,,,,119,118,120,120,118
 Antares 18,Antares 18T,Lange Aviation,18,,,,x,119,118,120,120,118
 ASH 31 Mi 18m,ASH 31 Mi 18m,Alexander Schleicher,18,,,,x,118,118,120,120,118
@@ -135,13 +135,13 @@ Mü 26,Mü 26,Akaflieg München,18,,,,,102,102,102,102,102
 SZD-39 Cobra 17m,Cobra 17m,SZD,18,,,,,100,100,100,100,100
 Std. Libelle 17m,Std. Libelle 17m,Glasflügel,18,,,,,100,100,100,100,100
 Diana 2,Diana 2,PZL-Bielsko,15,,,,,114,116,116,116,115
-JS3,JS3,Jonker Sailplanes,15,,,,,-,116,116,116,115
-JS3,JS3 FES,Jonker Sailplanes,15,,,x,x,-,116,116,116,115
-JS3,JS3 TJ,Jonker Sailplanes,15,,,,x,-,116,116,116,115
-Ventus 3 15m,Ventus 3 15m,Schempp-Hirth,15,,,,,-,116,116,116,115
-Ventus 3 15m,Ventus 3F 15m,Schempp-Hirth,15,,,,x,-,116,116,116,115
-Ventus 3 15m,Ventus 3E 15m,Schempp-Hirth,15,,,,x,-,116,116,116,115
-Ventus 3 15m,Ventus 3M 15m,Schempp-Hirth,15,,,,x,-,116,116,116,115
+JS3,JS3,Jonker Sailplanes,15,,,,,116,116,116,116,115
+JS3,JS3 FES,Jonker Sailplanes,15,,,x,x,116,116,116,116,115
+JS3,JS3 TJ,Jonker Sailplanes,15,,,,x,116,116,116,116,115
+Ventus 3 15m,Ventus 3 15m,Schempp-Hirth,15,,,,,116,116,116,116,115
+Ventus 3 15m,Ventus 3F 15m,Schempp-Hirth,15,,,,x,116,116,116,116,115
+Ventus 3 15m,Ventus 3E 15m,Schempp-Hirth,15,,,,x,116,116,116,116,115
+Ventus 3 15m,Ventus 3M 15m,Schempp-Hirth,15,,,,x,116,116,116,116,115
 Ventus 2,Ventus 2,Schempp-Hirth,15,,,,,114,114,114,114,114
 Ventus 2,Ventus 2a,Schempp-Hirth,15,,,,,114,114,114,114,114
 Ventus 2,Ventus 2b,Schempp-Hirth,15,,,,,114,114,114,114,114
@@ -223,7 +223,7 @@ LS 4,LS 4b,Rolladen-Schneider,Standard,,,,,104,104,104,104,104
 Falkon,Falkon,Streifeneder,Club,,,,,103,103,103,103,103
 LS 3 Std,LS 3 Std,Rolladen-Schneider,Club,,,,,103,103,103,103,103
 SB 12,SB 12,Akaflieg Braunschweig,Club,,,,,103,103,103,103,102
-mini LAK-FES,mini LAK-FES,Sportinė Aviacija,Club,,,x,x,-,103,105,105,103
+mini LAK-FES,mini LAK-FES,Sportinė Aviacija,Club,,,x,x,103,103,105,105,103
 AK 5,AK 5,Akaflieg Karlsruhe,Club,,,,,102,102,102,102,102
 Cirrus B 18.34m,Cirrus B 18.34m,Schempp-Hirth,Club,,,,,102,102,102,102,102
 DG 300 FG,DG 300 FG,DG Flugzeugbau,Club,,,,,102,102,102,102,102
@@ -350,20 +350,20 @@ Swift S-1,Swift S-1,ZRPSL,Club,,,,,77,77,77,77,77
 Banjo,Banjo,ProFe,Club,,,,,76,76,76,76,76
 K 8,K 8,Alexander Schleicher,Club,,,,,76,76,76,76,76
 Minimoa,Minimoa,Schempp-Hirth,Club,,,,,76,76,76,76,76
-Ahrens Delphin V1,Ahrens Delphin V1,Arthur Ahrens,Club,,,,,-,-,76,76,76
+Ahrens Delphin V1,Ahrens Delphin V1,Arthur Ahrens,Club,,,,,76,76,76,76,76
 AV.36,AV.36,Fauvel,Club,,,,,74,74,74,74,74
 RF 4,RF 4,Fournier,Club,,,,x,74,74,74,74,74
 Spatz 13m,Spatz 13m,Scheibe-Flugzeugbau,Club,,,,,74,74,74,74,74
 Piccolo,Piccolo,Technoflug,Club,,,,x,68,68,68,68,68
 Song,Song,Gramex,Club,,,,x,65,65,65,65,65
-Stratos 2e,Stratos 2e,HFL Leichtflugzeugbau,Club,,,,,-,-,-,64,64
+Stratos 2e,Stratos 2e,HFL Leichtflugzeugbau,Club,,,,,64,64,64,64,64
 Rhönsperber,Rhönsperber,DFS,Club,,,,,62,62,62,62,62
 Rhönbussard,Rhönbussard,DFS,Club,,,,,60,60,60,60,60
 Grunau Baby,Grunau Baby,Schneider,Club,,,,,54,54,54,54,54
 Ka/1 /3 /4,Ka 1,Alexander Schleicher,Club,,,,,54,54,54,54,54
 Ka/1 /3 /4,Ka 3,Alexander Schleicher,Club,,,,,54,54,54,54,54
 Ka/1 /3 /4,Ka 4,Alexander Schleicher,Club,,,,,54,54,54,54,54
-Twin Shark,Twin Shark,HpH Sailplanes,Double,,x,,x,-,-,115,115,113
+Twin Shark,Twin Shark,HpH Sailplanes,Double,,x,,x,115,115,115,115,113
 Arcus,Arcus,Schempp-Hirth,Double,,x,,,114,114,116,116,114
 Arcus,Arcus E,Schempp-Hirth,Double,,x,,x,114,114,116,116,114
 Arcus,Arcus T,Schempp-Hirth,Double,,x,,x,114,114,116,116,114
@@ -402,7 +402,7 @@ DG 505 6 Orion,DG 505 6 Orion,DG Flugzeugbau,Double,,x,,,100,100,100,100,100
 fs 31,fs 31,Akaflieg Stuttgart,Double,,x,,,99,99,99,99,99
 Taurus,Taurus,Pipistrel,Double,,x,,x,99,99,99,99,99
 Twin 3 20m,Twin 3 20m,Grob Aircraft,Double,,x,,,99,99,99,99,99
-D 43 18m,D 43 18m,Akaflieg Darmstadt,Double,,x,,,-,99,99,99,99
+D 43 18m,D 43 18m,Akaflieg Darmstadt,Double,,x,,,99,99,99,99,99
 AFH 22,AFH 22,Akaflieg Hannover,Double,,x,,,98,98,98,98,98
 DG 500 Trainer FG,DG 500 Trainer FG,DG Flugzeugbau,Double,,x,,,98,98,98,98,98
 DG 500 Trainer FG,DG 505 Trainer FG,DG Flugzeugbau,Double,,x,,,98,98,98,98,98
@@ -463,7 +463,7 @@ HpH 304 Shark,HpH 304 MS Shark,HpH Sailplanes,18,,,,x,118,118,120,118,118
 HpH 304 Shark,HpH 304 ES Shark,HpH Sailplanes,18,,,x,x,118,118,120,118,118
 HpH 304 Shark,HpH 304 SJ Shark,HpH Sailplanes,18,,,,x,118,118,120,118,118
 HpH 304C Wasp,HpH 304C Wasp,HpH Sailplanes,Standard,,,,,104,104,104,104,104
-HpH 304 TS Twin Shark,HpH 304 TS Twin Shark,HpH Sailplanes,Double,,x,,x,-,-,115,115,113
+HpH 304 TS Twin Shark,HpH 304 TS Twin Shark,HpH Sailplanes,Double,,x,,x,115,115,115,115,113
 LAK-17 21m,LAK-17B 21m,Sportinė Aviacija,Open,,,,,119,119,119,119,119
 LAK-17 21m,LAK-17B T 21m,Sportinė Aviacija,Open,,,,x,119,119,119,119,119
 LAK-17 21m,LAK-17B FES 21m,Sportinė Aviacija,Open,,,x,x,119,119,119,119,119
@@ -488,3 +488,5 @@ ASG 29 18m,ASG 29 Es 18m,Alexander Schleicher,18,,,,x,119,119,121,119,119
 Ka 4 Rhönlerche II,Ka 4 Rhönlerche II,Alexander Schleicher,Double,,x,,,54,54,54,54,54
 LS 10 18m,LS 10-st 18m,Rolladen-Schneider,18,,,,x,118,118,120,120,118
 LS 10 15m,LS 10-st 15m,Rolladen-Schneider,15,,,,x,113,113,113,113,113
+Ventus 3 18m,Ventus 3E 18m,Schempp-Hirth,18,,,,,121,121,121,121,120
+Glasflügel 304,"Glasflügel 304 ",Glasflügel,15,,,,,110,110,110,110,110
