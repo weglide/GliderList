@@ -42,7 +42,7 @@ class ListBuilder:
                             self.imported_extended[index][key] = get_last_index(glider, key)
                         else:
                             self.imported_extended[index][key] = glider[key]
- kl
+
     def save_extended_dict(self):
         with open(EXTENDEDLIST, mode = 'w') as writefile:
             corrected = []

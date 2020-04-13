@@ -44,8 +44,8 @@ DG 500 22m,DG 50[05]M? 22m,DG Flugzeugbau,Open,110,110,110,110,110
 B13,B13,Akaflieg Berlin,Open,109,109,109,109,109
 Mü 27,Mü 27,Akaflieg München,Open,106,106,106,106,106
 JS1 18m,JS1( TJ)? 18m,Jonker Sailplanes,18,119,119,121,121,120
-Ventus 3 18m,Ventus 3[FEM]? 18m,Schempp-Hirth,18,-,-,121,121,120
-JS3 18m,JS3( FES| TJ)? 18m,Jonker Sailplanes,18,-,-,121,121,120
+Ventus 3 18m,Ventus 3[FEM]? 18m,Schempp-Hirth,18,121,121,121,121,120
+JS3 18m,JS3( FES| TJ)? 18m,Jonker Sailplanes,18,121,121,121,121,120
 Antares 18,Antares 18[ST],Lange Aviation,18,119,118,120,120,118
 ASH 31 Mi 18m,ASH 31 Mi 18m,Alexander Schleicher,18,118,118,120,120,118
 LS 10 18m,LS 10(-st)? 18m,Rolladen-Schneider,18,118,118,120,120,118
@@ -85,8 +85,8 @@ Mü 26,Mü 26,Akaflieg München,18,102,102,102,102,102
 SZD-39 Cobra 17m,Cobra 17m,SZD,18,100,100,100,100,100
 Std. Libelle 17m,Std. Libelle 17m,Glasflügel,18,100,100,100,100,100
 Diana 2,Diana 2,PZL-Bielsko,15,114,116,116,116,115
-JS3,JS3( FES| TJ)?,Jonker Sailplanes,15,-,116,116,116,115
-Ventus 3 15m,Ventus 3[FEM]? 15m,Schempp-Hirth,15,-,116,116,116,115
+JS3,JS3( FES| TJ)?,Jonker Sailplanes,15,116,116,116,116,115
+Ventus 3 15m,Ventus 3[FEM]? 15m,Schempp-Hirth,15,116,116,116,116,115
 Ventus 2,Ventus 2(a|b|ax)?,Schempp-Hirth,15,114,114,114,114,114
 Ventus 2c 15m,Ventus 2c[TM]? 15m,Schempp-Hirth,15,114,114,114,114,114
 ASW 27,ASW 27,Alexander Schleicher,15,114,114,114,114,114
@@ -134,7 +134,7 @@ LS 4,LS 4[ab]?,Rolladen-Schneider,Standard,104,104,104,104,104
 Falkon,Falkon,Streifeneder,Club,103,103,103,103,103
 LS 3 Std,LS 3 Std,Rolladen-Schneider,Club,103,103,103,103,103
 SB 12,SB 12,Akaflieg Braunschweig,Club,103,103,103,103,102
-mini LAK-FES,mini LAK-FES,Sportinė Aviacija,Club,-,103,105,105,103
+mini LAK-FES,mini LAK-FES,Sportinė Aviacija,Club,103,103,105,105,103
 AK 5,AK 5,Akaflieg Karlsruhe,Club,102,102,102,102,102
 Cirrus B 18.34m,Cirrus B 18.34m,Schempp-Hirth,Club,102,102,102,102,102
 DG 300 FG,DG 300 FG,DG Flugzeugbau,Club,102,102,102,102,102
@@ -239,18 +239,18 @@ Swift S-1,Swift S-1,ZRPSL,Club,77,77,77,77,77
 Banjo,Banjo,ProFe,Club,76,76,76,76,76
 K 8,K 8,Alexander Schleicher,Club,76,76,76,76,76
 Minimoa,Minimoa,Schempp-Hirth,Club,76,76,76,76,76
-Ahrens Delphin V1,Ahrens Delphin V1,Arthur Ahrens,Club,-,-,76,76,76
+Ahrens Delphin V1,Ahrens Delphin V1,Arthur Ahrens,Club,76,76,76,76,76
 AV.36,AV.36,Fauvel,Club,74,74,74,74,74
 RF 4,RF 4,Fournier,Club,74,74,74,74,74
 Spatz 13m,Spatz 13m,Scheibe-Flugzeugbau,Club,74,74,74,74,74
 Piccolo,Piccolo,Technoflug,Club,68,68,68,68,68
 Song,Song,Gramex,Club,65,65,65,65,65
-Stratos 2e,Stratos 2e,HFL Leichtflugzeugbau,Club,-,-,-,64,64
+Stratos 2e,Stratos 2e,HFL Leichtflugzeugbau,Club,64,64,64,64,64
 Rhönsperber,Rhönsperber,DFS,Club,62,62,62,62,62
 Rhönbussard,Rhönbussard,DFS,Club,60,60,60,60,60
 Grunau Baby,Grunau Baby,Schneider,Club,54,54,54,54,54
 Ka 1/3 ,Ka [13],Alexander Schleicher,Club,54,54,54,54,54
-HpH 304 TS Twin Shark,HpH 304 TS Twin Shark,HpH Sailplanes,Double,-,-,115,115,113
+HpH 304 TS Twin Shark,HpH 304 TS Twin Shark,HpH Sailplanes,Double,115,115,115,115,113
 Arcus,Arcus( E| T| M)?,Schempp-Hirth,Double,114,114,116,116,114
 ASG 32,ASG 32( Mi| EL)?,Alexander Schleicher,Double,114,114,116,116,114
 LS 11,LS 11,Rolladen-Schneider,Double,111,111,111,111,111
@@ -272,7 +272,7 @@ DG 505 6 Orion,DG 505 6 Orion,DG Flugzeugbau,Double,100,100,100,100,100
 fs 31,fs 31,Akaflieg Stuttgart,Double,99,99,99,99,99
 Taurus,Taurus,Pipistrel,Double,99,99,99,99,99
 Twin 3 20m,Twin 3 20m,Grob Aircraft,Double,99,99,99,99,99
-D 43 18m,D 43 18m,Akaflieg Darmstadt,Double,-,99,99,99,99
+D 43 18m,D 43 18m,Akaflieg Darmstadt,Double,99,99,99,99,99
 AFH 22,AFH 22,Akaflieg Hannover,Double,98,98,98,98,98
 DG 500 Trainer FG,DG 50[05] Trainer FG,DG Flugzeugbau,Double,98,98,98,98,98
 Silence E 75,Silence E 75,-,Double,98,98,98,98,98
