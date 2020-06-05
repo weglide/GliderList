@@ -89,6 +89,7 @@ Ventus 2 cxa,Ventus 2 cxa,Schempp-Hirth,18,,,,,119,119,119,119,119
 ASG 29 18m,ASG 29 18m,Alexander Schleicher,18,,,,,119,119,121,119,119
 DG 800 18m,DG 800 18m,DG Flugzeugbau,18,,,,x,118,118,118,118,118
 DG 800 18m,DG 800S 18m,DG Flugzeugbau,18,,,,,118,118,118,118,118
+DG 800 18m,DG 808S 18m,DG Flugzeugbau,18,,,,,118,118,118,118,118
 DG 800 18m,DG 800B 18m,DG Flugzeugbau,18,,,,x,118,118,118,118,118
 DG 800 18m,DG 808B 18m,DG Flugzeugbau,18,,,,x,118,118,118,118,118
 DG 800 18m,DG 808C 18m,DG Flugzeugbau,18,,,,x,118,118,118,118,118
@@ -156,8 +157,9 @@ ASG 29,ASG 29,Alexander Schleicher,15,,,,,114,114,114,114,114
 ASG 29,ASG 29 E,Alexander Schleicher,15,,,,x,114,114,114,114,114
 ASG 29,ASG 29 Es,Alexander Schleicher,15,,,,x,114,114,114,114,114
 Mü 31,Mü 31,Akaflieg München,15,,,,,114,114,114,114,114
-DG 800 15m,DG 800S 15m,DG Flugzeugbau,15,,,,,113,113,113,113,113
 DG 800 15m,DG 800 15m,DG Flugzeugbau,15,,,,x,113,113,113,113,113
+DG 800 15m,DG 800S 15m,DG Flugzeugbau,15,,,,,113,113,113,113,113
+DG 800 15m,DG 808S 15m,DG Flugzeugbau,15,,,,,113,113,113,113,113
 DG 800 15m,DG 800B 15m,DG Flugzeugbau,15,,,,x,113,113,113,113,113
 DG 800 15m,DG 808B 15m,DG Flugzeugbau,15,,,,x,113,113,113,113,113
 DG 800 15m,DG 808C 15m,DG Flugzeugbau,15,,,,x,113,113,113,113,113
