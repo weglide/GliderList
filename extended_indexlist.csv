@@ -109,6 +109,7 @@ Discus 2c 18m,Discus 2c 18m,Schempp-Hirth,18,,,,,114,114,114,114,114
 Discus 2c 18m,Discus 2cT 18m,Schempp-Hirth,18,,,,x,114,114,114,114,114
 LS 8 18m,LS 8 18m,DG Flugzeugbau,18,,,,,114,114,114,114,114
 LS 8 18m,LS 8T 18m,DG Flugzeugbau,18,,,,x,114,114,114,114,114
+LS 8 18m,LS 8e neo 18m,DG Flugzeugbau,18,,,x,x,114,114,114,114,114
 LAK 19 18m,LAK 19 18m,Sportinė Aviacija,18,,,,,114,114,116,114,114
 ASW 28 18m,ASW 28 18m,Alexander Schleicher,18,,,,,114,114,116,114,114
 ASW 28 18m,ASW 28 E 18m,Alexander Schleicher,18,,,,x,114,114,116,114,114
@@ -158,6 +159,10 @@ LAK 17 15m,LAK 17 15m,Sportinė Aviacija,15,,,,,113,113,113,113,113
 LS 10 15m,LS 10 15m,Rolladen-Schneider,15,,,,,113,113,113,113,113
 SZD 56 Diana,SZD 56 Diana,PZL Bielsko,15,,,,,112,112,112,112,112
 LS 6,LS 6,Rolladen-Schneider,15,,,,,111,111,111,111,111
+LS 6,LS 6a,Rolladen-Schneider,15,,,,,111,111,111,111,111
+LS 6,LS 6b,Rolladen-Schneider,15,,,,,111,111,111,111,111
+LS 6,LS 6 WL,Rolladen-Schneider,15,x,,,,112,112,112,112,112
+LS 6,LS 6b neo,Rolladen-Schneider,15,x,,,,112,112,112,112,112
 ASW 20,ASW 20,Alexander Schleicher,15,,,,,110,110,110,110,110
 DG 600,DG 600,DG Flugzeugbau,15,,,,,110,110,110,110,110
 DG 600,DG 600M,DG Flugzeugbau,15,,,,x,110,110,110,110,110
@@ -176,6 +181,8 @@ DG 200,DG 200,DG Flugzeugbau,15,,,,,107,107,107,107,107
 DG 400,DG 400,DG Flugzeugbau,15,,,,x,107,107,107,107,107
 LS 3,LS 3,Rolladen-Schneider,15,,,,,107,107,107,107,107
 LS 3,LS 3a,Rolladen-Schneider,15,,,,,107,107,107,107,107
+LS 3,LS 3a WL,Rolladen-Schneider,15,x,,,,108,108,108,108,108
+LS 3,LS 3 WL,Rolladen-Schneider,15,x,,,,108,108,108,108,108
 Mini Nimbus,Mini Nimbus,Schempp-Hirth,15,,,,,107,107,107,107,107
 Mosquito,Mosquito,Glasflügel,15,,,,,107,107,107,107,107
 D 40,D 40,Akaflieg Darmstadt,15,,,,,106,106,106,106,106
@@ -210,6 +217,8 @@ Discus,Discus bT,Schempp-Hirth,Standard,,,,x,107,107,107,107,107
 Discus,Discus bM,Schempp-Hirth,Standard,,,,x,107,107,107,107,107
 Genesis,Genesis,Sportinė Aviacija,Standard,,,,,107,107,107,107,107
 LS 7,LS 7,Rolladen-Schneider,Standard,,,,,107,107,107,107,107
+LS 7,LS 7 WL,Rolladen-Schneider,Standard,x,,,,108,108,108,108,108
+LS 7,LS 7 neo,Rolladen-Schneider,Standard,x,,,,108,108,108,108,108
 SZD-55,SZD-55,PZL Bielsko,Standard,,,,,106,106,106,106,106
 DG 303,DG 303,DG Flugzeugbau,Standard,,,,,105,105,105,105,105
 AFH 24,AFH 24,Akaflieg Hannover,Standard,,,,,104,104,104,104,104
@@ -218,6 +227,8 @@ Glasflügel 304C,Glasflügel 304C,HpH Sailplanes,Standard,,,,,104,104,104,104,10
 LS 4,LS 4,Rolladen-Schneider,Standard,,,,,104,104,104,104,104
 LS 4,LS 4a,Rolladen-Schneider,Standard,,,,,104,104,104,104,104
 LS 4,LS 4b,Rolladen-Schneider,Standard,,,,,104,104,104,104,104
+LS 4,LS 4 neo,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
+LS 4,LS 4 WL,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
 Falkon,Falkon,Streifeneder,Club,,,,,103,103,103,103,103
 LS 3 Std,LS 3 Std,Rolladen-Schneider,Club,,,,,103,103,103,103,103
 SB 12,SB 12,Akaflieg Braunschweig,Club,,,,,103,103,103,103,102
@@ -235,6 +246,7 @@ Elfe 17m,Elfe 17m,Neukom,Club,,,,,100,100,100,100,100
 Hornet,Hornet,Glasflügel,Club,,,,,100,100,100,100,100
 LS 1-e/f,LS 1-e,Rolladen-Schneider,Club,,,,,100,100,100,100,100
 LS 1-e/f,LS 1-f,Rolladen-Schneider,Club,,,,,100,100,100,100,100
+LS 1-e/f,LS 1-f neo,Rolladen-Schneider,Club,x,,,,101,101,101,101,101
 Phöbus B3/C,Phöbus B3,Bölkow,Club,,,,,100,100,100,100,100
 Phöbus B3/C,Phöbus C,Bölkow,Club,,,,,100,100,100,100,100
 Std. Astir,Std. Astir,Grob Aircraft,Club,,,,,100,100,100,100,100
@@ -250,7 +262,6 @@ Bee,Bee,Pipistrel,Club,,,,x,98,98,98,98,98
 Cobra 15m,Cobra 15m,PZL Bielsko,Club,,,,,98,98,98,98,98
 Delphin 1,Delphin 1,-,Club,,,,,98,98,98,98,98
 DG 100 Club,DG 100 Club,DG Flugzeugbau,Club,,,,,98,98,98,98,98
-LS 1,LS 1-0,Rolladen-Schneider,Club,,,,,98,98,98,98,98
 LS 1,LS 1-c,Rolladen-Schneider,Club,,,,,98,98,98,98,98
 LS 1,LS 1-d,Rolladen-Schneider,Club,,,,,98,98,98,98,98
 Panjo,Panjo V1,-,Club,,,,,98,98,98,98,98
@@ -372,7 +383,7 @@ ASG 32,ASG 32 EL,Alexander Schleicher,Double,,x,,x,114,114,116,116,114
 LS 11,LS 11,Rolladen-Schneider,Double,,x,,,111,111,111,111,111
 Duo Discus XL,Duo Discus XL,Schempp-Hirth,Double,,x,,,111,111,111,111,111
 Duo Discus XL,Duo Discus XLT,Schempp-Hirth,Double,,x,,x,111,111,111,111,111
-DG 1000 20m,DG 1001e neo,DG Flugzeugbau,Double,,x,x,x,110,110,110,110,110
+DG 1000 20m,DG 1001e neo 20m,DG Flugzeugbau,Double,,x,x,x,110,110,110,110,110
 DG 1000 20m,DG 1000S 20m,DG Flugzeugbau,Double,,x,,,110,110,110,110,110
 DG 1000 20m,DG 1000T 20m,DG Flugzeugbau,Double,,x,,x,110,110,110,110,110
 DG 1000 20m,DG 1000M 20m,DG Flugzeugbau,Double,,x,,x,110,110,110,110,110
@@ -382,6 +393,7 @@ fs 33,fs 33,Akaflieg Stuttgart,Double,,x,,,109,109,109,109,109
 Calif A 21,Calif A 21,Caproni,Double,,x,,,108,108,108,108,108
 Calif A 21,Calif A 21 SJ,Caproni,Double,,x,,x,108,108,108,108,108
 B 12,B 12,Akaflieg Berlin,Double,,x,,,106,106,106,106,106
+DG 1000 18m,DG 1001e neo 18m,DG Flugzeugbau,Double,,x,x,x,106,106,106,106,106
 DG 1000 18m,DG 1000S 18m,DG Flugzeugbau,Double,,x,,,106,106,106,106,106
 DG 1000 18m,DG 1000T 18m,DG Flugzeugbau,Double,,x,,x,106,106,106,106,106
 DG 1000 18m,DG 1000M 18m,DG Flugzeugbau,Double,,x,,x,106,106,106,106,106
