@@ -113,7 +113,7 @@ Discus 2c 18m,Discus 2c 18m,Schempp-Hirth,18,,,,,114,114,114,114,114
 Discus 2c 18m,Discus 2cT 18m,Schempp-Hirth,18,,,,x,114,114,114,114,114
 LS 8 18m,LS 8 18m,DG Flugzeugbau,18,,,,,114,114,114,114,114
 LS 8 18m,LS 8T 18m,DG Flugzeugbau,18,,,,x,114,114,114,114,114
-LS 8 18m,LS 8e neo 18m,DG Flugzeugbau,18,,,x,x,114,114,114,114,114
+LS 8 18m,LS 8-e neo 18m,DG Flugzeugbau,18,,,x,x,114,114,114,114,114
 LAK 19 18m,LAK 19 18m,Sportinė Aviacija,18,,,,,114,114,116,114,114
 ASW 28 18m,ASW 28 18m,Alexander Schleicher,18,,,,,114,114,116,114,114
 ASW 28 18m,ASW 28 E 18m,Alexander Schleicher,18,,,,x,114,114,116,114,114
@@ -212,7 +212,7 @@ Discus 2,Discus 2cT 15m,Schempp-Hirth,Standard,,,,x,108,108,108,108,108
 LAK-19 15m,LAK-19 15m,Sportinė Aviacija,Standard,,,,,108,108,108,108,108
 LS 8,LS 8,DG Flugzeugbau,Standard,,,,,108,108,108,108,108
 LS 8,LS 8T,DG Flugzeugbau,Standard,,,,x,108,108,108,108,108
-LS 8,LS 8e neo,DG Flugzeugbau,Standard,,,x,x,108,108,108,108,108
+LS 8,LS 8-e neo,DG Flugzeugbau,Standard,,,x,x,108,108,108,108,108
 LS 8,LS 8 neo,DG Flugzeugbau,Standard,,,,x,108,108,108,108,108
 AK 8,AK 8,Akaflieg Karlsruhe,Standard,,,,,107,107,107,107,107
 ASW 24,ASW 24,Alexander Schleicher,Standard,,,,,107,107,107,107,107
