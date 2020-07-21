@@ -4,7 +4,6 @@
 - LS 4 neo
 - LS 4a neo
 - LS 4b neo
-### Removed
 ---
 ## 2020-07-21
 ### Added
@@ -16,7 +15,6 @@
 - Hornet WL
 - SZD 59 WL
 - Std. Cirrus WL
-### Removed
 ---
 ## 2020-07-20
 ### Added

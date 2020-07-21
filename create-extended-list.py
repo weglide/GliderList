@@ -95,6 +95,8 @@ class Extender:
                 writer.writerow(glider)
 
     def write_changelog(self) -> None:
+        if len(self.added) == 0 and len(self.removed) == 0:
+            pass
         with open(CHANGELOG, 'r') as changelog_file:
             content = changelog_file.read()
 
@@ -102,12 +104,14 @@ class Extender:
             changelog_file.truncate(0)
             now = datetime.datetime.now()
             changelog_file.write(f'## {now:%Y-%m-%d}\n')
-            changelog_file.write('### Added\n')
-            for glider in self.added:
-                changelog_file.write(f'- {glider}\n')
-            changelog_file.write('### Removed\n')
-            for glider in self.removed:
-                changelog_file.write(f'- {glider}\n')
+            if len(self.added) != 0:
+                changelog_file.write('### Added\n')
+                for glider in self.added:
+                    changelog_file.write(f'- {glider}\n')
+            if len(self.removed) != 0:
+                changelog_file.write('### Removed\n')
+                for glider in self.removed:
+                    changelog_file.write(f'- {glider}\n')
             changelog_file.write('---\n')
             changelog_file.write(content)
 
