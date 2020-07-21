@@ -78,7 +78,15 @@ class Extender:
                 glider['Engine'] = ''
                 self.extended_list.append(glider)
 
-    def save_extended(self):
+    def sort_extended(self) -> None:
+        self.extended_list.sort(key=lambda x: x['Manufacturer'])
+        self.extended_list.sort(key=lambda x: x['Model'])
+        self.extended_list.sort(
+            key=lambda x: x['2020'], reverse=True)
+        self.extended_list.sort(
+            key=lambda x: x['Competition Class'])
+
+    def save_extended(self) -> None:
         with open(EXTENDEDLIST, 'w') as csvfile:
             fieldnames = self.extended_list[0].keys()
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -86,7 +94,7 @@ class Extender:
             for glider in self.extended_list:
                 writer.writerow(glider)
 
-    def write_changelog(self):
+    def write_changelog(self) -> None:
         with open(CHANGELOG, 'r') as changelog_file:
             content = changelog_file.read()
 
@@ -108,5 +116,6 @@ extender = Extender()
 extender.import_lists()
 extender.extend_simple_list()
 extender.merge_lists()
+extender.sort_extended()
 extender.save_extended()
 extender.write_changelog()
