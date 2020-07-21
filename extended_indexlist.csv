@@ -31,10 +31,11 @@ LS 10 15m,LS 10 15m,Rolladen-Schneider,15,,,,,113,113,113,113,113
 LS 10 15m,LS 10-st 15m,Rolladen-Schneider,15,,,,x,113,113,113,113,113
 SZD 56 Diana,SZD 56 Diana,PZL Bielsko,15,,,,,112,112,112,112,112
 LS 6,LS 6,Rolladen-Schneider,15,,,,,111,111,111,111,111
+LS 6,LS 6 neo,Rolladen-Schneider,15,,,,,111,111,111,111,111
 ASW 20,ASW 20,Alexander Schleicher,15,,,,,110,110,110,110,110
 DG 600,DG 600,DG Flugzeugbau,15,,,,,110,110,110,110,110
 DG 600,DG 600M,DG Flugzeugbau,15,,,,x,110,110,110,110,110
-Glasflügel 304,Glasflügel 304 ,Glasflügel,15,,,,,110,110,110,110,110
+Glasflügel 304,"Glasflügel 304 ",Glasflügel,15,,,,,110,110,110,110,110
 Glasflügel 304,Glasflügel 304 CZ,Glasflügel,15,,,,,110,110,110,110,110
 Ventus 1,Ventus 1,Schempp-Hirth,15,,,,,110,110,110,110,110
 Ventus 15m,Ventus 15m,Schempp-Hirth,15,,,,,110,110,110,110,110
@@ -258,7 +259,7 @@ Cirrus B 18.34m,Cirrus B 18.34m,Schempp-Hirth,Club,,,,,102,102,102,102,102
 DG 300 FG,DG 300 FG,DG Flugzeugbau,Club,,,,,102,102,102,102,102
 Pegase,Pegase,Centrair,Club,,,,,102,102,102,102,102
 SB 12,SB 12,Akaflieg Braunschweig,Club,,,,,103,103,103,103,102
-Hornet,Hornet WL,Glasflügel,Club,,,,,101,101,101,101,101
+Hornet,Hornet WL,Glasflügel,Club,x,,,,101,101,101,101,101
 SZD 59,SZD 59 WL,Allstar PZL Glider,Club,,,,,101,101,101,101,101
 ASW 19,ASW 19,Alexander Schleicher,Club,,,,,100,100,100,100,100
 Cirrus,Cirrus,Schempp-Hirth,Club,,,,,100,100,100,100,100
@@ -274,7 +275,7 @@ Phöbus B3/C,Phöbus C,Bölkow,Club,,,,,100,100,100,100,100
 SZD 59,SZD 59,Allstar PZL Glider,Club,,,,,100,100,100,100,100
 Std. Astir,Std. Astir,Grob Aircraft,Club,,,,,100,100,100,100,100
 Std. Cirrus 16m,Std. Cirrus 16m,Schempp-Hirth,Club,,,,,100,100,100,100,100
-Std. Cirrus,Std. Cirrus WL,Schempp-Hirth,Club,,,,,100,100,100,100,100
+Std. Cirrus,Std. Cirrus WL,Schempp-Hirth,Club,x,,,,100,100,100,100,100
 Std. Jantar,Std. Jantar,PZW,Club,,,,,100,100,100,100,100
 D 43 18m,D 43 18m,Akaflieg Darmstadt,Double,,x,,,99,99,99,99,99
 Taurus,Taurus,Pipistrel,Double,,x,,x,99,99,99,99,99
@@ -362,7 +363,7 @@ DG 500 20m,DG 500 20m,DG Flugzeugbau,Double,,x,,,104,104,104,104,104
 DG 500 20m,DG 500M 20m,DG Flugzeugbau,Double,,x,,,104,104,104,104,104
 DG 505 M Orion 20m,DG 505 M Orion 20m,DG Flugzeugbau,Double,,x,,,104,104,104,104,104
 Janus 18.2m,Janus 18.2m,Schempp-Hirth,Double,,x,,,102,102,102,102,102
-SZD-54-2 Perkoz 20m WL,SZD-54-2 Perkoz 20m WL,Allstar PZL Glider,Double,,x,,,102,102,102,102,102
+SZD-54-2 Perkoz 20m WL,SZD-54-2 Perkoz 20m WL,Allstar PZL Glider,Double,x,x,,,102,102,102,102,102
 DG 500 Trainer RG,DG 500 Trainer RG,DG Flugzeugbau,Double,,x,,,100,100,100,100,100
 DG 505 6 Orion,DG 505 6 Orion,DG Flugzeugbau,Double,,x,,,100,100,100,100,100
 DG 500 Trainer RG,DG 505 Trainer RG,DG Flugzeugbau,Double,,x,,,100,100,100,100,100
@@ -470,13 +471,16 @@ Discus,Discus bM,Schempp-Hirth,Standard,,,,x,107,107,107,107,107
 Discus,Discus bT,Schempp-Hirth,Standard,,,,x,107,107,107,107,107
 Genesis,Genesis,Sportinė Aviacija,Standard,,,,,107,107,107,107,107
 LS 7,LS 7,Rolladen-Schneider,Standard,,,,,107,107,107,107,107
-LS 7,LS 7 WL,Rolladen-Schneider,Standard,,,,,107,107,107,107,107
+LS 7,LS 7 WL,Rolladen-Schneider,Standard,x,,,,107,107,107,107,107
 SZD-55,SZD-55,PZL Bielsko,Standard,,,,,106,106,106,106,106
-DG 300,DG 300 WL,DG Flugzeugbau,Standard,,,,,105,105,105,105,105
+DG 300,DG 300 WL,DG Flugzeugbau,Standard,x,,,,105,105,105,105,105
 DG 303,DG 303,DG Flugzeugbau,Standard,,,,,105,105,105,105,105
-LS 4,LS 4 WL,Rolladen-Schneider,Standard,,,,,105,105,105,105,105
-LS 4,LS 4a WL,Rolladen-Schneider,Standard,,,,,105,105,105,105,105
-LS 4,LS 4b WL,Rolladen-Schneider,Standard,,,,,105,105,105,105,105
+LS 4,LS 4 WL,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
+LS 4,LS 4 neo,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
+LS 4,LS 4a WL,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
+LS 4,LS 4a neo,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
+LS 4,LS 4b WL,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
+LS 4,LS 4b neo,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
 AFH 24,AFH 24,Akaflieg Hannover,Standard,,,,,104,104,104,104,104
 DG 300,DG 300,DG Flugzeugbau,Standard,,,,,104,104,104,104,104
 HpH 304C Wasp,HpH 304C Wasp,HpH Sailplanes,Standard,,,,,104,104,104,104,104

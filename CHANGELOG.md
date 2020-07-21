@@ -1,3 +1,23 @@
+## 2020-07-21
+### Added
+- LS 6 neo
+- LS 4 neo
+- LS 4a neo
+- LS 4b neo
+### Removed
+---
+## 2020-07-21
+### Added
+- LS 7 WL
+- DG 300 WL
+- LS 4 WL
+- LS 4a WL
+- LS 4b WL
+- Hornet WL
+- SZD 59 WL
+- Std. Cirrus WL
+### Removed
+---
 ## 2020-07-20
 ### Added
 - LS 5
