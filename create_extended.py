@@ -4,12 +4,12 @@ import os.path
 import datetime
 from copy import copy
 
-SIMPLELIST = 'indexlist.csv'
-EXTENDEDLIST = 'extended_indexlist.csv'
+BASE_LIST = 'base.csv'
+EXTENDED_LIST = 'extended.csv'
 CHANGELOG = 'CHANGELOG.md'
 
 
-def escapeit(model):
+def escape(model):
     if '\.' in model:
         return model
     else:
@@ -24,7 +24,7 @@ def read_list(path) -> list:
             glider = {}
             for glider_info in row:
                 if glider_info == 'Models':
-                    glider[glider_info] = escapeit(row[glider_info])
+                    glider[glider_info] = escape(row[glider_info])
                 else:
                     glider[glider_info] = row[glider_info]
             gliders.append(glider)
@@ -39,10 +39,14 @@ class Extender:
         self.removed = []
         self.added = []
 
+    def add_primary_keys(self):
+        for i, glider in enumerate(self.extended_list):
+            glider['ID'] = i+1
+
     def import_lists(self, first: bool = False) -> None:
-        self.simple_list = read_list(SIMPLELIST)
-        if os.path.isfile(EXTENDEDLIST):
-            self.extended_list = read_list(EXTENDEDLIST)
+        self.simple_list = read_list(BASE_LIST)
+        if os.path.isfile(EXTENDED_LIST):
+            self.extended_list = read_list(EXTENDED_LIST)
 
     def extend_simple_list(self) -> None:
         for glider in self.simple_list:
@@ -87,7 +91,7 @@ class Extender:
             key=lambda x: x['Competition Class'])
 
     def save_extended(self) -> None:
-        with open(EXTENDEDLIST, 'w') as csvfile:
+        with open(EXTENDED_LIST, 'w') as csvfile:
             fieldnames = self.extended_list[0].keys()
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
@@ -116,10 +120,12 @@ class Extender:
             changelog_file.write(content)
 
 
-extender = Extender()
-extender.import_lists()
-extender.extend_simple_list()
-extender.merge_lists()
-extender.sort_extended()
-extender.save_extended()
-extender.write_changelog()
+if __name__ == '__main__':
+    extender = Extender()
+    extender.import_lists()
+    extender.extend_simple_list()
+    extender.merge_lists()
+    extender.sort_extended()
+    extender.add_primary_keys()
+    extender.save_extended()
+    extender.write_changelog()
