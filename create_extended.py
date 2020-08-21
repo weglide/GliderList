@@ -40,8 +40,15 @@ class Extender:
         self.added = []
 
     def add_primary_keys(self):
-        for i, glider in enumerate(self.extended_list):
-            glider['ID'] = i+1
+        self.max_id = max([int(glider['ID']) for glider in self.extended_list if glider['ID']])
+        for glider in self.extended_list:
+            if not glider['ID']:
+                glider['ID'] = self.max_id + 1
+                self.max_id += 1
+
+        # assert that indices are unique
+        ids = [int(glider['ID']) for glider in self.extended_list if glider['ID']]
+        assert len(ids) == len(set(ids)), 'Indices are not unique.'
 
     def import_lists(self, first: bool = False) -> None:
         self.simple_list = read_list(BASE_LIST)
@@ -61,8 +68,7 @@ class Extender:
         # delete removed gliders
         new_extended = []
         for glider in self.extended_list:
-            already_merged = [item for item in self.simple_extended if item.get(
-                'Model') == glider['Model']]
+            already_merged = [item for item in self.simple_extended if item.get('Model') == glider['Model']]
             if len(already_merged) != 0:
                 new_extended.append(glider)
             else:
@@ -71,8 +77,7 @@ class Extender:
 
         # Insert new gliders from simple_list
         for glider in self.simple_extended:
-            already_merged = [item for item in self.extended_list if item.get(
-                'Model') == glider['Model']]
+            already_merged = [item for item in self.extended_list if item.get('Model') == glider['Model']]
             # Only add glider if not already in extended list
             if len(already_merged) == 0:
                 self.added.append(glider['Model'])
@@ -85,10 +90,8 @@ class Extender:
     def sort_extended(self) -> None:
         self.extended_list.sort(key=lambda x: x['Manufacturer'])
         self.extended_list.sort(key=lambda x: x['Model'])
-        self.extended_list.sort(
-            key=lambda x: x['2020'], reverse=True)
-        self.extended_list.sort(
-            key=lambda x: x['Competition Class'])
+        self.extended_list.sort(key=lambda x: x['2020'], reverse=True)
+        self.extended_list.sort(key=lambda x: x['Competition Class'])
 
     def save_extended(self) -> None:
         with open(EXTENDED_LIST, 'w') as csvfile:

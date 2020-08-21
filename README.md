@@ -75,3 +75,4 @@ Competition index (DMSt) for different years.
 ## Contribute
 
 Contributions of new gliders or corrections of naming conventions are very welcome. Just open a pull request and we will review.
+If adding a model in the extended list, leave the ID field empty as it is automatically added.
