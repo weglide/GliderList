@@ -22,8 +22,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install exrex
         
-    - name: Run create-extended-list
-      run: python create-extended-list.py
+    - name: Run create_extended
+      run: python create_extended.py
  
       
     - name: Commit files
@@ -36,12 +36,12 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         branch: generated_extended
-        github_token: ${{ secrets.acces_key }}
+        github_token: ${{ secrets.access_key }}
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2 
       with:
-        token: ${{ secrets.acces_key }}
+        token: ${{ secrets.access_key }}
         commit-message: automated creation of the extended index-list
         title: create extended list
         branch: generated_extended
