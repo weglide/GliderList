@@ -1,105 +1,105 @@
 ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine,2016,2017,2018,2019,2020
-1, Dana 2,Diana 2,PZL-Bielsko,15,,,,,114,116,116,116,115
-2, J3,JS3,Jonker Sailplanes,15,,,,,116,116,116,116,115
-3, J3,JS3 FES,Jonker Sailplanes,15,,,x,x,116,116,116,116,115
-4, J3,JS3 TJ,Jonker Sailplanes,15,,,,x,116,116,116,116,115
-5, Vntus 3 15m,Ventus 3 15m,Schempp-Hirth,15,,,,,116,116,116,116,115
-6, Vntus 3 15m,Ventus 3F 15m,Schempp-Hirth,15,,,,x,116,116,116,116,115
-7, Vntus 3 15m,Ventus 3M 15m,Schempp-Hirth,15,,,,x,116,116,116,116,115
-8, Vntus 3 15m,Ventus 3T 15m,Schempp-Hirth,15,,,,x,116,116,116,116,115
-9, AG 29,ASG 29,Alexander Schleicher,15,,,,,114,114,114,114,114
-10, SG 29,ASG 29 E,Alexander Schleicher,15,,,,x,114,114,114,114,114
-11, SG 29,ASG 29 Es,Alexander Schleicher,15,,,,x,114,114,114,114,114
-12, SW 27,ASW 27,Alexander Schleicher,15,,,,,114,114,114,114,114
-13, ü 31,Mü 31,Akaflieg München,15,,,,,114,114,114,114,114
-14, entus 2,Ventus 2,Schempp-Hirth,15,,,,,114,114,114,114,114
-15, entus 2,Ventus 2a,Schempp-Hirth,15,,,,,114,114,114,114,114
-16, entus 2,Ventus 2ax,Schempp-Hirth,15,,,,,114,114,114,114,114
-17, entus 2,Ventus 2b,Schempp-Hirth,15,,,,,114,114,114,114,114
-18, entus 2c 15m,Ventus 2c 15m,Schempp-Hirth,15,,,,,114,114,114,114,114
-19, entus 2c 15m,Ventus 2cM 15m,Schempp-Hirth,15,,,,x,114,114,114,114,114
-20, entus 2c 15m,Ventus 2cT 15m,Schempp-Hirth,15,,,,x,114,114,114,114,114
-21, G 800 15m,DG 800 15m,DG Flugzeugbau,15,,,,x,113,113,113,113,113
-22, G 800 15m,DG 800S 15m,DG Flugzeugbau,15,,,,,113,113,113,113,113
-23, G 800 15m,DG 808 15m,DG Flugzeugbau,15,,,,x,113,113,113,113,113
-24, AK-17 15m,LAK-17A 15m,Sportinė Aviacija,15,,,,,113,113,113,113,113
-25, AK-17 15m,LAK-17A T 15m,Sportinė Aviacija,15,,,,x,113,113,113,113,113
-26, AK-17 15m,LAK-17B 15m,Sportinė Aviacija,15,,,,,113,113,113,113,113
-27, AK-17 15m,LAK-17B FES 15m,Sportinė Aviacija,15,,,x,x,113,113,113,113,113
-28, AK-17 15m,LAK-17B T 15m,Sportinė Aviacija,15,,,,x,113,113,113,113,113
-29, S 10 15m,LS 10 15m,Rolladen-Schneider,15,,,,,113,113,113,113,113
-30, S 10 15m,LS 10-st 15m,Rolladen-Schneider,15,,,,x,113,113,113,113,113
-31, ZD 56 Diana,SZD 56 Diana,PZL Bielsko,15,,,,,112,112,112,112,112
-32, S 6,LS 6,Rolladen-Schneider,15,,,,,111,111,111,111,111
-33, S 6,LS 6 neo,Rolladen-Schneider,15,,,,,111,111,111,111,111
-34, SW 20,ASW 20,Alexander Schleicher,15,,,,,110,110,110,110,110
-35, G 600,DG 600,DG Flugzeugbau,15,,,,,110,110,110,110,110
-36, G 600,DG 600M,DG Flugzeugbau,15,,,,x,110,110,110,110,110
-37, lasflügel 304,Glasflügel 304 ,Glasflügel,15,,,,,110,110,110,110,110
-38, lasflügel 304,Glasflügel 304 CZ,Glasflügel,15,,,,,110,110,110,110,110
-39, entus 1,Ventus 1,Schempp-Hirth,15,,,,,110,110,110,110,110
-40, entus 15m,Ventus 15m,Schempp-Hirth,15,,,,,110,110,110,110,110
-41, entus 15m,Ventus b 15m,Schempp-Hirth,15,,,,,110,110,110,110,110
-42, entus 15m,Ventus bT  15m,Schempp-Hirth,15,,,,x,110,110,110,110,110
-43, entus 15m,Ventus cM 15m,Schempp-Hirth,15,,,,x,110,110,110,110,110
-44, entus 15m,Ventus cT  15m,Schempp-Hirth,15,,,,x,110,110,110,110,110
-45, SW 20 Top 15m,ASW 20 Top 15m,Alexander Schleicher,15,,,,x,108,108,108,108,108
-46, B 11,SB 11,Akaflieg Braunschweig,15,,,,,108,108,108,108,108
-47, s 32,fs 32,Akaflieg Stuttgart,15,,,,,108,108,108,108,108
-48, G 200,DG 200,DG Flugzeugbau,15,,,,,107,107,107,107,107
-49, G 400,DG 400,DG Flugzeugbau,15,,,,x,107,107,107,107,107
-50, S 3,LS 3,Rolladen-Schneider,15,,,,,107,107,107,107,107
-51, S 3,LS 3a,Rolladen-Schneider,15,,,,,107,107,107,107,107
-52, ini Nimbus,Mini Nimbus,Schempp-Hirth,15,,,,,107,107,107,107,107
-53, osquito,Mosquito,Glasflügel,15,,,,,107,107,107,107,107
-54,  40,D 40,Akaflieg Darmstadt,15,,,,,106,106,106,106,106
-55,  104 Speed Astir 2,G 104 Speed Astir 2,Grob Aircraft,15,,,,,105,105,105,105,105
-56, IK-20 D/E,PIK-20 D,Eiri-Avion,15,,,,,104,104,104,104,104
-57, IK-20 D/E,PIK-20 E,Eiri-Avion,15,,,,x,104,104,104,104,104
-58, IK-20 B,PIK-20 B,Eiri-Avion,15,,,,,102,102,102,102,102
-59, -301,H-301,Glasflügel,15,,,,,100,100,100,100,100
-60, S 2,LS 2,Rolladen-Schneider,15,,,,,100,100,100,100,100
-61, S1 18m,JS1 18m,Jonker Sailplanes,18,,,,,119,119,121,121,120
-62, S1 18m,JS1 TJ 18m,Jonker Sailplanes,18,,,,x,119,119,121,121,120
-63, S3 18m,JS3 18m,Jonker Sailplanes,18,,,,,121,121,121,121,120
-64, S3 18m,JS3 FES 18m,Jonker Sailplanes,18,,,x,x,121,121,121,121,120
-65, S3 18m,JS3 TJ 18m,Jonker Sailplanes,18,,,,x,121,121,121,121,120
-66, entus 3 18m,Ventus 3 18m,Schempp-Hirth,18,,,,,121,121,121,121,120
-67, entus 3 18m,Ventus 3F 18m,Schempp-Hirth,18,,,x,x,121,121,121,121,120
-68, entus 3 18m,Ventus 3M 18m,Schempp-Hirth,18,,,,x,121,121,121,121,120
-69, entus 3 18m,Ventus 3T 18m,Schempp-Hirth,18,,,,x,121,121,121,121,120
-70, SG 29 18m,ASG 29 18m,Alexander Schleicher,18,,,,,119,119,121,119,119
-71, SG 29 18m,ASG 29 E 18m,Alexander Schleicher,18,,,,x,119,119,121,119,119
-72, SG 29 18m,ASG 29 Es 18m,Alexander Schleicher,18,,,,x,119,119,121,119,119
-73, entus 2 cxa,Ventus 2 cxa,Schempp-Hirth,18,,,,,119,119,119,119,119
-74, SH 31 Mi 18m,ASH 31 Mi 18m,Alexander Schleicher,18,,,,x,118,118,120,120,118
-75, ntares 18,Antares 18S,Lange Aviation,18,,,,,119,118,120,120,118
-76, ntares 18,Antares 18T,Lange Aviation,18,,,,x,119,118,120,120,118
-77, G 800 18m,DG 800 18m,DG Flugzeugbau,18,,,,,118,118,118,118,118
-78, G 800 18m,DG 800S 18m,DG Flugzeugbau,18,,,,,118,118,118,118,118
-79, G 800 18m,DG 808 18m,DG Flugzeugbau,18,,,,,118,118,118,118,118
-80, pH 304 Shark,HpH 304 ES Shark,HpH Sailplanes,18,,,x,x,118,118,120,118,118
-81, pH 304 Shark,HpH 304 MS Shark,HpH Sailplanes,18,,,,x,118,118,120,118,118
-82, pH 304 Shark,HpH 304 S Shark,HpH Sailplanes,18,,,,,118,118,120,118,118
-83, pH 304 Shark,HpH 304 SJ Shark,HpH Sailplanes,18,,,,x,118,118,120,118,118
-84, F 20 18m,LF 20 18m,Lange Aviation,18,,,,,118,118,118,118,118
-85, S 10 18m,LS 10 18m,Rolladen-Schneider,18,,,,,118,118,120,120,118
-86, S 10 18m,LS 10-st 18m,Rolladen-Schneider,18,,,,,118,118,120,120,118
-87, B 14,SB 14,Akaflieg Braunschweig,18,,,,,118,118,118,118,118
-88, entus 2c 18m,Ventus 2c 18m,Schempp-Hirth,18,,,,,118,118,118,118,118
-89, entus 2c 18m,Ventus 2cM 18m,Schempp-Hirth,18,,,,x,118,118,118,118,118
-90, entus 2c 18m,Ventus 2cT 18m,Schempp-Hirth,18,,,,x,118,118,118,118,118
-91, SH 26,ASH 26,Alexander Schleicher,18,,,,,117,117,117,117,117
-92, SH 26,ASH 26 E,Alexander Schleicher,18,,,,x,117,117,117,117,117
-93, AK-17 18m,LAK-17A 18m,Sportinė Aviacija,18,,,,,117,117,117,117,117
-94, AK-17 18m,LAK-17A T 18m,Sportinė Aviacija,18,,,,x,117,117,117,117,117
-95, AK-17 18m,LAK-17B 18m,Sportinė Aviacija,18,,,,,117,117,117,117,117
-96, AK-17 18m,LAK-17B FES 18m,Sportinė Aviacija,18,,,x,x,117,117,117,117,117
-97, AK-17 18m,LAK-17B T 18m,Sportinė Aviacija,18,,,,x,117,117,117,117,117
-98, S 6 18m,LS 6 18m,Rolladen-Schneider,18,,,,,117,117,117,117,117
-99, S 9,LS 9,Rolladen-Schneider,18,,,,x,117,117,117,117,117
-100,DG 600 18m,DG 600 18m,DG Flugzeugbau,18,,,,,116,116,116,116,116
+1,Diana 2,Diana 2,PZL-Bielsko,15,,,,,114,116,116,116,115
+2,JS3,JS3,Jonker Sailplanes,15,,,,,116,116,116,116,115
+3,JS3,JS3 FES,Jonker Sailplanes,15,,,x,x,116,116,116,116,115
+4,JS3,JS3 TJ,Jonker Sailplanes,15,,,,x,116,116,116,116,115
+5,Ventus 3 15m,Ventus 3 15m,Schempp-Hirth,15,,,,,116,116,116,116,115
+6,Ventus 3 15m,Ventus 3F 15m,Schempp-Hirth,15,,,,x,116,116,116,116,115
+7,Ventus 3 15m,Ventus 3M 15m,Schempp-Hirth,15,,,,x,116,116,116,116,115
+8,Ventus 3 15m,Ventus 3T 15m,Schempp-Hirth,15,,,,x,116,116,116,116,115
+9,ASG 29,ASG 29,Alexander Schleicher,15,,,,,114,114,114,114,114
+10,ASG 29,ASG 29 E,Alexander Schleicher,15,,,,x,114,114,114,114,114
+11,ASG 29,ASG 29 Es,Alexander Schleicher,15,,,,x,114,114,114,114,114
+12,ASW 27,ASW 27,Alexander Schleicher,15,,,,,114,114,114,114,114
+13,Mü 31,Mü 31,Akaflieg München,15,,,,,114,114,114,114,114
+14,Ventus 2,Ventus 2,Schempp-Hirth,15,,,,,114,114,114,114,114
+15,Ventus 2,Ventus 2a,Schempp-Hirth,15,,,,,114,114,114,114,114
+16,Ventus 2,Ventus 2ax,Schempp-Hirth,15,,,,,114,114,114,114,114
+17,Ventus 2,Ventus 2b,Schempp-Hirth,15,,,,,114,114,114,114,114
+18,Ventus 2c 15m,Ventus 2c 15m,Schempp-Hirth,15,,,,,114,114,114,114,114
+19,Ventus 2c 15m,Ventus 2cM 15m,Schempp-Hirth,15,,,,x,114,114,114,114,114
+20,Ventus 2c 15m,Ventus 2cT 15m,Schempp-Hirth,15,,,,x,114,114,114,114,114
+21,DG 800 15m,DG 800 15m,DG Flugzeugbau,15,,,,x,113,113,113,113,113
+22,DG 800 15m,DG 800S 15m,DG Flugzeugbau,15,,,,,113,113,113,113,113
+23,DG 800 15m,DG 808 15m,DG Flugzeugbau,15,,,,x,113,113,113,113,113
+24,LAK-17 15m,LAK-17A 15m,Sportinė Aviacija,15,,,,,113,113,113,113,113
+25,LAK-17 15m,LAK-17A T 15m,Sportinė Aviacija,15,,,,x,113,113,113,113,113
+26,LAK-17 15m,LAK-17B 15m,Sportinė Aviacija,15,,,,,113,113,113,113,113
+27,LAK-17 15m,LAK-17B FES 15m,Sportinė Aviacija,15,,,x,x,113,113,113,113,113
+28,LAK-17 15m,LAK-17B T 15m,Sportinė Aviacija,15,,,,x,113,113,113,113,113
+29,LS 10 15m,LS 10 15m,Rolladen-Schneider,15,,,,,113,113,113,113,113
+30,LS 10 15m,LS 10-st 15m,Rolladen-Schneider,15,,,,x,113,113,113,113,113
+31,SZD 56 Diana,SZD 56 Diana,PZL Bielsko,15,,,,,112,112,112,112,112
+32,LS 6,LS 6,Rolladen-Schneider,15,,,,,111,111,111,111,111
+33,LS 6,LS 6 neo,Rolladen-Schneider,15,,,,,111,111,111,111,111
+34,ASW 20,ASW 20,Alexander Schleicher,15,,,,,110,110,110,110,110
+35,DG 600,DG 600,DG Flugzeugbau,15,,,,,110,110,110,110,110
+36,DG 600,DG 600M,DG Flugzeugbau,15,,,,x,110,110,110,110,110
+37,Glasflügel 304,Glasflügel 304 ,Glasflügel,15,,,,,110,110,110,110,110
+38,Glasflügel 304,Glasflügel 304 CZ,Glasflügel,15,,,,,110,110,110,110,110
+39,Ventus 1,Ventus 1,Schempp-Hirth,15,,,,,110,110,110,110,110
+40,Ventus 15m,Ventus 15m,Schempp-Hirth,15,,,,,110,110,110,110,110
+41,Ventus 15m,Ventus b 15m,Schempp-Hirth,15,,,,,110,110,110,110,110
+42,Ventus 15m,Ventus bT  15m,Schempp-Hirth,15,,,,x,110,110,110,110,110
+43,Ventus 15m,Ventus cM 15m,Schempp-Hirth,15,,,,x,110,110,110,110,110
+44,Ventus 15m,Ventus cT  15m,Schempp-Hirth,15,,,,x,110,110,110,110,110
+45,ASW 20 Top 15m,ASW 20 Top 15m,Alexander Schleicher,15,,,,x,108,108,108,108,108
+46,SB 11,SB 11,Akaflieg Braunschweig,15,,,,,108,108,108,108,108
+47,fs 32,fs 32,Akaflieg Stuttgart,15,,,,,108,108,108,108,108
+48,DG 200,DG 200,DG Flugzeugbau,15,,,,,107,107,107,107,107
+49,DG 400,DG 400,DG Flugzeugbau,15,,,,x,107,107,107,107,107
+50,LS 3,LS 3,Rolladen-Schneider,15,,,,,107,107,107,107,107
+51,LS 3,LS 3a,Rolladen-Schneider,15,,,,,107,107,107,107,107
+52,Mini Nimbus,Mini Nimbus,Schempp-Hirth,15,,,,,107,107,107,107,107
+53,Mosquito,Mosquito,Glasflügel,15,,,,,107,107,107,107,107
+54,D 40,D 40,Akaflieg Darmstadt,15,,,,,106,106,106,106,106
+55,G 104 Speed Astir 2,G 104 Speed Astir 2,Grob Aircraft,15,,,,,105,105,105,105,105
+56,PIK-20 D/E,PIK-20 D,Eiri-Avion,15,,,,,104,104,104,104,104
+57,PIK-20 D/E,PIK-20 E,Eiri-Avion,15,,,,x,104,104,104,104,104
+58,PIK-20 B,PIK-20 B,Eiri-Avion,15,,,,,102,102,102,102,102
+59,H-301,H-301,Glasflügel,15,,,,,100,100,100,100,100
+60,LS 2,LS 2,Rolladen-Schneider,15,,,,,100,100,100,100,100
+61,JS1 18m,JS1 18m,Jonker Sailplanes,18,,,,,119,119,121,121,120
+62,JS1 18m,JS1 TJ 18m,Jonker Sailplanes,18,,,,x,119,119,121,121,120
+63,JS3 18m,JS3 18m,Jonker Sailplanes,18,,,,,121,121,121,121,120
+64,JS3 18m,JS3 FES 18m,Jonker Sailplanes,18,,,x,x,121,121,121,121,120
+65,JS3 18m,JS3 TJ 18m,Jonker Sailplanes,18,,,,x,121,121,121,121,120
+66,Ventus 3 18m,Ventus 3 18m,Schempp-Hirth,18,,,,,121,121,121,121,120
+67,Ventus 3 18m,Ventus 3F 18m,Schempp-Hirth,18,,,x,x,121,121,121,121,120
+68,Ventus 3 18m,Ventus 3M 18m,Schempp-Hirth,18,,,,x,121,121,121,121,120
+69,Ventus 3 18m,Ventus 3T 18m,Schempp-Hirth,18,,,,x,121,121,121,121,120
+70,ASG 29 18m,ASG 29 18m,Alexander Schleicher,18,,,,,119,119,121,119,119
+71,ASG 29 18m,ASG 29 E 18m,Alexander Schleicher,18,,,,x,119,119,121,119,119
+72,ASG 29 18m,ASG 29 Es 18m,Alexander Schleicher,18,,,,x,119,119,121,119,119
+73,Ventus 2 cxa,Ventus 2 cxa,Schempp-Hirth,18,,,,,119,119,119,119,119
+74,ASH 31 Mi 18m,ASH 31 Mi 18m,Alexander Schleicher,18,,,,x,118,118,120,120,118
+75,Antares 18,Antares 18S,Lange Aviation,18,,,,,119,118,120,120,118
+76,Antares 18,Antares 18T,Lange Aviation,18,,,,x,119,118,120,120,118
+77,DG 800 18m,DG 800 18m,DG Flugzeugbau,18,,,,,118,118,118,118,118
+78,DG 800 18m,DG 800S 18m,DG Flugzeugbau,18,,,,,118,118,118,118,118
+79,DG 800 18m,DG 808 18m,DG Flugzeugbau,18,,,,,118,118,118,118,118
+80,HpH 304 Shark,HpH 304 ES Shark,HpH Sailplanes,18,,,x,x,118,118,120,118,118
+81,HpH 304 Shark,HpH 304 MS Shark,HpH Sailplanes,18,,,,x,118,118,120,118,118
+82,HpH 304 Shark,HpH 304 S Shark,HpH Sailplanes,18,,,,,118,118,120,118,118
+83,HpH 304 Shark,HpH 304 SJ Shark,HpH Sailplanes,18,,,,x,118,118,120,118,118
+84,LF 20 18m,LF 20 18m,Lange Aviation,18,,,,,118,118,118,118,118
+85,LS 10 18m,LS 10 18m,Rolladen-Schneider,18,,,,,118,118,120,120,118
+86,LS 10 18m,LS 10-st 18m,Rolladen-Schneider,18,,,,,118,118,120,120,118
+87,SB 14,SB 14,Akaflieg Braunschweig,18,,,,,118,118,118,118,118
+88,Ventus 2c 18m,Ventus 2c 18m,Schempp-Hirth,18,,,,,118,118,118,118,118
+89,Ventus 2c 18m,Ventus 2cM 18m,Schempp-Hirth,18,,,,x,118,118,118,118,118
+90,Ventus 2c 18m,Ventus 2cT 18m,Schempp-Hirth,18,,,,x,118,118,118,118,118
+91,ASH 26,ASH 26,Alexander Schleicher,18,,,,,117,117,117,117,117
+92,ASH 26,ASH 26 E,Alexander Schleicher,18,,,,x,117,117,117,117,117
+93,LAK-17 18m,LAK-17A 18m,Sportinė Aviacija,18,,,,,117,117,117,117,117
+94,LAK-17 18m,LAK-17A T 18m,Sportinė Aviacija,18,,,,x,117,117,117,117,117
+95,LAK-17 18m,LAK-17B 18m,Sportinė Aviacija,18,,,,,117,117,117,117,117
+96,LAK-17 18m,LAK-17B FES 18m,Sportinė Aviacija,18,,,x,x,117,117,117,117,117
+97,LAK-17 18m,LAK-17B T 18m,Sportinė Aviacija,18,,,,x,117,117,117,117,117
+98,LS 6 18m,LS 6 18m,Rolladen-Schneider,18,,,,,117,117,117,117,117
+99,LS 9,LS 9,Rolladen-Schneider,18,,,,x,117,117,117,117,117
 101,DG 600 18m,DG 600M 18m,DG Flugzeugbau,18,,,,x,116,116,116,116,116
+100,DG 600 18m,DG 600 18m,DG Flugzeugbau,18,,,,,116,116,116,116,116
 102,LS 6 17.5m,LS 6 17.5m,Rolladen-Schneider,18,,,,,116,116,116,116,116
 103,Ventus c 17.6m,Ventus c 17.6m,Schempp-Hirth,18,,,,,115,115,115,115,115
 104,Ventus c 17.6m,Ventus cM 17.6m,Schempp-Hirth,18,,,,x,115,115,115,115,115
@@ -472,7 +472,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 471,Genesis,Genesis,Sportinė Aviacija,Standard,,,,,107,107,107,107,107
 472,LS 7,LS 7,Rolladen-Schneider,Standard,,,,,107,107,107,107,107
 473,LS 7,LS 7 WL,Rolladen-Schneider,Standard,x,,,,107,107,107,107,107
-474,S 7,LS 7 neo,Rolladen-Schneider,Standard,,,,,107,107,107,107,107
+474,LS 7,LS 7 neo,Rolladen-Schneider,Standard,,,,,107,107,107,107,107
 475,SZD-55,SZD-55,PZL Bielsko,Standard,,,,,106,106,106,106,106
 476,DG 300,DG 300 WL,DG Flugzeugbau,Standard,x,,,,105,105,105,105,105
 477,DG 303,DG 303,DG Flugzeugbau,Standard,,,,,105,105,105,105,105
