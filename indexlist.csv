@@ -96,7 +96,7 @@ DG 800 15m,DG 80(0|0S|8) 15m,DG Flugzeugbau,15,113,113,113,113,113
 LAK-17 15m,LAK-17(A|A T|B|B T|B FES) 15m,Sportinė Aviacija,15,113,113,113,113,113
 LS 10 15m,LS 10(-st)? 15m,Rolladen-Schneider,15,113,113,113,113,113
 SZD 56 Diana,SZD 56 Diana,PZL Bielsko,15,112,112,112,112,112
-LS 6,LS 6,Rolladen-Schneider,15,111,111,111,111,111
+LS 6,LS 6( neo)?,Rolladen-Schneider,15,111,111,111,111,111
 ASW 20,ASW 20,Alexander Schleicher,15,110,110,110,110,110
 DG 600,DG 600M?,DG Flugzeugbau,15,110,110,110,110,110
 Glasflügel 304,Glasflügel 304 (CZ)?,Glasflügel,15,110,110,110,110,110
@@ -124,12 +124,15 @@ AK 8,AK 8,Akaflieg Karlsruhe,Standard,107,107,107,107,107
 ASW 24,ASW 24( B| E)?,Alexander Schleicher,Standard,107,107,107,107,107
 Discus,Discus( a| b| bT| bM)?,Schempp-Hirth,Standard,107,107,107,107,107
 Genesis,Genesis,Sportinė Aviacija,Standard,107,107,107,107,107
-LS 7,LS 7,Rolladen-Schneider,Standard,107,107,107,107,107
+LS 7,LS 7,Rolladen-Schneider,Standard,106,106,106,106,106
+LS 7,LS 7 (WL|neo),Rolladen-Schneider,Standard,107,107,107,107,107
 SZD-55,SZD-55,PZL Bielsko,Standard,106,106,106,106,106
 DG 303,DG 303,DG Flugzeugbau,Standard,105,105,105,105,105
+DG 300,DG 300 WL,DG Flugzeugbau,Standard,105,105,105,105,105
 AFH 24,AFH 24,Akaflieg Hannover,Standard,104,104,104,104,104
 DG 300,DG 300,DG Flugzeugbau,Standard,104,104,104,104,104
 HpH 304C Wasp,HpH 304C Wasp,HpH Sailplanes,Standard,104,104,104,104,104
+LS 4,LS 4[ab]? (WL|neo),Rolladen-Schneider,Standard,105,105,105,105,105
 LS 4,LS 4[ab]?,Rolladen-Schneider,Standard,104,104,104,104,104
 Falkon,Falkon,Streifeneder,Club,103,103,103,103,103
 LS 3 Std,LS 3 Std,Rolladen-Schneider,Club,103,103,103,103,103
@@ -139,6 +142,8 @@ AK 5,AK 5,Akaflieg Karlsruhe,Club,102,102,102,102,102
 Cirrus B 18.34m,Cirrus B 18.34m,Schempp-Hirth,Club,102,102,102,102,102
 DG 300 FG,DG 300 FG,DG Flugzeugbau,Club,102,102,102,102,102
 Pegase,Pegase,Centrair,Club,102,102,102,102,102
+Hornet,Hornet WL,Glasflügel,Club,101,101,101,101,101
+SZD 59,SZD 59 WL,Allstar PZL Glider,Club,101,101,101,101,101
 ASW 19,ASW 19,Alexander Schleicher,Club,100,100,100,100,100
 Cirrus,Cirrus( VTC 17.74m)?,Schempp-Hirth,Club,100,100,100,100,100
 D 37,D 37,Akaflieg Darmstadt,Club,100,100,100,100,100
@@ -149,6 +154,7 @@ LS 1-e/f,LS 1-[ef],Rolladen-Schneider,Club,100,100,100,100,100
 Phöbus B3/C,Phöbus( B3| C),Bölkow,Club,100,100,100,100,100
 Std. Astir,Std. Astir,Grob Aircraft,Club,100,100,100,100,100
 Std. Cirrus 16m,Std. Cirrus 16m,Schempp-Hirth,Club,100,100,100,100,100
+Std. Cirrus,Std. Cirrus WL,Schempp-Hirth,Club,100,100,100,100,100
 Std. Jantar,Std. Jantar,PZW,Club,100,100,100,100,100
 SZD 59,SZD 59,Allstar PZL Glider,Club,100,100,100,100,100
 Std. Cirrus,Std. Cirrus,Schempp-Hirth,Club,99,99,99,99,99
