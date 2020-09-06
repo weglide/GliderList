@@ -132,8 +132,8 @@ DG 300,DG 300 WL,DG Flugzeugbau,Standard,105,105,105,105,105
 AFH 24,AFH 24,Akaflieg Hannover,Standard,104,104,104,104,104
 DG 300,DG 300,DG Flugzeugbau,Standard,104,104,104,104,104
 HpH 304C Wasp,HpH 304C Wasp,HpH Sailplanes,Standard,104,104,104,104,104
-LS 4,LS 4[ab]? (WL|neo),Rolladen-Schneider,Standard,105,105,105,105,105
-LS 4,LS 4[ab]?,Rolladen-Schneider,Standard,104,104,104,104,104
+LS 4,LS 4 (WL|neo),Rolladen-Schneider,Standard,105,105,105,105,105
+LS 4,LS 4,Rolladen-Schneider,Standard,104,104,104,104,104
 Falkon,Falkon,Streifeneder,Club,103,103,103,103,103
 LS 3 Std,LS 3 Std,Rolladen-Schneider,Club,103,103,103,103,103
 SB 12,SB 12,Akaflieg Braunschweig,Club,103,103,103,103,102
