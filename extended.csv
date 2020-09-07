@@ -478,13 +478,9 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 477,DG 303,DG 303,DG Flugzeugbau,Standard,,,,,105,105,105,105,105
 478,LS 4,LS 4 WL,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
 479,LS 4,LS 4 neo,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
-480,LS 4,LS 4a WL,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
-481,LS 4,LS 4a neo,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
-482,LS 4,LS 4b WL,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
-483,LS 4,LS 4b neo,Rolladen-Schneider,Standard,x,,,,105,105,105,105,105
-484,AFH 24,AFH 24,Akaflieg Hannover,Standard,,,,,104,104,104,104,104
-485,DG 300,DG 300,DG Flugzeugbau,Standard,,,,,104,104,104,104,104
-486,HpH 304C Wasp,HpH 304C Wasp,HpH Sailplanes,Standard,,,,,104,104,104,104,104
-487,LS 4,LS 4,Rolladen-Schneider,Standard,,,,,104,104,104,104,104
-488,LS 4,LS 4a,Rolladen-Schneider,Standard,,,,,104,104,104,104,104
-489,LS 4,LS 4b,Rolladen-Schneider,Standard,,,,,104,104,104,104,104
+480,AFH 24,AFH 24,Akaflieg Hannover,Standard,,,,,104,104,104,104,104
+481,DG 300,DG 300,DG Flugzeugbau,Standard,,,,,104,104,104,104,104
+482,HpH 304C Wasp,HpH 304C Wasp,HpH Sailplanes,Standard,,,,,104,104,104,104,104
+483,LS 4,LS 4,Rolladen-Schneider,Standard,,,,,104,104,104,104,104
+484,Diana 2,Diana 2 FES,PZL-Bielsko,15,,,x,x,114,116,116,116,115
+

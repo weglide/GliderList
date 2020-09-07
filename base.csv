@@ -84,7 +84,7 @@ Diamant 18,Diamant 18,FFA,18,108,108,108,108,108
 Mü 26,Mü 26,Akaflieg München,18,102,102,102,102,102
 SZD-39 Cobra 17m,Cobra 17m,SZD,18,100,100,100,100,100
 Std. Libelle 17m,Std. Libelle 17m,Glasflügel,18,100,100,100,100,100
-Diana 2,Diana 2,PZL-Bielsko,15,114,116,116,116,115
+Diana 2,Diana 2( FES)?,PZL-Bielsko,15,114,116,116,116,115
 JS3,JS3( FES| TJ)?,Jonker Sailplanes,15,116,116,116,116,115
 Ventus 3 15m,Ventus 3[FTM]? 15m,Schempp-Hirth,15,116,116,116,116,115
 Ventus 2,Ventus 2(a|b|ax)?,Schempp-Hirth,15,114,114,114,114,114
@@ -132,8 +132,8 @@ DG 300,DG 300 WL,DG Flugzeugbau,Standard,105,105,105,105,105
 AFH 24,AFH 24,Akaflieg Hannover,Standard,104,104,104,104,104
 DG 300,DG 300,DG Flugzeugbau,Standard,104,104,104,104,104
 HpH 304C Wasp,HpH 304C Wasp,HpH Sailplanes,Standard,104,104,104,104,104
-LS 4,LS 4[ab]? (WL|neo),Rolladen-Schneider,Standard,105,105,105,105,105
-LS 4,LS 4[ab]?,Rolladen-Schneider,Standard,104,104,104,104,104
+LS 4,LS 4 (WL|neo),Rolladen-Schneider,Standard,105,105,105,105,105
+LS 4,LS 4,Rolladen-Schneider,Standard,104,104,104,104,104
 Falkon,Falkon,Streifeneder,Club,103,103,103,103,103
 LS 3 Std,LS 3 Std,Rolladen-Schneider,Club,103,103,103,103,103
 SB 12,SB 12,Akaflieg Braunschweig,Club,103,103,103,103,102
