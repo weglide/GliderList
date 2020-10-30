@@ -1,4 +1,5 @@
-# GliderList
+![WeGlide gliderlist](./logo-gliderlist.png)
+# gliderlist
 
 Open and standardized collection of gliders. GliderList has two main goals:
 
@@ -19,11 +20,9 @@ GliderList will be actively maintained and compliance with naming conventions is
 There exist two lists, base.csv and extended.csv. Base is a list of all base models (e.g. LS 8) where all the different models (e.g. LS 8T) are stated by regular expressions.
 Extended is automatically generated out of base and includes all the different variants of the base models. Only extended includes the unique identifiers.
 
-## Schema
+## Schema / Documentation
 
 Intent of the following data schema is to be readable for humans and machines while enforcing strict rules and being open to extensions (e.g. other types of information for gliders like polars or numerical information).
-
-## Documentation
 
 ### ID
 
