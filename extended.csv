@@ -483,4 +483,6 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 482,HpH 304C Wasp,HpH 304C Wasp,HpH Sailplanes,Standard,,,,,104,104,104,104,104
 483,LS 4,LS 4,Rolladen-Schneider,Standard,,,,,104,104,104,104,104
 484,Diana 2,Diana 2 FES,PZL-Bielsko,15,,,x,x,114,116,116,116,115
+485,ASW 24,ASW 24 WL,Alexander Schleicher,Standard,x,,,,108,108,108,108,108
+486,ASW 24,ASW 24 E WL,Alexander Schleicher,Standard,x,,,x,108,108,108,108,108
 
