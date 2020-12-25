@@ -360,7 +360,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 359,Janus C FG,Janus CT FG,Schempp-Hirth,Double,,x,,x,106,106,106,106,106
 360,DG 1001 18m FG,DG 1001 18m FG,DG Flugzeugbau,Double,,x,,,104,104,104,104,104
 361,DG 500 20m,DG 500 20m,DG Flugzeugbau,Double,,x,,,104,104,104,104,104
-362,DG 500 20m,DG 500M 20m,DG Flugzeugbau,Double,,x,,,104,104,104,104,104
+362,DG 500 20m,DG 500M 20m,DG Flugzeugbau,Double,,x,,x,104,104,104,104,104
 363,DG 505 M Orion 20m,DG 505 M Orion 20m,DG Flugzeugbau,Double,,x,,,104,104,104,104,104
 364,Janus 18.2m,Janus 18.2m,Schempp-Hirth,Double,,x,,,102,102,102,102,102
 365,SZD-54-2 Perkoz 20m WL,SZD-54-2 Perkoz 20m WL,Allstar PZL Glider,Double,x,x,,,102,102,102,102,102
@@ -438,9 +438,9 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 437,Kestrel 19m,Kestrel 19m,Glasflügel,Open,,,,,112,112,112,112,112
 438,ASW 12,ASW 12,Alexander Schleicher,Open,,,,,110,110,110,110,110
 439,DG 500 22m,DG 500 22m,DG Flugzeugbau,Open,,x,,,110,110,110,110,110
-440,DG 500 22m,DG 500M 22m,DG Flugzeugbau,Open,,x,,,110,110,110,110,110
+440,DG 500 22m,DG 500M 22m,DG Flugzeugbau,Open,,x,,x,110,110,110,110,110
 441,DG 500 22m,DG 505 22m,DG Flugzeugbau,Open,,x,,,110,110,110,110,110
-442,DG 500 22m,DG 505M 22m,DG Flugzeugbau,Open,,x,,,110,110,110,110,110
+442,DG 500 22m,DG 505M 22m,DG Flugzeugbau,Open,,x,,x,110,110,110,110,110
 443,Stemme S10,Stemme S10,Stemme,Open,,x,,x,110,110,112,112,110
 444,Stemme S10,Stemme S10-VT,Stemme,Open,,x,,x,110,110,112,112,110
 445,B13,B13,Akaflieg Berlin,Open,,,,x,109,109,109,109,109
