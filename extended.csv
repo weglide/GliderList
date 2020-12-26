@@ -492,3 +492,9 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 491,Ventus 2c 18m,Ventus 2cxT 18m,Schempp-Hirth,18,,,,x,118,118,118,118,118
 492,Ventus 2c 18m,Ventus 2cxM 18m,Schempp-Hirth,18,,,,x,118,118,118,118,118
 493,Std. Libelle,Std. Libelle WL,Glasflügel,Club,x,,,,99,99,99,99,99
+494,AS 33 18m,AS 33 18m,Alexander Schleicher,18,,,,,120,120,120,120,120
+495,AS 33 18m,AS 33 Es 18m,Alexander Schleicher,18,,,,x,120,120,120,120,120
+496,AS 33 18m,AS 33 Me 18m,Alexander Schleicher,18,,,x,x,120,120,120,120,120
+497,AS 33 15m,AS 33 15m,Alexander Schleicher,15,,,,,115,115,115,115,115
+498,AS 33 15m,AS 33 Es 15m,Alexander Schleicher,15,,,,x,115,115,115,115,115
+499,AS 33 15m,AS 33 Me 15m,Alexander Schleicher,15,,,x,x,115,115,115,115,115
