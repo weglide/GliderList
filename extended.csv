@@ -35,8 +35,8 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 34,ASW 20,ASW 20,Alexander Schleicher,15,,,,,110,110,110,110,110
 35,DG 600,DG 600,DG Flugzeugbau,15,,,,,110,110,110,110,110
 36,DG 600,DG 600M,DG Flugzeugbau,15,,,,x,110,110,110,110,110
-37,Glasflügel 304,Glasflügel 304 ,Glasflügel,15,,,,,110,110,110,110,110
-38,Glasflügel 304,Glasflügel 304 CZ,Glasflügel,15,,,,,110,110,110,110,110
+37,Glasflügel 304,Glasflügel 304,Glasflügel,15,,,,,110,110,110,110,110
+38,HpH 304 CZ,HpH 304 CZ,HpH Sailplanes,15,,,,,110,110,110,110,110
 39,Ventus 1,Ventus 1,Schempp-Hirth,15,,,,,110,110,110,110,110
 40,Ventus 15m,Ventus 15m,Schempp-Hirth,15,,,,,110,110,110,110,110
 41,Ventus 15m,Ventus b 15m,Schempp-Hirth,15,,,,,110,110,110,110,110
@@ -119,7 +119,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 118,Ventus 16.6m,Ventus bT 16.6m,Schempp-Hirth,18,,,,x,113,113,113,113,113
 119,ASW 20 16.6m,ASW 20 16.6m,Alexander Schleicher,18,,,,,112,112,112,112,112
 120,Glasflügel 304 17m,Glasflügel 304 17m,Glasflügel,18,,,,,112,112,112,112,112
-121,Glasflügel 304 CZ 17.4m,Glasflügel 304 CZ 17.4m,HpH Sailplanes,18,,,,,112,112,112,112,112
+121,HpH 304 CZ 17.4m,HpH 304 CZ 17.4m,HpH Sailplanes,18,,,,,112,112,112,112,112
 122,ASW 20 Top 16.6m,ASW 20 Top 16.6m,Alexander Schleicher,18,,,,x,110,110,110,110,110
 123,Kestrel 17m,Kestrel 17m,Glasflügel,18,,,,,110,110,110,110,110
 124,DG 200 17m,DG 200 17m,DG Flugzeugbau,18,,,,,109,109,109,109,109
