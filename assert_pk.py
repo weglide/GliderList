@@ -3,7 +3,7 @@ import csv
 
 def assert_pk():
     """Assert no duplicates in pk"""
-    with open("extended.csv") as file:
+    with open("gliderlist.csv") as file:
         reader = csv.reader(file, delimiter=",")
         next(reader)
         pks = [row[0] for row in reader]
