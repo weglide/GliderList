@@ -59,11 +59,11 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 58,PIK-20 B,PIK-20 B,Eiri-Avion,15,,,,,102,102,102,102,102,102
 59,H-301,H-301,Glasflügel,15,,,,,100,100,100,100,100,100
 60,LS 2,LS 2,Rolladen-Schneider,15,,,,,100,100,100,100,100,100
-61,JS1 18m,JS1 18m,Jonker Sailplanes,18,,,,,119,119,121,121,120,120
-62,JS1 18m,JS1 TJ 18m,Jonker Sailplanes,18,,,,x,119,119,121,121,120,120
-63,JS3 18m,JS3 18m,Jonker Sailplanes,18,,,,,121,121,121,121,120,120
-64,JS3 18m,JS3 FES 18m,Jonker Sailplanes,18,,,x,x,121,121,121,121,120,120
-65,JS3 18m,JS3 TJ 18m,Jonker Sailplanes,18,,,,x,121,121,121,121,120,120
+61,JS1 18m,JS1 18m,Jonker Sailplanes,18,,,,,119,119,121,121,119,119
+62,JS1 18m,JS1 TJ 18m,Jonker Sailplanes,18,,,,x,119,119,121,121,119,119
+63,JS3 18m,JS3 18m,Jonker Sailplanes,18,,,,,121,121,121,121,119,119
+64,JS3 18m,JS3 FES 18m,Jonker Sailplanes,18,,,x,x,121,121,121,121,119,119
+65,JS3 18m,JS3 TJ 18m,Jonker Sailplanes,18,,,,x,121,121,121,121,119,119
 66,Ventus 3 18m,Ventus 3 18m,Schempp-Hirth,18,,,,,121,121,121,121,119,119
 67,Ventus 3 18m,Ventus 3F 18m,Schempp-Hirth,18,,,x,x,121,121,121,121,119,119
 68,Ventus 3 18m,Ventus 3M 18m,Schempp-Hirth,18,,,,x,121,121,121,121,119,119
