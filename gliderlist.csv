@@ -276,7 +276,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 275,Std. Astir,Std. Astir,Grob Aircraft,Club,,,,,100,100,100,100,100,100
 276,Std. Cirrus 16m,Std. Cirrus 16m,Schempp-Hirth,Club,,,,,100,100,100,100,100,100
 277,Std. Cirrus,Std. Cirrus WL,Schempp-Hirth,Club,x,,,,100,100,100,100,100,100
-278,SZD-48 Std. Jantar 2/3,SZD-48 Std. Jantar 2/3,PZL Bielsko,Club,,,,,100,100,100,100,100,100
+278,SZD-48 Jantar Std. 2,SZD-48 Jantar Std. 2,PZL Bielsko,Club,,,,,100,100,100,100,100,100
 279,D 43 18m,D 43 18m,Akaflieg Darmstadt,Double,,x,,,99,99,99,99,99,99
 280,Taurus,Taurus,Pipistrel,Double,,x,,x,99,99,99,99,99,99
 281,Twin 3 20m,Twin 3 20m,Grob Aircraft,Double,,x,,,99,99,99,99,99,99
@@ -504,7 +504,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 503,Discus,Discus bT WL,Schempp-Hirth,Standard,x,,,x,108,108,108,108,108,108
 504,AS 34 Me 15m,AS 34 Me 15m,Alexander Schleicher,15,,,x,x,108,108,108,108,108,108
 505,AS 34 Me 18m,AS 34 Me 18m,Alexander Schleicher,18,,,x,x,114,114,114,114,114,114
-506,SZD-48 Std. Jantar 2/3,SZD-48 Std. Jantar 2/3 WL,PZL Bielsko,Club,x,,,,101,101,101,101,101,101
+506,SZD-48 Jantar Std. 2,SZD-48 Jantar Std. 2 WL,PZL Bielsko,Club,x,,,,101,101,101,101,101,101
 507,LS 1-e/f,LS 1-f neo,Rolladen-Schneider,Club,x,,,,101,101,101,101,101,101
 508,LS 3,LS 3 WL,Rolladen-Schneider,15,x,,,,108,108,108,108,108,108
 509,K 7,K 7,Alexander Schleicher,Double,,x,,,78,78,78,78,78,78
@@ -515,5 +515,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 514,ASW 19,ASW 19 B,Alexander Schleicher,Club,,,,,100,100,100,100,100,100
 515,ASW 15,ASW 15 WL,Alexander Schleicher,Club,x,,,,99,99,99,99,99,99
 516,SZD-32 Foka 5,SZD-32 Foka 5,PZL Bielsko,Club,,,,,88,88,88,88,88,88
-517,SZD-41 Std. Jantar,SZD-41 Std. Jantar,PZL Bielsko,Club,x,,,,101,101,101,101,101,101
-518,SZD-41 Std. Jantar,SZD-41 Std. Jantar WL,PZL Bielsko,Club,,,,,100,100,100,100,100,100
+517,SZD-41 Jantar Std.,SZD-41 Jantar Std.,PZL Bielsko,Club,x,,,,101,101,101,101,101,101
+518,SZD-41 Jantar Std.,SZD-41 Jantar Std. WL,PZL Bielsko,Club,,,,,100,100,100,100,100,100
+519,SZD-48-3 Jantar Std. 3,SZD-48 Jantar Std. 3,PZL Bielsko,Club,,,,,100,100,100,100,100,100
+520,SZD-48-3 Jantar Std. 3,SZD-48 Jantar Std. 3 WL,PZL Bielsko,Club,x,,,,101,101,101,101,101,101
