@@ -254,7 +254,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 253,Falkon,Falkon,Streifeneder,Club,,,,,103,103,103,103,103,103
 254,LS 3 Std,LS 3 Std,Rolladen-Schneider,Club,,,,,103,103,103,103,103,103
 255,mini LAK-FES,mini LAK-FES,Sportinė Aviacija,Club,,,x,x,103,103,105,105,103,103
-256,AK 5,AK 5,Akaflieg Karlsruhe,Club,,,,,102,102,102,102,102,102
+256,AK-5,AK-5,Akaflieg Karlsruhe,Club,,,,,102,102,102,102,102,102
 257,Cirrus B 18.34m,Cirrus B 18.34m,Schempp-Hirth,Club,,,,,102,102,102,102,102,102
 258,DG 300 FG,DG 300 FG,DG Flugzeugbau,Club,,,,,102,102,102,102,102,102
 259,Pegase,Pegase,Centrair,Club,,,,,102,102,102,102,102,102
@@ -460,7 +460,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 459,LS 8,LS 8 neo,DG Flugzeugbau,Standard,,,,,108,108,108,108,108,108
 460,LS 8,LS 8T,DG Flugzeugbau,Standard,,,,x,108,108,108,108,108,108
 461,LS 8,LS 8e neo,DG Flugzeugbau,Standard,,,x,x,108,108,108,108,108,108
-462,AK 8,AK 8,Akaflieg Karlsruhe,Standard,,,,,107,107,107,107,107,107
+462,AK-8,AK-8,Akaflieg Karlsruhe,Standard,,,,,107,107,107,107,107,107
 463,ASW 24,ASW 24,Alexander Schleicher,Standard,,,,,107,107,107,107,107,107
 464,ASW 24,ASW 24 B,Alexander Schleicher,Standard,,,,,107,107,107,107,107,107
 465,ASW 24,ASW 24 E,Alexander Schleicher,Standard,,,,x,107,107,107,107,107,107
