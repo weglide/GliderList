@@ -1,0 +1,1590 @@
+{
+    "": {},
+    "Calif A21S": {
+        "id": 352,
+        "name": "Calif A 21 SJ"
+    },
+    "DG-303": {
+        "id": 477,
+        "name": "DG 303"
+    },
+    "A2 CZ Ellipse Spirit": {},
+    "SZD-59 Acro": {
+        "id": 262,
+        "name": "SZD-59 Acro 15m"
+    },
+    "HU 369": {},
+    "Z-226 trener": {},
+    "HPH 304C": {
+        "id": 482,
+        "name": "HpH 304C Wasp"
+    },
+    "HPH 304S Shark": {
+        "id": 82,
+        "name": "HpH 304 S Shark"
+    },
+    "Ventus 2cxT": {
+        "id": 491,
+        "name": "Ventus 2cxT 18m"
+    },
+    "Topaze": {},
+    "Breguet 901": {},
+    "Ka-8": {
+        "id": 240,
+        "name": "K 8"
+    },
+    "Pipistrel Virus": {},
+    "Piccolo": {
+        "id": 245,
+        "name": "Piccolo",
+    },
+    "LAK-19 T": {
+        "id": 111,
+        "name": "LAK-19 18m"
+    },
+    "Astir CS-77": {
+        "id": 153,
+        "name": "Astir CS 77"
+    },
+    "Avro Vulcan": {},
+    "Towplane": {},
+    "Polikarpov Po-2": {},
+    "Slingsby Skylark 4": {
+        "id": 540,
+        "name": "Slingsby T.50 Skylark 4"
+    },
+    "Piper PA-22 Tripacer": {},
+    "PIK-20 D": {
+        "id": 56,
+        "name": "PIK-20 D"
+    },
+    "Silent-IN": {},
+    "MikroKopter Hexa": {},
+    "LS-1 c": {
+        "id": 146,
+        "name": "LS 1-c"
+    },
+    "Drone/UAV": {},
+    "Zlin 142": {},
+    "Jodel D119": {},
+    "Discus bT": {
+        "id": 470,
+        "name": "Discus bT"
+    },
+    "C30S Edelweiss": {},
+    "Alpaero Choucas": {},
+    "Zlin 526F": {},
+    "Nimbus 4DM": {
+        "id": 392,
+        "name": "Nimbus 4DM"
+    },
+    "Arcus M": {
+        "id": 339,
+        "name": "Arcus M"
+    },
+    "Cessna 305": {},
+    "Ventus t": {
+        "id": 42,
+        "name": "Ventus bT 15m"
+    },
+    "Diamant": {
+        "id": 130,
+        "name": "Diamant 18"
+    },
+    "Ventus 2bx": {
+        "id": 17,
+        "name": "Ventus 2b"
+    },
+    "Husky A-1": {},
+    "Glasflugel H301": {
+        "id": 53,
+        "name": "H-301"
+    },
+    "JOB 15": {},
+    "DV20 Katana": {},
+    "Sensation": {},
+    "Ventus 2M": {
+        "id": 89,
+        "name": "Ventus 2cM 18m"
+    },
+    "Phoenix": {},
+    "ASH-25": {
+        "id": 395,
+        "name": "ASH 25"
+    },
+    "ASH-26 E": {
+        "id": 92,
+        "name": "ASH 26 E"
+    },
+    "Vans RV-6a": {},
+    "Cirrus 18m": {},
+    "Banjo MH": {
+        "id": 239,
+        "name": "Banjo"
+    },
+    "SZD-36 Cobra 15": {
+        "id": 141,
+        "name": "SZD-36 Cobra 15"
+    },
+    "AutoGyro MTOsport": {},
+    "Twin Astir III": {
+        "id": 289,
+        "name": "G 103 Twin 3"
+    },
+    "Duo Discus xt": {
+        "id": 511,
+        "name": "Duo Discus XT"
+    },
+    "SB-5 e": {
+        "id": 188,
+        "name": "SB 5e"
+    },
+    "Yak-12": {},
+    "ASG-29": {
+        "id": 70,
+        "name": "ASG 29 18m"
+    },
+    "Cessna 172": {},
+    "SZD-50 Puchacz": {
+        "id": 300,
+        "name": "SZD-50 Puchacz"
+    },
+    "ASW-24": {
+        "id": 463,
+        "name": "ASW 24"
+    },
+    "Allegro 2000": {},
+    "DG-300": {
+        "id": 481,
+        "name": "DG 300"
+    },
+    "Discus 2c": {
+        "id": 108,
+        "name": "Discus 2c 18m"
+    },
+    "Ventus 3F": {
+        "id": 67,
+        "name": "Ventus 3F 18m"
+    },
+    "SGS 1-26": {},
+    "DG-1000": {
+        "id": 346,
+        "name": "DG 1000S 20m"
+    },
+    "TST-10": {},
+    "IS-28M2": {},
+    "Paraglider": {},
+    "LS-8a": {
+        "id": 458,
+        "name": "LS-8"
+    },
+    "Discus": {
+        "id": 466,
+        "name": "Discus"
+    },
+    "SZD-56-2 Diana 2": {
+        "id": 1,
+        "name": "SZD-56-2 Diana 2"
+    },
+    "Breguet 905": {},
+    "UFO": {},
+    "SkyRanger Nynja": {},
+    "IS-29D2": {},
+    "Europa XS": {},
+    "Parrot Bebop": {
+    },
+    "Discus t": {
+        "id": 470,
+        "name": "Discus bT"
+    },
+    "PW-5": {
+        "id": 213,
+        "name": "PW 5"
+    },
+    "Eurostar EV97": {
+    },
+    "Ventus 2t": {
+        "id": 90,
+        "name": "Ventus 2cT 18m"
+    },
+    "JP 15/36": {},
+    "Glasflugel 304S": {
+        "id": 37,
+        "name": "Glasflügel 304"
+    },
+    "Nimbus 3DM": {
+        "id": 416,
+        "name": "Nimbus 3DM"
+    },
+    "PIK-20 B": {
+        "id": 58,
+        "name": "PIK-20 B"
+    },
+    "Roland Z602 XL": {},
+    "Cessna 182": {},
+    "Cessna 185": {},
+    "Ground Station": {},
+    "HU 269": {},
+    "Slingsby T51 Dart 17WR": {
+        "id": 544,
+        "name": "Slingsby T.51 Dart 17 R"
+    },
+    "SB-14": {
+        "id": 87,
+        "name": "SB 14"
+    },
+    "OldTimer": {},
+    "SZD-48 Jantar Std 2": {
+        "id": 278,
+        "name": "SZD-48 Jantar Std. 2"
+    },
+    "Maule MX7-180A": {},
+    "Ikarus C42 C": {},
+    "Midour": {},
+    "Cirrus SR20": {},
+    "Elfe S4": {
+        "id": 156,
+        "name": "Elfe S4"
+    },
+    "Pilatus PC-12": {},
+    "LS-1 f": {
+        "id": 271,
+        "name": "LS 1-f"
+    },
+    "SF-25": {
+        "id": 320,
+        "name": "SF 25 E"
+    },
+    "Ka-6 e": {
+        "id": 211,
+        "name": "Ka 6 E"
+    },
+    "H36 Dimona": {
+        "id": 326,
+        "name": "H36 Dimona"
+    },
+    "LS-8 st 18": {
+        "id": 113,
+        "name": "LS 8T 18m"
+    },
+    "Antares 18 T": {
+        "id": 76,
+        "name": "Antares 18T"
+    },
+    "Experimental": {},
+    "Slingsby Skylark 2": {
+        "id": 547,
+        "name": "Slingsby T.41 Skylark 2"
+    },
+    "DG-500": {
+        "id": 361,
+        "name": "DG 500 20m"
+    },
+    "Cabri G2": {},
+    "ASH-25 MI": {
+        "id": 397,
+        "name": "ASH 25 M"
+    },
+    "DG-505": {
+        "id": 441,
+        "name": "DG 505 22m"
+    },
+    "EB 29": {
+        "id": 369,
+        "name": "EB 29"
+    },
+    "WA22 Super-Javelot": {},
+    "Piaggio P.149": {},
+    "SZD-54 Perkoz": {
+        "id": 365,
+        "name": "SZD-54-2 Perkoz 20m WL"
+    },
+    "Ventus 2cxM": {
+        "id": 492,
+        "name": "Ventus 2cxM 18m"
+    },
+    "Nimbus 4D": {
+        "id": 391,
+        "name": "Nimbus 4D"
+    },
+    "ASW-22 E": {
+        "id": 388,
+        "name": "ASW 22 BE"
+    },
+    "Lambada": {
+        "id": 217,
+        "name": "Lambada UFM-15"
+    },
+    "ASW-28 18": {
+        "id": 106,
+        "name": "ASW 28 18m"
+    },
+    "Flight Design CTSW": {
+    },
+    "Speed Astir II": {
+        "id": 55,
+        "name": "G 104 Speed Astir 2"
+    },
+    "LS-8 18": {
+        "id": 112,
+        "name": "LS 8 18m"
+    },
+    "WA21 Javelot": {
+    },
+    "Ventus bT": {
+        "id": 42,
+        "name": "Ventus bT 15m"
+    },
+    "Ka-6 cr": {
+        "id": 224,
+        "name": "Ka 6"
+    },
+    "Jodel DR-1050": {
+    },
+    "Slingsby Type 42": {
+    },
+    "Grunau Baby": {
+        "id": 250,
+        "name": "Grunau Baby"
+    },
+    "Std. Astir II": {
+        "id": 275,
+        "name": "Std. Astir"
+    },
+    "miniLAK": {
+        "id": 532,
+        "name": "mini LAK"
+    },
+    "JP 15/34": {
+    },
+    "SZD-48-1 Jantar Std 2": {
+        "id": 278,
+        "name": "SZD-48 Jantar Std. 2"
+    },
+    "Discus 2cT": {
+        "id": 110,
+        "name": "Discus 2cT 18m"
+    },
+    "Bellanca Scout": {},
+    "Silent 2 Targa": {
+        "id": 168,
+        "name": "Silent 2"
+    },
+    "Bergfalke IV": {
+        "id": 301,
+        "name": "Bergfalke IV"
+    },
+    "DA40": {},
+    "SZD-51 Junior": {
+        "id": 181,
+        "name": "SZD-51 Junior"
+    },
+    "SZD-32 Foka 5": {
+        "id": 516,
+        "name": "SZD-32 Foka 5"
+    },
+    "Quintus": {
+        "id": 394,
+        "name": "Quintus"
+    },
+    "Fuji FA-200": {},
+    "Bergfalke II": {
+        "id": 318,
+        "name": "Bergfalke II"
+    },
+    "Rallye 180T-D": {},
+    "Janus A": {
+        "id": 364,
+        "name": "Janus 18.2m"
+    },
+    "Pegasus": {
+    },
+    "Cessna 152": {
+    },
+    "LAK-17 BT": {
+        "id": 97,
+        "name": "LAK-17B T 18m"
+    },
+    "EC 135": {
+    },
+    "DR-400": {
+    },
+    "ASW-15": {
+        "id": 135,
+        "name": "ASW 15"
+    },
+    "Silent 2 Electro": {
+        "id": 168,
+        "name": "Silent 2"
+    },
+    "DuoBanjo": {
+        "id": 231,
+        "name": "Duo Banjo"
+    },
+    "Arcus T": {
+        "id": 340,
+        "name": "Arcus T"
+    },
+    "Mini Nimbus": {
+        "id": 52,
+        "name": "Mini Nimbus"
+    },
+    "DynAero MCR-01": {
+    },
+    "PZL Krosno KR-03 Puchatek": {
+        "id": 317,
+        "name": "PZL KR-03A Puchatek"
+    },
+    "A380": {
+    },
+    "Nimbus 3DT": {
+        "id": 417,
+        "name": "Nimbus 3DT"
+    },
+    "Antares 18 S": {
+        "id": 75,
+        "name": "Antares 18S"
+    },
+    "Arcus S": {
+        "id": 337,
+        "name": "Arcus"
+    },
+    "SZD-42 Jantar 2/2b": {
+        "id": 434,
+        "name": "SZD-42 Jantar 2"
+    },
+    "PA-18 Super Cub": {
+    },
+    "L-Spatz 55": {
+        "id": 235,
+        "name": "L-Spatz"
+    },
+    "Capstan": {
+    },
+    "LS-3": {
+        "id": 50,
+        "name": "LS 3"
+    },
+    "AV 36 Fauvel": {
+    },
+    "HPH 304CZ-17": {
+        "id": 121,
+        "name": "HpH 304 CZ 17.4m"
+    },
+    "Salto H101": {
+        "id": 186,
+        "name": "H-101 Salto"
+    },
+    "LS-6 18WJ": {
+        "id": 98,
+        "name": "LS 6 18m"
+    },
+    "Luscombe 8E": {
+    },
+    "SZD-9 Bocian": {
+        "id": 312,
+        "name": "SZD-9 Bocian"
+    },
+    "Mooney": {
+    },
+    "Glasflugel 304": {
+        "id": 37,
+        "name": "Glasflügel 304"
+    },
+    "ASW-19": {
+        "id": 263,
+        "name": "ASW 19"
+    },
+    "ASW-24 E": {
+        "id": 465,
+        "name": "ASW 24 E"
+    },
+    "ASG-29E": {
+        "id": 71,
+        "name": "ASG 29 E 18m"
+    },
+    "ASW-28": {
+        "id": 447,
+        "name": "ASW 28"
+    },
+    "Zugvogel IIIa": {
+        "id": 192,
+        "name": "Zugvogel IIIa"
+    },
+    "LS-8": {
+        "id": 458,
+        "name": "LS 8"
+    },
+    "Diamond DA42": {
+    },
+    "DG-1000 T": {
+        "id": 347,
+        "name": "DG 1000T 20m"
+    },
+    "VL3 Evolution": {
+    },
+    "Vans RV-4": {
+    },
+    "Kranich III": {
+        "id": 303,
+        "name": "Kranich 3"
+    },
+    "PIK-15 Hinu": {
+    },
+    "Unknown": {
+    },
+    "JS-1 Revelation": {
+        "id": 61,
+        "name": "JS1 18m"
+    },
+    "Grob G109": {
+        "id": 325,
+        "name": "G 109"
+    },
+    "AK-2R": {
+    },
+    "RF 7": {
+    },
+    "SZD-38 Jantar 1": {
+        "id": 436,
+        "name": "SZD-38 Jantar 1"
+    },
+    "Grumman AA-5": {
+    },
+    "LAK-20 T": {
+        "id": 413,
+        "name": "LAK-20T 23m"
+    },
+    "SZD-41 Jantar Std": {
+        "id": 517,
+        "name": "SZD-41 Jantar Std."
+    },
+    "LG-425 Sohaj": {
+    },
+    "DJI Phantom": {
+    },
+    "FK14": {
+    },
+    "Bolkow 208": {
+    },
+    "ASW-20": {
+        "id": 34,
+        "name": "ASW 20"
+    },
+    "LS-4": {
+        "id": 483,
+        "name": "LS 4"
+    },
+    "PW-6": {
+        "id": 297,
+        "name": "PW 6"
+    },
+    "Baby": {
+        "id": 250,
+        "name": "Grunau Baby"
+    },
+    "Different Aircraft": {
+    },
+    "Janus CM": {
+        "id": 526,
+        "name": "Janus CM RG"
+    },
+    "Arcus E": {
+        "id": 338,
+        "name": "Arcus E"
+    },
+    "DG-808 B": {
+        "id": 79,
+        "name": "DG 808 18m"
+    },
+    "ASW-22": {
+        "id": 418,
+        "name": "ASW 22 22m"
+    },
+    "Samba XXL": {
+    },
+    "Banhidi Gerle": {
+    },
+    "RF 3": {
+    },
+    "Extra 330": {
+    },
+    "Taurus": {
+        "id": 280,
+        "name": "Taurus"
+    },
+    "LS-1 d": {
+        "id": 147,
+        "name": "LS 1-d"
+    },
+    "Nimbus 4DT": {
+        "id": 393,
+        "name": "Nimbus 4DT"
+    },
+    "ASK-23": {
+        "id": 175,
+        "name": "ASK 23"
+    },
+    "Zodiac CH601XL": {
+    },
+    "SGS 1-34": {
+    },
+    "EC 120": {
+    },
+    "Gyrocopter": {
+    },
+    "Ventus 3M": {
+        "id": 68,
+        "name": "Ventus 3M 18m"
+    },
+    "Nimbus 2 C": {
+        "id": 433,
+        "name": "Nimbus 2c"
+    },
+    "Bell 206": {
+    },
+    "Tecnam P2006T": {
+    },
+    "Jodel D113": {
+    },
+    "LS-6 18": {
+        "id": 98,
+        "name": "LS 6 18m"
+    },
+    "ArrowCopter": {
+    },
+    "Helicopter": {
+    },
+    "ASW-27": {
+        "id": 12,
+        "name": "ASW 27"
+    },
+    "AVo 68 Samburo": {
+    },
+    "Mistral": {
+        "id": 160,
+        "name": "Mistral C"
+    },
+    "DR-300": {
+    },
+    "Ventus ct": {
+        "id": 44,
+        "name": "Ventus cT 15m"
+    },
+    "RF 10": {
+    },
+    "Bell 407": {
+    },
+    "LET L-33 Solo": {
+    },
+    "DynAero MCR-M": {
+    },
+    "Pioneer 300": {
+    },
+    "TB-20 Trinidad": {
+    },
+    "Libelle Std": {
+        "id": 151,
+        "name": "Std. Libelle"
+    },
+    "Vans RV-8": {
+    },
+    "M-200 Foehn": {
+    },
+    "SB-11": {
+        "id": 46,
+        "name": "SB 11"
+    },
+    "Carat": {
+        "id": 174,
+        "name": "Carat"
+    },
+    "Sinus": {
+    },
+    "SZD-56 Diana": {
+        "id": 31,
+        "name": "SZD-56-1 Diana"
+    },
+    "ASW-22 B": {
+        "id": 387,
+        "name": "ASW 22 B"
+    },
+    "DynAero MCR-4S": {
+    },
+    "RF 4": {
+        "id": 243,
+        "name": "RF 4"
+    },
+    "Nimbus 3D": {
+        "id": 415,
+        "name": "Nimbus 3D"
+    },
+    "FM250 Vampire": {
+    },
+    "GP 15 SE Jeta": {
+    },
+    "Antares 23 E": {
+        "id": 389,
+        "name": "Antares 23E"
+    },
+    "Supermarine Spitfire": {
+    },
+    "Rhonbussard": {
+        "id": 249,
+        "name": "Rhönbussard"
+    },
+    "DJI Inspire": {
+    },
+    "Janus CT": {
+        "id": 527,
+        "name": "Janus CT RG"
+    },
+    "JS-3 18M": {
+        "id": 65,
+        "name": "JS3 TJ 18m"
+    },
+    "Slingsby Vega 15m": {
+        "id": 546,
+        "name": "Slingsby T.65 Vega"
+    },
+    "Phoebus": {
+        "id": 161,
+        "name": "Phöbus B"
+    },
+    "DG-800": {
+        "id": 77,
+        "name": "DG 800 18m"
+    },
+    "Astir Jeans": {
+        "id": 173,
+        "name": "Astir CS Jeans"
+    },
+    "Rockwell Commander 114a": {
+    },
+    "MS-893 Commodore": {
+    },
+    "ASW-17": {
+        "id": 426,
+        "name": "ASW 17"
+    },
+    "AS202/32TP Turbo Bravo": {
+    },
+    "LS-5": {
+        "id": 424,
+        "name": "LS 5"
+    },
+    "Genesis 2": {
+        "id": 471,
+        "name": "Genesis"
+    },
+    "Ventus 2cM": {
+        "id": 89,
+        "name": "Ventus 2cM 18m"
+    },
+    "Motorglider": {
+    },
+    "VSO-10": {
+        "id": 163,
+        "name": "VSO-10"
+    },
+    "Glasflugel 304S T": {
+        "id": 37,
+        "name": "Glasflügel 304"
+    },
+    "Robinson R66": {
+    },
+    "IS-28B2": {
+        "id": 299,
+        "name": "IS 28 B2"
+    },
+    "ASW-28t": {
+        "id": 448,
+        "name": "ASW 28 E"
+    },
+    "Skylane Airlony": {
+    },
+    "DR-250": {
+    },
+    "Ikarus C42 B": {
+    },
+    "Bellanca Citabria": {
+    },
+    "Piper J-3 Cub": {
+    },
+    "GP 14 SE Velo": {
+    },
+    "Valentin Taifun": {
+    },
+    "LAK-17 B": {
+        "id": 95,
+        "name": "LAK-17B 18m"
+    },
+    "SZD-30 Pirat": {
+        "id": 202,
+        "name": "SZD-30 Pirat"
+    },
+    "Ventus 3T": {
+        "id": 69,
+        "name": "Ventus 3T 18m"
+    },
+    "Janus B": {
+        "id": 364,
+        "name": "Janus 18.2m"
+    },
+    "SF-27": {
+        "id": 199,
+        "name": "SF 27 A"
+    },
+    "Cirrus": {
+        "id": 264,
+        "name": "Cirrus"
+    },
+    "Jodel D140": {
+    },
+    "L 13 SEH Vivat": {
+    },
+    "FK9 Mark 2": {
+    },
+    "Pilatus PC-6": {
+    },
+    "LS-9": {
+        "id": 99,
+        "name": "LS 9"
+    },
+    "LS-8 st": {
+        "id": 460,
+        "name": "LS 8T"
+    },
+    "Twin Astir I": {
+        "id": 296,
+        "name": "Twin Astir Trainer FG"
+    },
+    "Cessna 206": {
+    },
+    "SGS 1-35": {
+    },
+    "Aquila A210": {
+    },
+    "Zlin 242": {
+    },
+    "SF-28": {
+        "id": 309,
+        "name": "SF 28 A"
+    },
+    "Motorplane": {
+    },
+    "Apis 2": {
+        "id": 137,
+        "name": "Apis 2 15m"
+    },
+    "Ka-7": {
+        "id": 509,
+        "name": "K 7"
+    },
+    "TL-2000 Sting": {
+    },
+    "L-Spatz III": {
+        "id": 235,
+        "name": "L-Spatz"
+    },
+    "miniLAK FES": {
+        "id": 255,
+        "name": "mini LAK-FES"
+    },
+    "Pilatus P3": {
+    },
+    "Pilatus PC-7": {
+    },
+    "Tecnam  P2002 JF": {
+    },
+    "Cessna 150": {
+    },
+    "Duo Discus xl": {
+        "id": 342,
+        "name": "Duo Discus XL"
+    },
+    "JS-1 C21": {
+        "id": 398,
+        "name": "JS1C 21m"
+    },
+    "PA-25 Pawnee": {
+    },
+    "JS-1 B Revelation": {
+        "id": 61,
+        "name": "JS1 18m"
+    },
+    "ASK-13": {
+        "id": 305,
+        "name": "ASK 13"
+    },
+    "ASK-21": {
+        "id": 292,
+        "name": "ASK 21"
+    },
+    "Rubik R-26 Gobe": {
+    },
+    "Pegase": {
+        "id": 259,
+        "name": "Pegase"
+    },
+    "Vans RV-9": {
+    },
+    "Bergfalke III": {
+        "id": 311,
+        "name": "Bergfalke III"
+    },
+    "ASG-32 El": {
+        "id": 335,
+        "name": "ASG 32 EL"
+    },
+    "SB-10": {
+        "id": 425,
+        "name": "SB 10"
+    },
+    "Jodel D120": {
+    },
+    "Astir CS": {
+        "id": 152,
+        "name": "Astir CS"
+    },
+    "AS 350": {
+    },
+    "MS-892 Commodore": {
+    },
+    "Balloon": {
+    },
+    "SportCruiser": {
+    },
+    "Ventus c": {
+        "id": 44,
+        "name": "Ventus cT 15m"
+    },
+    "WA26 Squale": {
+    },
+    "Ultralight Glider": {
+    },
+    "DG-600": {
+        "id": 35,
+        "name": "DG 600"
+    },
+    "MS-894 Minerva": {
+    },
+    "Banjo": {
+        "id": 239,
+        "name": "Banjo"
+    },
+    "Lisunov Li-2": {
+    },
+    "WA30 Bijave": {
+    },
+    "Kestrel": {
+        "id": 123,
+        "name": "Kestrel 17m"
+    },
+    "PA-30 Twin Comanche": {
+    },
+    "Jodel D112": {
+    },
+    "Jodel D18": {
+    },
+    "LS-4 W": {
+        "id": 478,
+        "name": "LS 4 WL"
+    },
+    "ASH-31 MI": {
+        "id": 406,
+        "name": "ASH 31 Mi 21m"
+    },
+    "PIK-30": {
+    },
+    "Discus 2": {
+        "id": 449,
+        "name": "Discus 2"
+    },
+    "LAK 19": {
+        "id": 111,
+        "name": "LAK-19 18m"
+    },
+    "Cirrus SR22": {
+    },
+    "Zlin 50": {
+    },
+    "ASH-30": {
+        "id": 375,
+        "name": "ASH 30 Mi"
+    },
+    "PZL-104 Wilga": {
+    },
+    "Rutan VariEze": {
+    },
+    "Antonov 2": {
+    },
+    "DHC-1 Chipmunk": {
+    },
+    "Cessna 175": {
+    },
+    "Hornet": {
+        "id": 1,
+        "name": "Hornet"
+    },
+    "PA-17 Piper": {
+        "id": 1,
+        "name": "PA-17 Piper"
+    },
+    "Socata Rallye 235CA-M": {
+        "id": 1,
+        "name": "Socata Rallye 235CA-M"
+    },
+    "Cessna T303": {
+        "id": 1,
+        "name": "Cessna T303"
+    },
+    "ASW-22 BL": {
+        "id": 1,
+        "name": "ASW-22 BL"
+    },
+    "MikroKopter Okto": {
+        "id": 1,
+        "name": "MikroKopter Okto"
+    },
+    "LS-10": {
+        "id": 1,
+        "name": "LS-10"
+    },
+    "Mu 26": {
+        "id": 1,
+        "name": "Mu 26"
+    },
+    "Pilatus B4": {
+        "id": 1,
+        "name": "Pilatus B4"
+    },
+    "SHK-1": {
+        "id": 1,
+        "name": "SHK-1"
+    },
+    "Ventus M": {
+        "id": 1,
+        "name": "Ventus M"
+    },
+    "RF 5 b": {
+        "id": 1,
+        "name": "RF 5 b"
+    },
+    "HK36 Super Dimona": {
+        "id": 1,
+        "name": "HK36 Super Dimona"
+    },
+    "MD 500": {
+        "id": 1,
+        "name": "MD 500"
+    },
+    "DG-200": {
+        "id": 1,
+        "name": "DG-200"
+    },
+    "BK 117": {
+        "id": 1,
+        "name": "BK 117"
+    },
+    "Grob G120TP": {
+        "id": 1,
+        "name": "Grob G120TP"
+    },
+    "Mistral C": {
+        "id": 1,
+        "name": "Mistral C"
+    },
+    "Vulcanair P68C": {
+        "id": 1,
+        "name": "Vulcanair P68C"
+    },
+    "SZD-23 Bocian 2": {
+        "id": 1,
+        "name": "SZD-23 Bocian 2"
+    },
+    "MDM-1 Fox": {
+        "id": 1,
+        "name": "MDM-1 Fox"
+    },
+    "Nimbus 2": {
+        "id": 1,
+        "name": "Nimbus 2"
+    },
+    "SZD-48-3 Jantar Std 3": {
+        "id": 1,
+        "name": "SZD-48-3 Jantar Std 3"
+    },
+    "Maule M-7": {
+        "id": 1,
+        "name": "Maule M-7"
+    },
+    "ASK-16": {
+        "id": 1,
+        "name": "ASK-16"
+    },
+    "Libelle Club": {
+        "id": 1,
+        "name": "Libelle Club"
+    },
+    "EB 29 D": {
+        "id": 1,
+        "name": "EB 29 D"
+    },
+    "Luscombe 8F": {
+        "id": 1,
+        "name": "Luscombe 8F"
+    },
+    "Elfe S4D": {
+        "id": 1,
+        "name": "Elfe S4D"
+    },
+    "Olympia 463": {
+        "id": 1,
+        "name": "Olympia 463"
+    },
+    "Cessna 208": {
+        "id": 1,
+        "name": "Cessna 208"
+    },
+    "HangGlider": {
+        "id": 1,
+        "name": "HangGlider"
+    },
+    "Slingsby Skylark 3F": {
+        "id": 1,
+        "name": "Slingsby Skylark 3F"
+    },
+    "A 109": {
+        "id": 1,
+        "name": "A 109"
+    },
+    "Beech Bonanza V35": {
+        "id": 1,
+        "name": "Beech Bonanza V35"
+    },
+    "PA-28": {
+        "id": 1,
+        "name": "PA-28"
+    },
+    "DA20 Katana": {
+        "id": 1,
+        "name": "DA20 Katana"
+    },
+    "Alto 912 TG ": {
+        "id": 1,
+        "name": "Alto 912 TG "
+    },
+    "Twin Astir II": {
+        "id": 1,
+        "name": "Twin Astir II"
+    },
+    "Ka-2": {
+        "id": 1,
+        "name": "Ka-2"
+    },
+    "Marianne": {
+        "id": 1,
+        "name": "Marianne"
+    },
+    "Other": {
+        "id": 1,
+        "name": "Other"
+    },
+    "LAK-17B FES": {
+        "id": 1,
+        "name": "LAK-17B FES"
+    },
+    "LAK-12": {
+        "id": 1,
+        "name": "LAK-12"
+    },
+    "Mustang (UL)": {
+        "id": 1,
+        "name": "Mustang (UL)"
+    },
+    "Slingsby T51 Dart 17R": {
+        "id": 1,
+        "name": "Slingsby T51 Dart 17R"
+    },
+    "Ventus 2CX": {
+        "id": 1,
+        "name": "Ventus 2CX"
+    },
+    "Cessna 120": {
+        "id": 1,
+        "name": "Cessna 120"
+    },
+    "Janus Ce": {
+        "id": 1,
+        "name": "Janus Ce"
+    },
+    "SB-5 b": {
+        "id": 1,
+        "name": "SB-5 b"
+    },
+    "VT-116 Orlik II": {
+        "id": 1,
+        "name": "VT-116 Orlik II"
+    },
+    "Stemme S-10": {
+        "id": 1,
+        "name": "Stemme S-10"
+    },
+    "Cessna 177": {
+        "id": 1,
+        "name": "Cessna 177"
+    },
+    "EC 130": {
+        "id": 1,
+        "name": "EC 130"
+    },
+    "ASK-21 MI": {
+        "id": 1,
+        "name": "ASK-21 MI"
+    },
+    "SZD-51 Krokus": {
+        "id": 1,
+        "name": "SZD-51 Krokus"
+    },
+    "Swift": {
+        "id": 1,
+        "name": "Swift"
+    },
+    "TB-10 Tobago": {
+        "id": 1,
+        "name": "TB-10 Tobago"
+    },
+    "Duo Discus x": {
+        "id": 1,
+        "name": "Duo Discus x"
+    },
+    "Eta": {
+        "id": 1,
+        "name": "Eta"
+    },
+    "ASK-18": {
+        "id": 1,
+        "name": "ASK-18"
+    },
+    "LS-7": {
+        "id": 1,
+        "name": "LS-7"
+    },
+    "Nimbus 3": {
+        "id": 1,
+        "name": "Nimbus 3"
+    },
+    "Astir Club": {
+        "id": 1,
+        "name": "Astir Club"
+    },
+    "LS-6": {
+        "id": 1,
+        "name": "LS-6"
+    },
+    "EB 28": {
+        "id": 1,
+        "name": "EB 28"
+    },
+    "Std. Astir III": {
+        "id": 1,
+        "name": "Std. Astir III"
+    },
+    "ASG-32 MI": {
+        "id": 1,
+        "name": "ASG-32 MI"
+    },
+    "P 220 Koala": {
+        "id": 1,
+        "name": "P 220 Koala"
+    },
+    "Mosquito": {
+        "id": 1,
+        "name": "Mosquito"
+    },
+    "Ventus 2c": {
+        "id": 1,
+        "name": "Ventus 2c"
+    },
+    "Hawker Hurricane": {
+        "id": 1,
+        "name": "Hawker Hurricane"
+    },
+    "L-60 Brigadyr": {
+        "id": 1,
+        "name": "L-60 Brigadyr"
+    },
+    "A 119": {
+        "id": 1,
+        "name": "A 119"
+    },
+    "Nimbus 4": {
+        "id": 1,
+        "name": "Nimbus 4"
+    },
+    "Rubik R-18 Kanya": {
+        "id": 1,
+        "name": "Rubik R-18 Kanya"
+    },
+    "Scheibe SF 40": {
+        "id": 1,
+        "name": "Scheibe SF 40"
+    },
+    "SGS 2-33A": {
+        "id": 1,
+        "name": "SGS 2-33A"
+    },
+    "Ka-4": {
+        "id": 1,
+        "name": "Ka-4"
+    },
+    "Remos GX": {
+        "id": 1,
+        "name": "Remos GX"
+    },
+    "Vliegtuigbouw 013 Sagitta": {
+        "id": 1,
+        "name": "Vliegtuigbouw 013 Sagitta"
+    },
+    "AS 33": {
+        "id": 1,
+        "name": "AS 33"
+    },
+    "BX2 Cherry": {
+        "id": 1,
+        "name": "BX2 Cherry"
+    },
+    "Aero Boero 180": {
+        "id": 1,
+        "name": "Aero Boero 180"
+    },
+    "EuroFox": {
+        "id": 1,
+        "name": "EuroFox"
+    },
+    "Janus C": {
+        "id": 1,
+        "name": "Janus C"
+    },
+    "Mu 22": {
+        "id": 1,
+        "name": "Mu 22"
+    },
+    "ASH-25 EB": {
+        "id": 1,
+        "name": "ASH-25 EB"
+    },
+    "Robinson R44": {
+        "id": 1,
+        "name": "Robinson R44"
+    },
+    "Antares 20 E": {
+        "id": 1,
+        "name": "Antares 20 E"
+    },
+    "LAK-17 AT": {
+        "id": 1,
+        "name": "LAK-17 AT"
+    },
+    "Blanik": {
+        "id": 1,
+        "name": "Blanik"
+    },
+    "RF 5": {
+        "id": 1,
+        "name": "RF 5"
+    },
+    "RF 9": {
+        "id": 1,
+        "name": "RF 9"
+    },
+    "Ventus 2cxa FES": {
+        "id": 1,
+        "name": "Ventus 2cxa FES"
+    },
+    "SFS-31 Milan": {
+        "id": 1,
+        "name": "SFS-31 Milan"
+    },
+    "ENF 480": {
+        "id": 1,
+        "name": "ENF 480"
+    },
+    "SZD-24 Foka": {
+        "id": 1,
+        "name": "SZD-24 Foka"
+    },
+    "Sport Vega": {
+        "id": 1,
+        "name": "Sport Vega"
+    },
+    "DG-400": {
+        "id": 1,
+        "name": "DG-400"
+    },
+    "LAK-17 A": {
+        "id": 1,
+        "name": "LAK-17 A"
+    },
+    "Duo Discus xlt": {
+        "id": 1,
+        "name": "Duo Discus xlt"
+    },
+    "Stratos 300": {
+        "id": 1,
+        "name": "Stratos 300"
+    },
+    "DG-808 C": {
+        "id": 1,
+        "name": "DG-808 C"
+    },
+    "Crystal": {
+        "id": 1,
+        "name": "Crystal"
+    },
+    "Zugvogel IIIb": {
+        "id": 1,
+        "name": "Zugvogel IIIb"
+    },
+    "JS-1 C18 Evo": {
+        "id": 1,
+        "name": "JS-1 C18 Evo"
+    },
+    "SkyRanger": {
+        "id": 1,
+        "name": "SkyRanger"
+    },
+    "PIK-20 E": {
+        "id": 1,
+        "name": "PIK-20 E"
+    },
+    "Discus 2t": {
+        "id": 1,
+        "name": "Discus 2t"
+    },
+    "A60 Fauconnet": {
+        "id": 1,
+        "name": "A60 Fauconnet"
+    },
+    "LS-1": {
+        "id": 1,
+        "name": "LS-1"
+    },
+    "Speed Astir": {
+        "id": 1,
+        "name": "Speed Astir"
+    },
+    "Cirrus Std": {
+        "id": 1,
+        "name": "Cirrus Std"
+    },
+    "WT9 Dynamic": {
+        "id": 1,
+        "name": "WT9 Dynamic"
+    },
+    "Maule M-7-235": {
+        "id": 1,
+        "name": "Maule M-7-235"
+    },
+    "SF-34": {
+        "id": 1,
+        "name": "SF-34"
+    },
+    "Ventus 2ct": {
+        "id": 1,
+        "name": "Ventus 2ct"
+    },
+    "Ventus": {
+        "id": 1,
+        "name": "Ventus"
+    },
+    "K1200": {
+        "id": 1,
+        "name": "K1200"
+    },
+    "Twin Shark": {
+        "id": 1,
+        "name": "Twin Shark"
+    },
+    "DG-100": {
+        "id": 1,
+        "name": "DG-100"
+    },
+    "Alliance 34": {
+        "id": 1,
+        "name": "Alliance 34"
+    },
+    "CallAir A-9": {
+        "id": 1,
+        "name": "CallAir A-9"
+    },
+    "ASK-14": {
+        "id": 1,
+        "name": "ASK-14"
+    },
+    "WA28 Espadon": {
+        "id": 1,
+        "name": "WA28 Espadon"
+    },
+    "Tetra-15": {
+        "id": 1,
+        "name": "Tetra-15"
+    },
+    "Ventus cM": {
+        "id": 1,
+        "name": "Ventus cM"
+    },
+    "Duo Discus": {
+        "id": 1,
+        "name": "Duo Discus"
+    },
+    "Robinson R22": {
+        "id": 1,
+        "name": "Robinson R22"
+    },
+    "SkyArrow": {
+        "id": 1,
+        "name": "SkyArrow"
+    },
+    "Pegase Trainer": {
+        "id": 1,
+        "name": "Pegase Trainer"
+    },
+    "Ultralight": {
+        "id": 1,
+        "name": "Ultralight"
+    },
+    "TB-9 Tampico": {
+        "id": 1,
+        "name": "TB-9 Tampico"
+    },
+    "SZD-55": {
+        "id": 1,
+        "name": "SZD-55"
+    },
+    "Ventus 2CXa": {
+        "id": 1,
+        "name": "Ventus 2CXa"
+    },
+    "Duo Discus t": {
+        "id": 1,
+        "name": "Duo Discus t"
+    },
+    "JS-3 15M": {
+        "id": 1,
+        "name": "JS-3 15M"
+    },
+    "Vans RV-12": {
+        "id": 1,
+        "name": "Vans RV-12"
+    },
+    "Ventus 2": {
+        "id": 1,
+        "name": "Ventus 2"
+    },
+    "A22 Foxbat": {
+        "id": 1,
+        "name": "A22 Foxbat"
+    }
+}
