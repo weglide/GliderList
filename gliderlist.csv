@@ -215,7 +215,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 214,Alpin,Alpin,TeST Gliders,Club,,,,,84,84,84,84,84,84
 215,Alpin,Alpin T,TeST Gliders,Club,,,,x,84,84,84,84,84,84
 216,H 30,H 30,Glasflügel,Club,,,,,84,84,84,84,84,84
-217,Lambada UFM-15,Lambada UFM-15,Urban Air,Club,,,,x,84,84,84,84,84,84
+217,Lambada UFM-15,Lambada UFM-15,Urban Air,Double,,x,,x,84,84,84,84,84,84
 218,Silent AE-1,Silent AE-1,Air Energy,Club,,,,x,84,84,84,84,84,84
 219,Silent AE-1,Silent AE-1 pure,Air Energy,Club,,,,x,84,84,84,84,84,84
 220,Silent Club,Silent Club,Air Energy,Club,,,,x,84,84,84,84,84,84
@@ -225,11 +225,11 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 224,Ka 6,Ka 6,Alexander Schleicher,Club,,,,,82,82,82,82,82,82
 225,LOM 57,LOM 57,VEB Lommatzsch,Club,,,,,82,82,82,82,82,82
 226,LOM 57,LOM 57/1,VEB Lommatzsch,Club,,,,,82,82,82,82,82,82
-227,Lambada UFM-13,Lambada UFM-13,Urban Air,Club,,,,x,82,82,82,82,82,82
+227,Lambada UFM-13,Lambada UFM-13,Urban Air,Double,,x,,x,82,82,82,82,82,82
 228,SFS 31,SFS 31,Scheibe-Flugzeugbau,Club,,,,x,82,82,82,82,82,82
 229,SZD-22 Mucha Std.,SZD 22-Mucha Std.,PZL Bielsko,Club,,,,,82,82,82,82,82,82
 230,Sagitta,Sagitta,N.V. Vliegtuigbouw,Club,,,,,82,82,82,82,82,82
-231,Duo Banjo,Duo Banjo,ProFe,Club,,x,,,80,80,80,80,80,80
+231,Duo Banjo,Duo Banjo,ProFe,Double,,x,,,80,80,80,80,80,80
 232,LCF 2,LCF 2,LCF,Club,,,,,80,80,80,80,80,80
 233,SZD-12 Mucha 100,SZD-12 Mucha 100,PZL Bielsko,Club,,,,,80,80,80,80,80,80
 234,Weihe 50,Weihe 50,DFS,Club,,,,,80,80,80,80,80,80
@@ -312,7 +312,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 311,Bergfalke III,Bergfalke III,Scheibe-Flugzeugbau,Double,,x,,,76,76,76,76,76,76
 312,SZD-9 Bocian,SZD-9 Bocian,PZL Bielsko,Double,,x,,,76,76,76,76,76,76
 313,IS 28 M,IS 28 M,ICA,Double,,x,,,76,76,76,76,76,76
-314,Ka2,Ka2,Alexander Schleicher,Double,,x,,,76,76,76,76,76,76
+314,Ka 2,Ka 2,Alexander Schleicher,Double,,x,,,76,76,76,76,76,76
 315,Kranich 2,Kranich 2,DFS,Double,,x,,,76,76,76,76,76,76
 316,SZD-45 Ogar,SZD-45 Ogar,PZL Bielsko,Double,,x,,x,76,76,76,76,76,76
 317,PZL KR-03A Puchatek,PZL KR-03A Puchatek,PZL Krosno,Double,,x,,,75,75,75,75,75,75
