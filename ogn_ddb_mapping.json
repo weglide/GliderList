@@ -1,5 +1,4 @@
 {
-    "": {},
     "Calif A21S": {
         "id": 352,
         "name": "Calif A 21 SJ"
@@ -36,7 +35,7 @@
     "Pipistrel Virus": {},
     "Piccolo": {
         "id": 245,
-        "name": "Piccolo",
+        "name": "Piccolo"
     },
     "LAK-19 T": {
         "id": 111,
@@ -1161,8 +1160,8 @@
         "name": "LAK-17A T 18m"
     },
     "Blanik": {
-        "id": 304,
-        "name": "L23 SuperBlanik"
+        "id": 549,
+        "name": "L-13 Blaník"
     },
     "RF 5": {
         "id": 319,
