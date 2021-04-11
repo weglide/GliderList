@@ -40,9 +40,9 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 39,Ventus 1,Ventus 1,Schempp-Hirth,15,,,,,110,110,110,110,110,110
 40,Ventus 15m,Ventus 15m,Schempp-Hirth,15,,,,,110,110,110,110,110,110
 41,Ventus 15m,Ventus b 15m,Schempp-Hirth,15,,,,,110,110,110,110,110,110
-42,Ventus 15m,Ventus bT  15m,Schempp-Hirth,15,,,,x,110,110,110,110,110,110
+42,Ventus 15m,Ventus bT 15m,Schempp-Hirth,15,,,,x,110,110,110,110,110,110
 43,Ventus 15m,Ventus cM 15m,Schempp-Hirth,15,,,,x,110,110,110,110,110,110
-44,Ventus 15m,Ventus cT  15m,Schempp-Hirth,15,,,,x,110,110,110,110,110,110
+44,Ventus 15m,Ventus cT 15m,Schempp-Hirth,15,,,,x,110,110,110,110,110,110
 45,ASW 20 Top 15m,ASW 20 Top 15m,Alexander Schleicher,15,,,,x,108,108,108,108,108,108
 46,SB 11,SB 11,Akaflieg Braunschweig,15,,,,,108,108,108,108,108,108
 47,fs 32,fs 32,Akaflieg Stuttgart,15,,,,,108,108,108,108,108,108
@@ -514,7 +514,8 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 513,ASW 15,ASW 15 B,Alexander Schleicher,Club,,,,,98,98,98,98,98,98
 514,ASW 19,ASW 19 B,Alexander Schleicher,Club,,,,,100,100,100,100,100,100
 515,ASW 15,ASW 15 WL,Alexander Schleicher,Club,x,,,,99,99,99,99,99,99
-516,SZD-32 Foka 5,SZD-32 Foka 5,PZL Bielsko,Club,,,,,88,88,88,88,88,88
+516,SZD-32 Foka 5,SZD-32 
+ 5,PZL Bielsko,Club,,,,,88,88,88,88,88,88
 517,SZD-41 Jantar Std.,SZD-41 Jantar Std.,PZL Bielsko,Club,,,,,100,100,100,100,100,100
 518,SZD-41 Jantar Std.,SZD-41 Jantar Std. WL,PZL Bielsko,Club,x,,,,101,101,101,101,101,101
 519,SZD-48-3 Jantar Std. 3,SZD-48-3 Jantar Std. 3,PZL Bielsko,Club,,,,,100,100,100,100,100,100
@@ -545,3 +546,4 @@ ID,Glider,Model,Manufacturer,Competition Class,Winglets,Double Seater,FES,Engine
 545,Slingsby T.53,Slingsby T.53,Slingsby,Double,,x,,,71,71,71,71,71,71
 546,Slingsby T.65 Vega,Slingsby T.65 Vega,Slingsby,Club,,,,,102,102,102,102,102,102
 547,Slingsby T.41 Skylark 2,Slingsby T.41 Skylark 2,Slingsby,Club,,,,,77,77,77,77,77,77
+548,Ventus 2c 18m,Ventus 2cx FES 18m,Schempp-Hirth,18,,,x,x,119,119,119,119,119,119
