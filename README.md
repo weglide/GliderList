@@ -64,22 +64,20 @@ Manufacturer of the aircraft. Sometimes multiple manufacturers are possible so t
 * Open
 * Standard
 
-### Winglets
+### Kind
 
-Whether this aircraft has winglets in case the base model does not have winglets. This field is needed to calculate higher index (+1) based on base model.
-**Warning**: This does not indicate if aircraft has winglets.
+* GL -> Gl
+* MG -> Motorglider (Engine)
+* FG -> FES Glider (FES)
 
 ### Double Seater
 
 Whether aircraft has two seats.
 
-### FES
+### Winglets
 
-Whether engine is of kind FES (Front Electrical Sustainer). Only applicable if Engine evaluates to true.
-
-### Engine
-
-Whether aircraft has **any** kind of motorization.
+Whether this aircraft has winglets in case the base model does not have winglets. This field is needed to calculate higher index (+1) based on base model.
+**Warning**: This does not indicate if aircraft has winglets.
 
 ### Year
 
