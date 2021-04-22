@@ -79,6 +79,10 @@ Whether aircraft has two seats.
 Whether this aircraft has winglets in case the base model does not have winglets. This field is needed to calculate higher index (+1) based on base model.
 **Warning**: This does not indicate if aircraft has winglets.
 
+### Exclude from Live
+
+Indication if most flights with this aircraft are done in pure powered mode.
+
 ### Year
 
 Competition index (DMSt) for different years.
