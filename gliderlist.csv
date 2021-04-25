@@ -1,31 +1,4 @@
 ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclude Live,2016,2017,2018,2019,2020,2021
-33,LS 6,LS 6 neo,Rolladen-Schneider,15,GL,,x,,112,112,112,112,112,112
-261,Hornet,Hornet WL,Glasflügel,Club,GL,,x,,101,101,101,101,101,101
-277,Std. Cirrus,Std. Cirrus WL,Schempp-Hirth,Club,GL,,x,,100,100,100,100,100,100
-365,SZD-54-2 Perkoz 20m WL,SZD-54-2 Perkoz 20m WL,Allstar PZL Glider,Double,GL,x,x,,102,102,102,102,102,102
-473,LS 7,LS 7 WL,Rolladen-Schneider,Standard,GL,,x,,107,107,107,107,107,107
-476,DG 300,DG 300 WL,DG Flugzeugbau,Standard,GL,,x,,105,105,105,105,105,105
-478,LS 4,LS 4 WL,Rolladen-Schneider,Standard,GL,,x,,105,105,105,105,105,105
-479,LS 4,LS 4 neo,Rolladen-Schneider,Standard,GL,,x,,105,105,105,105,105,105
-485,ASW 24,ASW 24 WL,Alexander Schleicher,Standard,GL,,x,,108,108,108,108,108,108
-486,ASW 24,ASW 24 E WL,Alexander Schleicher,Standard,MG,,x,,108,108,108,108,108,108
-487,ASW 19,ASW 19 WL,Alexander Schleicher,Club,GL,,x,,101,101,101,101,101,101
-488,Duo Discus,Duo Discus WL,Schempp-Hirth,Double,GL,x,x,,111,111,111,111,111,111
-489,Duo Discus,Duo Discus T WL,Schempp-Hirth,Double,MG,x,x,,111,111,111,111,111,111
-493,Std. Libelle,Std. Libelle WL,Glasflügel,Club,GL,,x,,99,99,99,99,99,99
-500,Discus,Discus WL,Schempp-Hirth,Standard,GL,,x,,108,108,108,108,108,108
-501,Discus,Discus b WL,Schempp-Hirth,Standard,GL,,x,,108,108,108,108,108,108
-502,Discus,Discus bM WL,Schempp-Hirth,Standard,MG,,x,,108,108,108,108,108,108
-503,Discus,Discus bT WL,Schempp-Hirth,Standard,MG,,x,,108,108,108,108,108,108
-506,SZD-48 Jantar Std. 2,SZD-48 Jantar Std. 2 WL,PZL Bielsko,Club,GL,,x,,101,101,101,101,101,101
-507,LS 1-e/f,LS 1-f neo,Rolladen-Schneider,Club,GL,,x,,101,101,101,101,101,101
-508,LS 3,LS 3 WL,Rolladen-Schneider,15,GL,,x,,108,108,108,108,108,108
-512,ASW 20,ASW 20 WL,Alexander Schleicher,15,GL,,x,,111,111,111,111,111,111
-515,ASW 15,ASW 15 WL,Alexander Schleicher,Club,GL,,x,,99,99,99,99,99,99
-518,SZD-41 Jantar Std.,SZD-41 Jantar Std. WL,PZL Bielsko,Club,GL,,x,,101,101,101,101,101,101
-520,SZD-48-3 Jantar Std. 3,SZD-48-3 Jantar Std. 3 WL,PZL Bielsko,Club,GL,,x,,101,101,101,101,101,101
-524,LS 6,LS 6 WL,Rolladen-Schneider,15,GL,,x,,112,112,112,112,112,112
-530,ASW 20,ASW 20-J WL,Alexander Schleicher,15,MG,,x,,111,111,111,111,111,111
 1,SZD-56-2 Diana 2,SZD-56-2 Diana 2,Avionic,15,GL,,,,114,116,116,116,114,114
 2,JS3 15m,JS3 15m,Jonker Sailplanes,15,GL,,,,116,116,116,116,114,114
 3,JS3 15m,JS3 FES 15m,Jonker Sailplanes,15,FG,,,,116,116,116,116,114,114
@@ -58,6 +31,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 30,LS 10 15m,LS 10-st 15m,Rolladen-Schneider,15,MG,,,,113,113,113,113,113,113
 31,SZD-56-1 Diana,SZD-56-1 Diana,PZL Bielsko,15,GL,,,,112,112,112,112,112,112
 32,LS 6,LS 6,Rolladen-Schneider,15,GL,,,,111,111,111,111,111,111
+33,LS 6,LS 6 neo,Rolladen-Schneider,15,GL,,x,,112,112,112,112,112,112
 34,ASW 20,ASW 20,Alexander Schleicher,15,GL,,,,110,110,110,110,110,110
 35,DG 600,DG 600,DG Flugzeugbau,15,GL,,,,110,110,110,110,110,110
 36,DG 600,DG 600M,DG Flugzeugbau,15,MG,,,,110,110,110,110,110,110
@@ -124,8 +98,8 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 97,LAK-17 18m,LAK-17B T 18m,Sportinė Aviacija,18,MG,,,,117,117,117,117,117,117
 98,LS 6 18m,LS 6 18m,Rolladen-Schneider,18,GL,,,,117,117,117,117,117,117
 99,LS 9,LS 9,Rolladen-Schneider,18,MG,,,,117,117,117,117,117,117
-101,DG 600 18m,DG 600M 18m,DG Flugzeugbau,18,MG,,,,116,116,116,116,116,116
 100,DG 600 18m,DG 600 18m,DG Flugzeugbau,18,GL,,,,116,116,116,116,116,116
+101,DG 600 18m,DG 600M 18m,DG Flugzeugbau,18,MG,,,,116,116,116,116,116,116
 102,LS 6 17.5m,LS 6 17.5m,Rolladen-Schneider,18,GL,,,,116,116,116,116,116,116
 103,Ventus c 17.6m,Ventus c 17.6m,Schempp-Hirth,18,GL,,,,115,115,115,115,115,115
 104,Ventus c 17.6m,Ventus cM 17.6m,Schempp-Hirth,18,MG,,,,115,115,115,115,115,115
@@ -198,7 +172,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 171,VSO-10 C,VSO-10 C,VSO,Club,GL,,,,94,94,94,94,94,94
 172,Apis WR,Apis WR,Pipistrel,Club,GL,,,,93,93,93,93,93,93
 173,Astir CS Jeans,Astir CS Jeans,Grob Aircraft,Club,GL,,,,93,93,93,93,93,93
-174,Carat,Carat,AMS-Flight,Club,MG,,,,93,93,93,93,93,93
+174,Carat,Carat,AMS-Flight,Club,MG,,,x,93,93,93,93,93,93
 175,ASK 23,ASK 23,Alexander Schleicher,Club,GL,,,,92,92,92,92,92,92
 176,ASK 23,ASK 23 B,Alexander Schleicher,Club,GL,,,,92,92,92,92,92,92
 177,Kiwi,Kiwi,Valentin Flugzeugbau,Club,GL,,,,92,92,92,92,92,92
@@ -285,6 +259,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 258,DG 300 FG,DG 300 FG,DG Flugzeugbau,Club,GL,,,,102,102,102,102,102,102
 259,Pegase,Pegase,Centrair,Club,GL,,,,102,102,102,102,102,102
 260,SB 12,SB 12,Akaflieg Braunschweig,Club,GL,,,,103,103,103,103,102,102
+261,Hornet,Hornet WL,Glasflügel,Club,GL,,x,,101,101,101,101,101,101
 262,SZD-59 Acro 15m,SZD-59 Acro 15m,Allstar PZL Glider,Club,GL,,,,101,101,101,101,101,101
 263,ASW 19,ASW 19,Alexander Schleicher,Club,GL,,,,100,100,100,100,100,100
 264,Cirrus,Cirrus,Schempp-Hirth,Club,GL,,,,100,100,100,100,100,100
@@ -300,6 +275,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 274,SZD-59 Acro 13.2m,SZD-59 13.2m,Allstar PZL Glider,Club,GL,,,,100,100,100,100,100,100
 275,Std. Astir,Std. Astir,Grob Aircraft,Club,GL,,,,100,100,100,100,100,100
 276,Std. Cirrus 16m,Std. Cirrus 16m,Schempp-Hirth,Club,GL,,,,100,100,100,100,100,100
+277,Std. Cirrus,Std. Cirrus WL,Schempp-Hirth,Club,GL,,x,,100,100,100,100,100,100
 278,SZD-48 Jantar Std. 2,SZD-48 Jantar Std. 2,PZL Bielsko,Club,GL,,,,100,100,100,100,100,100
 279,D 43 18m,D 43 18m,Akaflieg Darmstadt,Double,GL,x,,,99,99,99,99,99,99
 280,Taurus,Taurus,Pipistrel,Double,MG,x,,,99,99,99,99,99,99
@@ -338,7 +314,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 313,IS 28 M,IS 28 M,ICA,Double,GL,x,,,76,76,76,76,76,76
 314,Ka 2,Ka 2,Alexander Schleicher,Double,GL,x,,,76,76,76,76,76,76
 315,Kranich 2,Kranich 2,DFS,Double,GL,x,,,76,76,76,76,76,76
-316,SZD-45 Ogar,SZD-45 Ogar,PZL Bielsko,Double,MG,x,,,76,76,76,76,76,76
+316,SZD-45 Ogar,SZD-45 Ogar,PZL Bielsko,Double,MG,x,,x,76,76,76,76,76,76
 317,PZL KR-03A Puchatek,PZL KR-03A Puchatek,PZL Krosno,Double,GL,x,,,75,75,75,75,75,75
 318,Bergfalke II,Bergfalke II,Scheibe-Flugzeugbau,Double,GL,x,,,74,74,74,74,74,74
 319,RF-5,RF-5,Fournier,Double,MG,x,,x,74,74,74,74,74,74
@@ -387,6 +363,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 362,DG 500 20m,DG 500M 20m,DG Flugzeugbau,Double,MG,x,,,104,104,104,104,104,104
 363,DG 505 M Orion 20m,DG 505 M Orion 20m,DG Flugzeugbau,Double,GL,x,,,104,104,104,104,104,104
 364,Janus 18.2m,Janus 18.2m,Schempp-Hirth,Double,GL,x,,,102,102,102,102,102,102
+365,SZD-54-2 Perkoz 20m WL,SZD-54-2 Perkoz 20m WL,Allstar PZL Glider,Double,GL,x,x,,102,102,102,102,102,102
 366,DG 500 Trainer RG,DG 500 Trainer RG,DG Flugzeugbau,Double,GL,x,,,100,100,100,100,100,100
 367,DG 505 6 Orion,DG 505 6 Orion,DG Flugzeugbau,Double,GL,x,,,100,100,100,100,100,100
 368,DG 500 Trainer RG,DG 505 Trainer RG,DG Flugzeugbau,Double,GL,x,,,100,100,100,100,100,100
@@ -494,41 +471,64 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 470,Discus,Discus bT,Schempp-Hirth,Standard,MG,,,,107,107,107,107,107,107
 471,Genesis,Genesis,Sportinė Aviacija,Standard,GL,,,,107,107,107,107,107,107
 472,LS 7,LS 7,Rolladen-Schneider,Standard,GL,,,,106,106,106,106,106,106
+473,LS 7,LS 7 WL,Rolladen-Schneider,Standard,GL,,x,,107,107,107,107,107,107
 474,LS 7,LS 7 neo,Rolladen-Schneider,Standard,GL,,,,107,107,107,107,107,107
 475,SZD-55-1 Nexus,SZD-55-1 Nexus,Allstar PZL Glider,Standard,GL,,,,106,106,106,106,106,106
+476,DG 300,DG 300 WL,DG Flugzeugbau,Standard,GL,,x,,105,105,105,105,105,105
 477,DG 303,DG 303,DG Flugzeugbau,Standard,GL,,,,105,105,105,105,105,105
+478,LS 4,LS 4 WL,Rolladen-Schneider,Standard,GL,,x,,105,105,105,105,105,105
+479,LS 4,LS 4 neo,Rolladen-Schneider,Standard,GL,,x,,105,105,105,105,105,105
 480,AFH 24,AFH 24,Akaflieg Hannover,Standard,GL,,,,104,104,104,104,104,104
 481,DG 300,DG 300,DG Flugzeugbau,Standard,GL,,,,104,104,104,104,104,104
 482,HpH 304C Wasp,HpH 304C Wasp,HpH Sailplanes,Standard,GL,,,,104,104,104,104,104,104
 483,LS 4,LS 4,Rolladen-Schneider,Standard,GL,,,,104,104,104,104,104,104
 484,SZD-56-2 Diana 2,SZD-56-2 Diana 2 FES,Avionic,15,FG,,,,114,116,116,116,114,114
+485,ASW 24,ASW 24 WL,Alexander Schleicher,Standard,GL,,x,,108,108,108,108,108,108
+486,ASW 24,ASW 24 E WL,Alexander Schleicher,Standard,MG,,x,,108,108,108,108,108,108
+487,ASW 19,ASW 19 WL,Alexander Schleicher,Club,GL,,x,,101,101,101,101,101,101
+488,Duo Discus,Duo Discus WL,Schempp-Hirth,Double,GL,x,x,,111,111,111,111,111,111
+489,Duo Discus,Duo Discus T WL,Schempp-Hirth,Double,MG,x,x,,111,111,111,111,111,111
 490,Ventus 2c 18m,Ventus 2cx 18m,Schempp-Hirth,18,GL,,,,118,118,118,118,118,118
 491,Ventus 2c 18m,Ventus 2cxT 18m,Schempp-Hirth,18,MG,,,,118,118,118,118,118,118
 492,Ventus 2c 18m,Ventus 2cxM 18m,Schempp-Hirth,18,MG,,,,118,118,118,118,118,118
+493,Std. Libelle,Std. Libelle WL,Glasflügel,Club,GL,,x,,99,99,99,99,99,99
 494,AS 33 18m,AS 33 18m,Alexander Schleicher,18,GL,,,,121,121,121,121,119,119
 495,AS 33 18m,AS 33 Es 18m,Alexander Schleicher,18,MG,,,,121,121,121,121,119,119
 496,AS 33 18m,AS 33 Me 18m,Alexander Schleicher,18,FG,,,,121,121,121,121,119,119
 497,AS 33 15m,AS 33 15m,Alexander Schleicher,15,GL,,,,116,116,116,116,114,114
 498,AS 33 15m,AS 33 Es 15m,Alexander Schleicher,15,MG,,,,116,116,116,116,114,114
 499,AS 33 15m,AS 33 Me 15m,Alexander Schleicher,15,FG,,,,116,116,116,116,114,114
+500,Discus,Discus WL,Schempp-Hirth,Standard,GL,,x,,108,108,108,108,108,108
+501,Discus,Discus b WL,Schempp-Hirth,Standard,GL,,x,,108,108,108,108,108,108
+502,Discus,Discus bM WL,Schempp-Hirth,Standard,MG,,x,,108,108,108,108,108,108
+503,Discus,Discus bT WL,Schempp-Hirth,Standard,MG,,x,,108,108,108,108,108,108
 504,AS 34 Me 15m,AS 34 Me 15m,Alexander Schleicher,15,FG,,,,108,108,108,108,108,108
 505,AS 34 Me 18m,AS 34 Me 18m,Alexander Schleicher,18,FG,,,,114,114,114,114,114,114
+506,SZD-48 Jantar Std. 2,SZD-48 Jantar Std. 2 WL,PZL Bielsko,Club,GL,,x,,101,101,101,101,101,101
+507,LS 1-e/f,LS 1-f neo,Rolladen-Schneider,Club,GL,,x,,101,101,101,101,101,101
+508,LS 3,LS 3 WL,Rolladen-Schneider,15,GL,,x,,108,108,108,108,108,108
 509,K 7,K 7,Alexander Schleicher,Double,GL,x,,,78,78,78,78,78,78
 510,Duo Discus X,Duo Discus X,Schempp-Hirth,Double,GL,x,,,111,111,111,111,111,111
 511,Duo Discus X,Duo Discus XT,Schempp-Hirth,Double,MG,x,,,111,111,111,111,111,111
+512,ASW 20,ASW 20 WL,Alexander Schleicher,15,GL,,x,,111,111,111,111,111,111
 513,ASW 15,ASW 15 B,Alexander Schleicher,Club,GL,,,,98,98,98,98,98,98
 514,ASW 19,ASW 19 B,Alexander Schleicher,Club,GL,,,,100,100,100,100,100,100
+515,ASW 15,ASW 15 WL,Alexander Schleicher,Club,GL,,x,,99,99,99,99,99,99
 516,SZD-32 Foka 5,SZD-32 Foka 5,PZL Bielsko,Club,GL,,,,88,88,88,88,88,88
 517,SZD-41 Jantar Std.,SZD-41 Jantar Std.,PZL Bielsko,Club,GL,,,,100,100,100,100,100,100
+518,SZD-41 Jantar Std.,SZD-41 Jantar Std. WL,PZL Bielsko,Club,GL,,x,,101,101,101,101,101,101
 519,SZD-48-3 Jantar Std. 3,SZD-48-3 Jantar Std. 3,PZL Bielsko,Club,GL,,,,100,100,100,100,100,100
+520,SZD-48-3 Jantar Std. 3,SZD-48-3 Jantar Std. 3 WL,PZL Bielsko,Club,GL,,x,,101,101,101,101,101,101
 521,Kestrel 17m,Slingsby T.59 Kestrel 17m,Slingsby,18,GL,,,,110,110,110,110,110,110
 522,Kestrel 19m,Slingsby T.59D Kestrel 19m,Slingsby,Open,GL,,,,112,112,112,112,112,112
 523,Slingsby T.21,Slingsby T.21,Slingsby,Double,GL,x,,,54,54,54,54,54,54
+524,LS 6,LS 6 WL,Rolladen-Schneider,15,GL,,x,,112,112,112,112,112,112
 525,Janus C RG,Janus C RG,Schempp-Hirth,Double,GL,x,,,108,108,108,108,108,108
 526,Janus C RG,Janus CM RG,Schempp-Hirth,Double,MG,x,,,108,108,108,108,108,108
 527,Janus C RG,Janus CT RG,Schempp-Hirth,Double,MG,x,,,108,108,108,108,108,108
 528,SZD-41 Jantar Std.,SZD-41 Jantar Std. T,PZL Bielsko,Club,MG,,,,100,100,100,100,100,100
 529,ASW 20,ASW 20-J,Alexander Schleicher,15,MG,,,,110,110,110,110,110,110
+530,ASW 20,ASW 20-J WL,Alexander Schleicher,15,MG,,x,,111,111,111,111,111,111
 531,AC-4 Russia,AC-4 Russia,Aviastroitel,Club,GL,,,,84,84,84,84,84,84
 532,mini LAK,mini LAK,Sportinė Aviacija,Club,GL,,,,103,103,105,105,103,103
 533,SF 36,SF 36,Scheibe-Flugzeugbau,Club,MG,x,,,74,74,74,74,74,74
