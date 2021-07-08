@@ -140,7 +140,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 139,Apis 2,Apis 2 MCs 15m,Pipistrel,Club,MG,,,,98,98,98,98,98,98
 140,Bee,Bee,Pipistrel,Club,MG,,,,98,98,98,98,98,98
 141,SZD-36 Cobra 15,SZD-36 Cobra 15,PZL Bielsko,Club,GL,,,,98,98,98,98,98,98
-142,D 38,D 38,Akaflieg Darmstadt,Club,GL,,,,98,98,98,98,98,98
+142,D 38,D 38,Akaflieg Darmstadt,Club,GL,,,,97,97,97,97,97,97
 143,DG 100 Club,DG 100 Club,DG Flugzeugbau,Club,GL,,,,98,98,98,98,98,98
 144,Delphin 1,Delphin 1,-,Club,GL,,,,98,98,98,98,98,98
 145,LS 1,LS 1-0,Rolladen-Schneider,Club,GL,,,,98,98,98,98,98,98
@@ -227,7 +227,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 226,LOM 57,LOM 57/1,VEB Lommatzsch,Club,GL,,,,82,82,82,82,82,82
 227,Lambada UFM-13,Lambada UFM-13,Urban Air,Double,MG,x,,x,82,82,82,82,82,82
 228,SFS 31,SFS 31,Scheibe-Flugzeugbau,Club,MG,,,x,82,82,82,82,82,82
-229,SZD-22 Mucha Std.,SZD 22-Mucha Std.,PZL Bielsko,Club,GL,,,,82,82,82,82,82,82
+229,SZD-22 Mucha Std.,SZD-22-Mucha Std.,PZL Bielsko,Club,GL,,,,82,82,82,82,82,82
 230,Sagitta,Sagitta,N.V. Vliegtuigbouw,Club,GL,,,,82,82,82,82,82,82
 231,Duo Banjo,Duo Banjo,ProFe,Double,GL,x,,,80,80,80,80,80,80
 232,LCF 2,LCF 2,LCF,Club,GL,,,,80,80,80,80,80,80
@@ -258,7 +258,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 257,Cirrus B 18.34m,Cirrus B 18.34m,Schempp-Hirth,Club,GL,,,,102,102,102,102,102,102
 258,DG 300 FG,DG 300 FG,DG Flugzeugbau,Club,GL,,,,102,102,102,102,102,102
 259,Pegase,Pegase,Centrair,Club,GL,,,,102,102,102,102,102,102
-260,SB 12,SB 12,Akaflieg Braunschweig,Club,GL,,,,103,103,103,103,102,102
+260,SB 12,SB 12,Akaflieg Braunschweig,Club,GL,,,,103,103,103,103,103,103
 261,Hornet,Hornet WL,Glasflügel,Club,GL,,x,,101,101,101,101,101,101
 262,SZD-59 Acro 15m,SZD-59 Acro 15m,Allstar PZL Glider,Club,GL,,,,101,101,101,101,101,101
 263,ASW 19,ASW 19,Alexander Schleicher,Club,GL,,,,100,100,100,100,100,100
@@ -296,14 +296,14 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 295,G103 Twin 2,G103 Twin 2,Grob Aircraft,Double,GL,x,,,92,92,92,92,92,92
 296,Twin Astir Trainer FG,Twin Astir Trainer FG,Grob Aircraft,Double,GL,x,,,92,92,92,92,92,92
 297,PW 6,PW 6,PZL Świdnik,Double,GL,x,,,86,86,86,86,86,86
-298,SF 34 FG,SF 34 FG,Scheibe-Flugzeugbau,Double,GL,x,,,86,86,86,86,86,86
+298,SF 34,SF 34 FG,Scheibe-Flugzeugbau,Double,GL,x,,,86,86,86,86,86,86
 299,IS 28 B2,IS 28 B2,ICA,Double,GL,x,,,84,84,84,84,84,84
 300,SZD-50 Puchacz,SZD-50 Puchacz,PZL Bielsko,Double,GL,x,,,84,84,84,84,84,84
 301,Bergfalke IV,Bergfalke IV,Scheibe-Flugzeugbau,Double,GL,x,,,80,80,80,80,80,80
 302,Condor 4,Condor 4,Alexander Schleicher,Double,GL,x,,,80,80,80,80,80,80
 303,Kranich 3,Kranich 3,DFS,Double,GL,x,,,80,80,80,80,80,80
-304,L23 SuperBlanik,L23 SuperBlanik,LET,Double,GL,x,,,80,80,80,80,80,80
-305,ASK 13,ASK 13,Alexander Schleicher,Double,GL,x,,,78,78,78,78,78,78
+304,L23 SuperBlanik,L23 SuperBlanik 18.2m,LET,Double,GL,x,,,80,80,80,80,80,80
+305,ASK 13,ASK 13,Alexander Schleicher,Double,GL,x,,,79,79,79,79,79,79
 306,Pipistrel Sinus,Pipistrel Sinus,Pipistrel,Double,MG,x,,x,78,78,78,78,78,78
 307,RF-10,RF-10,Fournier,Double,MG,x,,x,78,78,78,78,78,78
 308,RF-5B,RF-5B,Fournier,Double,MG,x,,x,78,78,78,78,78,78
@@ -511,9 +511,9 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 510,Duo Discus X,Duo Discus X,Schempp-Hirth,Double,GL,x,,,111,111,111,111,111,111
 511,Duo Discus X,Duo Discus XT,Schempp-Hirth,Double,MG,x,,,111,111,111,111,111,111
 512,ASW 20,ASW 20 WL,Alexander Schleicher,15,GL,,x,,111,111,111,111,111,111
-513,ASW 15,ASW 15 B,Alexander Schleicher,Club,GL,,,,98,98,98,98,98,98
+513,ASW 15,ASW 15 B,Alexander Schleicher,Club,GL,,,,97,97,97,97,97,97
 514,ASW 19,ASW 19 B,Alexander Schleicher,Club,GL,,,,100,100,100,100,100,100
-515,ASW 15,ASW 15 WL,Alexander Schleicher,Club,GL,,x,,99,99,99,99,99,99
+515,ASW 15,ASW 15 WL,Alexander Schleicher,Club,GL,,x,,98,98,98,98,98,98
 516,SZD-32 Foka 5,SZD-32 Foka 5,PZL Bielsko,Club,GL,,,,88,88,88,88,88,88
 517,SZD-41 Jantar Std.,SZD-41 Jantar Std.,PZL Bielsko,Club,GL,,,,100,100,100,100,100,100
 518,SZD-41 Jantar Std.,SZD-41 Jantar Std. WL,PZL Bielsko,Club,GL,,x,,101,101,101,101,101,101
@@ -567,3 +567,8 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 567,Ka 2,Ka 2 b,Alexander Schleicher,Double,GL,x,,,78,78,78,78,78,78
 568,Doppelraab,Doppelraab,Raab,Double,GL,x,,,54,54,54,54,54,54
 569,ASW 27,ASW 27-J,Alexander Schleicher,15,MG,,,,114,114,114,114,114,114
+570,SB 7,SB 7,Akaflieg Braunschweig,Club,GL,,,,100,100,100,100,100,100
+571,LS 1,LS 1-0 FG,Rolladen-Schneider,Club,GL,,,,96,96,96,96,96,96
+572,SF 34,SF 34 RG,Scheibe-Flugzeugbau,Double,GL,x,,,87,87,87,87,87,87
+573,RF 5,RF 5 B,Fournier,Double,MG,,,x,78,78,78,78,78,78
+574,L23 SuperBlanik,L23 SuperBlanik,LET,Double,GL,x,,,78,78,78,78,78,78
