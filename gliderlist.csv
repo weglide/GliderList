@@ -413,9 +413,9 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 412,LAK-20 23m,LAK-20M 23m,Sportinė Aviacija,Open,MG,,,,,120,120,122,122,120,120
 413,LAK-20 23m,LAK-20T 23m,Sportinė Aviacija,Open,MG,,,,,120,120,122,122,120,120
 414,LF 20 20m,LF 20 20m,Lange Aviation,Open,MG,,,,,120,120,120,120,120,120
-415,Nimbus 3D,Nimbus 3D,Schempp-Hirth,Open,GL,x,,,,120,120,120,120,120,120
-416,Nimbus 3D,Nimbus 3DM,Schempp-Hirth,Open,MG,x,,,,120,120,120,120,120,120
-417,Nimbus 3D,Nimbus 3DT,Schempp-Hirth,Open,MG,x,,,,120,120,120,120,120,120
+415,Nimbus 3D 24.6m,Nimbus 3D 24.6m,Schempp-Hirth,Open,GL,x,,,,120,120,120,120,120,120
+416,Nimbus 3D 24.6m,Nimbus 3DM 24.6m,Schempp-Hirth,Open,MG,x,,,,120,120,120,120,120,120
+417,Nimbus 3D 24.6m,Nimbus 3DT 24.6m,Schempp-Hirth,Open,MG,x,,,,120,120,120,120,120,120
 418,ASW 22 22m,ASW 22 22m,Alexander Schleicher,Open,GL,,,,,119,119,119,119,119,119
 419,LAK-17 21m,LAK-17B 21m,Sportinė Aviacija,Open,GL,,,,,119,119,119,119,119,119
 420,LAK-17 21m,LAK-17B FES 21m,Sportinė Aviacija,Open,FG,,,,,119,119,119,119,119,119
@@ -574,3 +574,6 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 574,Lom-61 Favorit,Lom-61 Favorit,Lommatzsch,Club,GL,,,,x,75,75,75,75,75,75
 575,DG 300,DG 300G WL,DG Flugzeugbau,Standard,MG,,x,,,105,105,105,105,105,105
 576,LS 8 18m,LS 8e 18m,DG Flugzeugbau,18,FG,,,,,114,114,114,114,114,114
+577,Nimbus 3D 25.6m,Nimbus 3D 25.6m,Schempp-Hirth,Open,GL,x,,,,121,121,121,121,121,121
+578,Nimbus 3D 25.6m,Nimbus 3DM 25.6m,Schempp-Hirth,Open,MG,x,,,,121,121,121,121,121,121
+579,Nimbus 3D 25.6m,Nimbus 3DT 25.6m,Schempp-Hirth,Open,MG,x,,,,121,121,121,121,121,121
