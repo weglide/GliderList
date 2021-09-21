@@ -82,7 +82,6 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 81,HpH 304 Shark,HpH 304 MS Shark,HpH Sailplanes,18,MG,,,,,118,118,120,118,118,118
 82,HpH 304 Shark,HpH 304 S Shark,HpH Sailplanes,18,GL,,,,,118,118,120,118,118,118
 83,HpH 304 Shark,HpH 304 SJ Shark,HpH Sailplanes,18,MG,,,,,118,118,120,118,118,118
-84,LF 20 18m,LF 20 18m,Lange Aviation,18,GL,,,,,118,118,118,118,118,118
 85,LS 10 18m,LS 10 18m,Rolladen-Schneider,18,GL,,,,,118,118,120,120,118,118
 86,LS 10 18m,LS 10-st 18m,Rolladen-Schneider,18,MG,,,,,118,118,120,120,118,118
 87,SB 14,SB 14,Akaflieg Braunschweig,18,GL,,,,,118,118,118,118,118,118
@@ -411,7 +410,6 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 411,Antares 20,Antares 20E,Lange Aviation,Open,MG,,,,,120,120,122,122,120,120
 412,LAK-20 23m,LAK-20M 23m,Sportinė Aviacija,Open,MG,,,,,120,120,122,122,120,120
 413,LAK-20 23m,LAK-20T 23m,Sportinė Aviacija,Open,MG,,,,,120,120,122,122,120,120
-414,LF 20 20m,LF 20 20m,Lange Aviation,Open,MG,,,,,120,120,120,120,120,120
 415,Nimbus 3D 24.6m,Nimbus 3D 24.6m,Schempp-Hirth,Open,GL,x,,,,120,120,120,120,120,120
 416,Nimbus 3D 24.6m,Nimbus 3DM 24.6m,Schempp-Hirth,Open,MG,x,,,,120,120,120,120,120,120
 417,Nimbus 3D 24.6m,Nimbus 3DT 24.6m,Schempp-Hirth,Open,MG,x,,,,120,120,120,120,120,120
