@@ -1,7 +1,7 @@
 ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclude Live,Vintage,2016,2017,2018,2019,2020,2021
 1,SZD-56-2 Diana 2,SZD-56-2 Diana 2,Avionic,15,GL,,,,,114,116,116,116,114,114
 2,JS3 15m,JS3 15m,Jonker Sailplanes,15,GL,,,,,116,116,116,116,114,114
-3,JS3 15m,JS3 FES 15m,Jonker Sailplanes,15,FG,,,,,116,116,116,116,114,114
+3,JS3 15m,JS3 RES 15m,Jonker Sailplanes,15,MG,,,,,116,116,116,116,114,114
 4,JS3 15m,JS3 TJ 15m,Jonker Sailplanes,15,MG,,,,,116,116,116,116,114,114
 5,Ventus 3 15m,Ventus 3 15m,Schempp-Hirth,15,GL,,,,,116,116,116,116,114,114
 6,Ventus 3 15m,Ventus 3F 15m,Schempp-Hirth,15,FG,,,,,116,116,116,116,114,114
@@ -12,7 +12,6 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 11,ASG 29 15m,ASG 29 Es 15m,Alexander Schleicher,15,MG,,,,,114,114,116,114,114,114
 12,ASW 27,ASW 27,Alexander Schleicher,15,GL,,,,,114,114,114,114,114,114
 13,Mü 31,Mü 31,Akaflieg München,15,GL,,,,,114,114,114,114,114,114
-14,Ventus 2,Ventus 2,Schempp-Hirth,15,GL,,,,,114,114,114,114,114,114
 15,Ventus 2,Ventus 2a,Schempp-Hirth,15,GL,,,,,114,114,114,114,114,114
 16,Ventus 2,Ventus 2ax,Schempp-Hirth,15,GL,,,,,114,114,114,114,114,114
 17,Ventus 2,Ventus 2b,Schempp-Hirth,15,GL,,,,,114,114,114,114,114,114
@@ -37,8 +36,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 36,DG 600,DG 600M,DG Flugzeugbau,15,MG,,,,,110,110,110,110,110,110
 37,Glasflügel 304,Glasflügel 304,Glasflügel,15,GL,,,,,110,110,110,110,110,110
 38,HpH 304 CZ,HpH 304 CZ,HpH Sailplanes,15,GL,,,,,110,110,110,110,110,110
-39,Ventus 1,Ventus 1,Schempp-Hirth,15,GL,,,,,110,110,110,110,110,110
-40,Ventus 15m,Ventus 15m,Schempp-Hirth,15,GL,,,,,110,110,110,110,110,110
+40,Ventus 15m,Ventus a 15m,Schempp-Hirth,15,GL,,,,,110,110,110,110,110,110
 41,Ventus 15m,Ventus b 15m,Schempp-Hirth,15,GL,,,,,110,110,110,110,110,110
 42,Ventus 15m,Ventus bT 15m,Schempp-Hirth,15,MG,,,,,110,110,110,110,110,110
 43,Ventus 15m,Ventus cM 15m,Schempp-Hirth,15,MG,,,,,110,110,110,110,110,110
@@ -62,7 +60,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 61,JS1 18m,JS1 18m,Jonker Sailplanes,18,GL,,,,,119,119,121,121,119,119
 62,JS1 18m,JS1 TJ 18m,Jonker Sailplanes,18,MG,,,,,119,119,121,121,119,119
 63,JS3 18m,JS3 18m,Jonker Sailplanes,18,GL,,,,,121,121,121,121,119,119
-64,JS3 18m,JS3 FES 18m,Jonker Sailplanes,18,FG,,,,,121,121,121,121,119,119
+64,JS3 18m,JS3 RES 18m,Jonker Sailplanes,18,MG,,,,,121,121,121,121,119,119
 65,JS3 18m,JS3 TJ 18m,Jonker Sailplanes,18,MG,,,,,121,121,121,121,119,119
 66,Ventus 3 18m,Ventus 3 18m,Schempp-Hirth,18,GL,,,,,121,121,121,121,119,119
 67,Ventus 3 18m,Ventus 3F 18m,Schempp-Hirth,18,FG,,,,,121,121,121,121,119,119
@@ -82,7 +80,6 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 81,HpH 304 Shark,HpH 304 MS Shark,HpH Sailplanes,18,MG,,,,,118,118,120,118,118,118
 82,HpH 304 Shark,HpH 304 S Shark,HpH Sailplanes,18,GL,,,,,118,118,120,118,118,118
 83,HpH 304 Shark,HpH 304 SJ Shark,HpH Sailplanes,18,MG,,,,,118,118,120,118,118,118
-84,LF 20 18m,LF 20 18m,Lange Aviation,18,GL,,,,,118,118,118,118,118,118
 85,LS 10 18m,LS 10 18m,Rolladen-Schneider,18,GL,,,,,118,118,120,120,118,118
 86,LS 10 18m,LS 10-st 18m,Rolladen-Schneider,18,MG,,,,,118,118,120,120,118,118
 87,SB 14,SB 14,Akaflieg Braunschweig,18,GL,,,,,118,118,118,118,118,118
@@ -150,8 +147,8 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 149,Panjo,Panjo V2,-,Club,GL,,,,,98,98,98,98,98,98
 150,Std. Cirrus Top,Std. Cirrus Top,Schempp-Hirth,Club,GL,,,,,98,98,98,98,98,98
 151,Std. Libelle,Std. Libelle,Glasflügel,Club,GL,,,,,98,98,98,98,98,98
-152,Astir CS,Astir CS,Grob Aircraft,Club,GL,,,,,96,96,96,96,96,96
-153,Astir CS,Astir CS 77,Grob Aircraft,Club,GL,,,,,96,96,96,96,96,96
+152,G 102 Astir CS,G 102 Astir CS,Grob Aircraft,Club,GL,,,,,96,96,96,96,96,96
+153,G 102 Astir CS,G 102 Astir CS 77,Grob Aircraft,Club,GL,,,,,96,96,96,96,96,96
 154,Club Libelle,Club Libelle,Glasflügel,Club,GL,,,,,96,96,96,96,96,96
 155,Elfe,Elfe S3,Neukom,Club,GL,,,,,96,96,96,96,96,96
 156,Elfe,Elfe S4,Neukom,Club,GL,,,,,96,96,96,96,96,96
@@ -163,7 +160,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 162,SHK,SHK,Schempp-Hirth,Club,GL,,,,,96,96,96,96,96,96
 163,VSO-10,VSO-10,VSO,Club,GL,,,,,96,96,96,96,96,96
 164,Mü 22b,Mü 22b,Akaflieg München,Club,GL,,,,,95,95,95,95,95,95
-165,Astir CS Top,Astir CS Top,Grob Aircraft,Club,GL,,,,,94,94,94,94,94,94
+165,G 102 Astir CS Top,G 102 Astir CS Top,Grob Aircraft,Club,GL,,,,,94,94,94,94,94,94
 166,Elfe FG,Elfe FG,Neukom,Club,GL,,,,,94,94,94,94,94,94
 167,Phöbus A,Phöbus A,Bölkow,Club,GL,,,,,94,94,94,94,94,94
 168,Silent 2,Silent 2,Alisport,Club,MG,,,,,94,94,94,94,94,94
@@ -171,7 +168,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 170,TST-10,TST-10 Atlas M,TeST Gliders,Club,MG,,,,,94,94,94,94,94,94
 171,VSO-10 C,VSO-10 C,VSO,Club,GL,,,,,94,94,94,94,94,94
 172,Apis WR,Apis WR,Pipistrel,Club,GL,,,,,93,93,93,93,93,93
-173,Astir CS Jeans,Astir CS Jeans,Grob Aircraft,Club,GL,,,,,93,93,93,93,93,93
+173,G 102 Astir CS Jeans,G 102 Astir CS Jeans,Grob Aircraft,Club,GL,,,,,93,93,93,93,93,93
 174,Carat,Carat,AMS-Flight,Club,MG,,,x,,93,93,93,93,93,93
 175,ASK 23,ASK 23,Alexander Schleicher,Club,GL,,,,,92,92,92,92,92,92
 176,ASK 23,ASK 23 B,Alexander Schleicher,Club,GL,,,,,92,92,92,92,92,92
@@ -273,7 +270,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 272,Phöbus B3/C,Phöbus B3,Bölkow,Club,GL,,,,,100,100,100,100,100,100
 273,Phöbus B3/C,Phöbus C,Bölkow,Club,GL,,,,,100,100,100,100,100,100
 274,SZD-59 Acro 13.2m,SZD-59 13.2m,Allstar PZL Glider,Club,GL,,,,,100,100,100,100,100,100
-275,Std. Astir,Std. Astir,Grob Aircraft,Club,GL,,,,,100,100,100,100,100,100
+275,G 102 Std. Astir,G 102 Std. Astir,Grob Aircraft,Club,GL,,,,,100,100,100,100,100,100
 276,Std. Cirrus 16m,Std. Cirrus 16m,Schempp-Hirth,Club,GL,,,,,100,100,100,100,100,100
 277,Std. Cirrus,Std. Cirrus WL,Schempp-Hirth,Club,GL,,x,,,100,100,100,100,100,100
 278,SZD-48 Jantar Std. 2,SZD-48 Jantar Std. 2,PZL Bielsko,Club,GL,,,,,100,100,100,100,100,100
@@ -288,12 +285,12 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 287,Silence E 75,Silence E 75,-,Double,MG,x,,,,98,98,98,98,98,98
 288,G 103 Twin 3,G 103 Twin 3,Grob Aircraft,Double,GL,x,,,,97,97,97,97,97,97
 290,G 103 Twin 3,G 103 Twin 3 SL 18m,Grob Aircraft,Double,MG,x,,,,95,95,95,95,95,95
-291,Twin Astir RG,Twin Astir RG,Grob Aircraft,Double,GL,x,,,,94,94,94,94,94,94
+291,G 103 Twin Astir RG,G 103 Twin Astir RG,Grob Aircraft,Double,GL,x,,,,94,94,94,94,94,94
 292,ASK 21,ASK 21,Alexander Schleicher,Double,GL,x,,,,92,92,92,92,92,92
 293,ASK 21,ASK 21 B,Alexander Schleicher,Double,GL,x,,,,92,92,92,92,92,92
 294,ASK 21,ASK 21 Mi,Alexander Schleicher,Double,MG,x,,,,92,92,92,92,92,92
 295,G 103 Twin 2,G 103 Twin 2,Grob Aircraft,Double,GL,x,,,,92,92,92,92,92,92
-296,Twin Astir Trainer FG,Twin Astir Trainer FG,Grob Aircraft,Double,GL,x,,,,92,92,92,92,92,92
+296,G 103 Twin Astir Trainer FG,G 103 Twin Astir Trainer FG,Grob Aircraft,Double,GL,x,,,,92,92,92,92,92,92
 297,PW 6,PW 6,PZL Świdnik,Double,GL,x,,,,86,86,86,86,86,86
 298,SF 34,SF 34 FG,Scheibe-Flugzeugbau,Double,GL,x,,,,86,86,86,86,86,86
 299,IS 28 B2,IS 28 B2,ICA,Double,GL,x,,,,84,84,84,84,84,84
@@ -411,7 +408,6 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 411,Antares 20,Antares 20E,Lange Aviation,Open,MG,,,,,120,120,122,122,120,120
 412,LAK-20 23m,LAK-20M 23m,Sportinė Aviacija,Open,MG,,,,,120,120,122,122,120,120
 413,LAK-20 23m,LAK-20T 23m,Sportinė Aviacija,Open,MG,,,,,120,120,122,122,120,120
-414,LF 20 20m,LF 20 20m,Lange Aviation,Open,MG,,,,,120,120,120,120,120,120
 415,Nimbus 3D 24.6m,Nimbus 3D 24.6m,Schempp-Hirth,Open,GL,x,,,,120,120,120,120,120,120
 416,Nimbus 3D 24.6m,Nimbus 3DM 24.6m,Schempp-Hirth,Open,MG,x,,,,120,120,120,120,120,120
 417,Nimbus 3D 24.6m,Nimbus 3DT 24.6m,Schempp-Hirth,Open,MG,x,,,,120,120,120,120,120,120
@@ -446,11 +442,9 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 446,Mü 27,Mü 27,Akaflieg München,Open,GL,,,,,106,106,106,106,106,106
 447,ASW 28,ASW 28,Alexander Schleicher,Standard,GL,,,,,108,108,108,108,108,108
 448,ASW 28,ASW 28 E,Alexander Schleicher,Standard,MG,,,,,108,108,108,108,108,108
-449,Discus 2,Discus 2,Schempp-Hirth,Standard,GL,,,,,108,108,108,108,108,108
 450,Discus 2,Discus 2T,Schempp-Hirth,Standard,MG,,,,,108,108,108,108,108,108
 451,Discus 2,Discus 2a,Schempp-Hirth,Standard,GL,,,,,108,108,108,108,108,108
 452,Discus 2,Discus 2b,Schempp-Hirth,Standard,GL,,,,,108,108,108,108,108,108
-453,Discus 2,Discus 2bT,Schempp-Hirth,Standard,MG,,,,,108,108,108,108,108,108
 454,Discus 2,Discus 2c 15m,Schempp-Hirth,Standard,GL,,,,,108,108,108,108,108,108
 455,Discus 2,Discus 2cFES 15m,Schempp-Hirth,Standard,FG,,,,,108,108,108,108,108,108
 456,Discus 2,Discus 2cT 15m,Schempp-Hirth,Standard,MG,,,,,108,108,108,108,108,108
@@ -463,7 +457,6 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 463,ASW 24,ASW 24,Alexander Schleicher,Standard,GL,,,,,107,107,107,107,107,107
 464,ASW 24,ASW 24 B,Alexander Schleicher,Standard,GL,,,,,107,107,107,107,107,107
 465,ASW 24,ASW 24 E,Alexander Schleicher,Standard,MG,,,,,107,107,107,107,107,107
-466,Discus,Discus,Schempp-Hirth,Standard,GL,,,,,107,107,107,107,107,107
 467,Discus,Discus a,Schempp-Hirth,Standard,GL,,,,,107,107,107,107,107,107
 468,Discus,Discus b,Schempp-Hirth,Standard,GL,,,,,107,107,107,107,107,107
 469,Discus,Discus bM,Schempp-Hirth,Standard,MG,,,,,107,107,107,107,107,107
@@ -497,7 +490,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 497,AS 33 15m,AS 33 15m,Alexander Schleicher,15,GL,,,,,116,116,116,116,114,114
 498,AS 33 15m,AS 33 Es 15m,Alexander Schleicher,15,MG,,,,,116,116,116,116,114,114
 499,AS 33 15m,AS 33 Me 15m,Alexander Schleicher,15,FG,,,,,116,116,116,116,114,114
-500,Discus,Discus WL,Schempp-Hirth,Standard,GL,,x,,,108,108,108,108,108,108
+500,Discus,Discus a WL,Schempp-Hirth,Standard,GL,,x,,,108,108,108,108,108,108
 501,Discus,Discus b WL,Schempp-Hirth,Standard,GL,,x,,,108,108,108,108,108,108
 502,Discus,Discus bM WL,Schempp-Hirth,Standard,MG,,x,,,108,108,108,108,108,108
 503,Discus,Discus bT WL,Schempp-Hirth,Standard,MG,,x,,,108,108,108,108,108,108
@@ -544,10 +537,10 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 545,Slingsby T.53,Slingsby T.53,Slingsby,Double,GL,x,,,x,71,71,71,71,71,71
 546,Slingsby T.65 Vega,Slingsby T.65 Vega,Slingsby,Club,GL,,,,,102,102,102,102,102,102
 547,Slingsby T.41 Skylark 2,Slingsby T.41 Skylark 2,Slingsby,Club,GL,,,,x,77,77,77,77,77,77
-548,Ventus 2c 18m,Ventus 2cx FES 18m,Schempp-Hirth,18,FG,,,,,119,119,119,119,119,119
+548,Ventus 2c 18m,Ventus 2cxa FES 18m,Schempp-Hirth,18,FG,,,,,119,119,119,119,119,119
 549,L-13 Blaník,L-13 Blaník,LET,Double,GL,x,,,x,78,78,78,78,78,78
-550,DG 1000 20m,DG 1000e neo 20m,DG Flugzeugbau,Double,FG,x,,,,110,110,110,110,110,110
-551,DG 1000 18m,DG 1000e neo 18m,DG Flugzeugbau,Double,FG,x,,,,106,106,106,106,106,106
+550,DG 1000 20m,DG 1000E neo 20m,DG Flugzeugbau,Double,FG,x,,,,110,110,110,110,110,110
+551,DG 1000 18m,DG 1000E neo 18m,DG Flugzeugbau,Double,FG,x,,,,106,106,106,106,106,106
 552,Duo Discus XL,Duo Discus XL FES,Schempp-Hirth,Double,FG,x,,,,111,111,111,111,111,111
 553,Pilatus B4 RG,Pilatus B4 RG,Pilatus,Club,GL,,,,,88,88,88,88,88,88
 554,ASG 29 15m,ASG 29 RES 15m,Alexander Schleicher,15,FG,,,,,114,114,116,114,114,114
@@ -577,3 +570,9 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 578,Nimbus 3D 25.6m,Nimbus 3DM 25.6m,Schempp-Hirth,Open,MG,x,,,,121,121,121,121,121,121
 579,Nimbus 3D 25.6m,Nimbus 3DT 25.6m,Schempp-Hirth,Open,MG,x,,,,121,121,121,121,121,121
 580,G 103 Twin 3,G 103 Twin 3 SL 20m,Grob Aircraft,Double,MG,x,,,,97,97,97,97,97,97
+581,EB 28,EB 28 edition,Binder,Open,MG,x,,,,124,124,126,126,124,124
+582,Ventus 2c 18m,Ventus 2cxa 18m,Schempp-Hirth,18,GL,,,,,119,119,119,119,119,119
+583,Ventus 2c 15m,Ventus 2cxa 15m,Schempp-Hirth,15,GL,,,,,114,114,114,114,114,114
+584,DG 1000 20m,DG 1000M neo 20m,DG Flugzeugbau,Double,MG,x,,,,110,110,110,110,110,110
+585,DG 1000 20m,DG 1000S neo 20m,DG Flugzeugbau,Double,GL,x,,,,110,110,110,110,110,110
+586,DG 1000 20m,DG 1000T neo 20m,DG Flugzeugbau,Double,MG,x,,,,110,110,110,110,110,110
