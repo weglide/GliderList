@@ -15,7 +15,9 @@ jobs:
       with:
         python-version: 3.8
 
-    - name: Run tests
+    - name: Install pytest
       run: pip3 install pytest
+  
+    - name: Run tests
       run: pytest
   
