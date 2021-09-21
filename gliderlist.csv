@@ -147,8 +147,8 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 149,Panjo,Panjo V2,-,Club,GL,,,,,98,98,98,98,98,98
 150,Std. Cirrus Top,Std. Cirrus Top,Schempp-Hirth,Club,GL,,,,,98,98,98,98,98,98
 151,Std. Libelle,Std. Libelle,Glasflügel,Club,GL,,,,,98,98,98,98,98,98
-152,Astir CS,Astir CS,Grob Aircraft,Club,GL,,,,,96,96,96,96,96,96
-153,Astir CS,Astir CS 77,Grob Aircraft,Club,GL,,,,,96,96,96,96,96,96
+152,G 102 Astir CS,G 102 Astir CS,Grob Aircraft,Club,GL,,,,,96,96,96,96,96,96
+153,G 102 Astir CS,G 102 Astir CS 77,Grob Aircraft,Club,GL,,,,,96,96,96,96,96,96
 154,Club Libelle,Club Libelle,Glasflügel,Club,GL,,,,,96,96,96,96,96,96
 155,Elfe,Elfe S3,Neukom,Club,GL,,,,,96,96,96,96,96,96
 156,Elfe,Elfe S4,Neukom,Club,GL,,,,,96,96,96,96,96,96
@@ -160,7 +160,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 162,SHK,SHK,Schempp-Hirth,Club,GL,,,,,96,96,96,96,96,96
 163,VSO-10,VSO-10,VSO,Club,GL,,,,,96,96,96,96,96,96
 164,Mü 22b,Mü 22b,Akaflieg München,Club,GL,,,,,95,95,95,95,95,95
-165,Astir CS Top,Astir CS Top,Grob Aircraft,Club,GL,,,,,94,94,94,94,94,94
+165,G 102 Astir CS Top,G 102 Astir CS Top,Grob Aircraft,Club,GL,,,,,94,94,94,94,94,94
 166,Elfe FG,Elfe FG,Neukom,Club,GL,,,,,94,94,94,94,94,94
 167,Phöbus A,Phöbus A,Bölkow,Club,GL,,,,,94,94,94,94,94,94
 168,Silent 2,Silent 2,Alisport,Club,MG,,,,,94,94,94,94,94,94
@@ -168,7 +168,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 170,TST-10,TST-10 Atlas M,TeST Gliders,Club,MG,,,,,94,94,94,94,94,94
 171,VSO-10 C,VSO-10 C,VSO,Club,GL,,,,,94,94,94,94,94,94
 172,Apis WR,Apis WR,Pipistrel,Club,GL,,,,,93,93,93,93,93,93
-173,Astir CS Jeans,Astir CS Jeans,Grob Aircraft,Club,GL,,,,,93,93,93,93,93,93
+173,G 102 Astir CS Jeans,G 102 Astir CS Jeans,Grob Aircraft,Club,GL,,,,,93,93,93,93,93,93
 174,Carat,Carat,AMS-Flight,Club,MG,,,x,,93,93,93,93,93,93
 175,ASK 23,ASK 23,Alexander Schleicher,Club,GL,,,,,92,92,92,92,92,92
 176,ASK 23,ASK 23 B,Alexander Schleicher,Club,GL,,,,,92,92,92,92,92,92
@@ -270,7 +270,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 272,Phöbus B3/C,Phöbus B3,Bölkow,Club,GL,,,,,100,100,100,100,100,100
 273,Phöbus B3/C,Phöbus C,Bölkow,Club,GL,,,,,100,100,100,100,100,100
 274,SZD-59 Acro 13.2m,SZD-59 13.2m,Allstar PZL Glider,Club,GL,,,,,100,100,100,100,100,100
-275,Std. Astir,Std. Astir,Grob Aircraft,Club,GL,,,,,100,100,100,100,100,100
+275,G 102 Std. Astir,G 102 Std. Astir,Grob Aircraft,Club,GL,,,,,100,100,100,100,100,100
 276,Std. Cirrus 16m,Std. Cirrus 16m,Schempp-Hirth,Club,GL,,,,,100,100,100,100,100,100
 277,Std. Cirrus,Std. Cirrus WL,Schempp-Hirth,Club,GL,,x,,,100,100,100,100,100,100
 278,SZD-48 Jantar Std. 2,SZD-48 Jantar Std. 2,PZL Bielsko,Club,GL,,,,,100,100,100,100,100,100
@@ -285,12 +285,12 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 287,Silence E 75,Silence E 75,-,Double,MG,x,,,,98,98,98,98,98,98
 288,G 103 Twin 3,G 103 Twin 3,Grob Aircraft,Double,GL,x,,,,97,97,97,97,97,97
 290,G 103 Twin 3,G 103 Twin 3 SL 18m,Grob Aircraft,Double,MG,x,,,,95,95,95,95,95,95
-291,Twin Astir RG,Twin Astir RG,Grob Aircraft,Double,GL,x,,,,94,94,94,94,94,94
+291,G 103 Twin Astir RG,G 103 Twin Astir RG,Grob Aircraft,Double,GL,x,,,,94,94,94,94,94,94
 292,ASK 21,ASK 21,Alexander Schleicher,Double,GL,x,,,,92,92,92,92,92,92
 293,ASK 21,ASK 21 B,Alexander Schleicher,Double,GL,x,,,,92,92,92,92,92,92
 294,ASK 21,ASK 21 Mi,Alexander Schleicher,Double,MG,x,,,,92,92,92,92,92,92
 295,G 103 Twin 2,G 103 Twin 2,Grob Aircraft,Double,GL,x,,,,92,92,92,92,92,92
-296,Twin Astir Trainer FG,Twin Astir Trainer FG,Grob Aircraft,Double,GL,x,,,,92,92,92,92,92,92
+296,G 103 Twin Astir Trainer FG,G 103 Twin Astir Trainer FG,Grob Aircraft,Double,GL,x,,,,92,92,92,92,92,92
 297,PW 6,PW 6,PZL Świdnik,Double,GL,x,,,,86,86,86,86,86,86
 298,SF 34,SF 34 FG,Scheibe-Flugzeugbau,Double,GL,x,,,,86,86,86,86,86,86
 299,IS 28 B2,IS 28 B2,ICA,Double,GL,x,,,,84,84,84,84,84,84
