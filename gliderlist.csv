@@ -1,7 +1,7 @@
 ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclude Live,Vintage,2016,2017,2018,2019,2020,2021
 1,SZD-56-2 Diana 2,SZD-56-2 Diana 2,Avionic,15,GL,,,,,114,116,116,116,114,114
 2,JS3 15m,JS3 15m,Jonker Sailplanes,15,GL,,,,,116,116,116,116,114,114
-3,JS3 15m,JS3 FES 15m,Jonker Sailplanes,15,FG,,,,,116,116,116,116,114,114
+3,JS3 15m,JS3 RES 15m,Jonker Sailplanes,15,MG,,,,,116,116,116,116,114,114
 4,JS3 15m,JS3 TJ 15m,Jonker Sailplanes,15,MG,,,,,116,116,116,116,114,114
 5,Ventus 3 15m,Ventus 3 15m,Schempp-Hirth,15,GL,,,,,116,116,116,116,114,114
 6,Ventus 3 15m,Ventus 3F 15m,Schempp-Hirth,15,FG,,,,,116,116,116,116,114,114
@@ -62,7 +62,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 61,JS1 18m,JS1 18m,Jonker Sailplanes,18,GL,,,,,119,119,121,121,119,119
 62,JS1 18m,JS1 TJ 18m,Jonker Sailplanes,18,MG,,,,,119,119,121,121,119,119
 63,JS3 18m,JS3 18m,Jonker Sailplanes,18,GL,,,,,121,121,121,121,119,119
-64,JS3 18m,JS3 FES 18m,Jonker Sailplanes,18,FG,,,,,121,121,121,121,119,119
+64,JS3 18m,JS3 RES 18m,Jonker Sailplanes,18,MG,,,,,121,121,121,121,119,119
 65,JS3 18m,JS3 TJ 18m,Jonker Sailplanes,18,MG,,,,,121,121,121,121,119,119
 66,Ventus 3 18m,Ventus 3 18m,Schempp-Hirth,18,GL,,,,,121,121,121,121,119,119
 67,Ventus 3 18m,Ventus 3F 18m,Schempp-Hirth,18,FG,,,,,121,121,121,121,119,119
