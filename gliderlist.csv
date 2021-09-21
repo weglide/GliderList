@@ -544,7 +544,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 545,Slingsby T.53,Slingsby T.53,Slingsby,Double,GL,x,,,x,71,71,71,71,71,71
 546,Slingsby T.65 Vega,Slingsby T.65 Vega,Slingsby,Club,GL,,,,,102,102,102,102,102,102
 547,Slingsby T.41 Skylark 2,Slingsby T.41 Skylark 2,Slingsby,Club,GL,,,,x,77,77,77,77,77,77
-548,Ventus 2c 18m,Ventus 2cx FES 18m,Schempp-Hirth,18,FG,,,,,119,119,119,119,119,119
+548,Ventus 2c 18m,Ventus 2cxa FES 18m,Schempp-Hirth,18,FG,,,,,119,119,119,119,119,119
 549,L-13 Blaník,L-13 Blaník,LET,Double,GL,x,,,x,78,78,78,78,78,78
 550,DG 1000 20m,DG 1000e neo 20m,DG Flugzeugbau,Double,FG,x,,,,110,110,110,110,110,110
 551,DG 1000 18m,DG 1000e neo 18m,DG Flugzeugbau,Double,FG,x,,,,106,106,106,106,106,106
@@ -578,3 +578,4 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 579,Nimbus 3D 25.6m,Nimbus 3DT 25.6m,Schempp-Hirth,Open,MG,x,,,,121,121,121,121,121,121
 580,G 103 Twin 3,G 103 Twin 3 SL 20m,Grob Aircraft,Double,MG,x,,,,97,97,97,97,97,97
 581,EB 28,EB 28 edition,Binder,Open,MG,x,,,,124,124,126,126,124,124
+582,Ventus 2c 18m,Ventus 2cxa 18m,Schempp-Hirth,18,GL,,,,,119,119,119,119,119,119
