@@ -347,7 +347,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 350,fs 33,fs 33,Akaflieg Stuttgart,Double,GL,x,,,,109,109,109,109,109,109,109
 351,Calif A 21,Calif A 21,Caproni,Double,GL,x,,,,108,108,108,108,108,108,108
 352,Calif A 21,Calif A 21 SJ,Caproni,Double,MG,x,,,,108,108,108,108,108,108,108
-353,B 12,B 12,Akaflieg Berlin,Double,GL,x,,,,106,106,106,106,106,106,106
+353,B12,B12,Akaflieg Berlin,Double,GL,x,,,,106,106,106,106,106,106,106
 354,DG 1000 18m,DG 1000M 18m,DG Flugzeugbau,Double,MG,x,,,,106,106,106,106,106,106,106
 355,DG 1000 18m,DG 1000S 18m,DG Flugzeugbau,Double,GL,x,,,,106,106,106,106,106,106,106
 356,DG 1000 18m,DG 1000T 18m,DG Flugzeugbau,Double,MG,x,,,,106,106,106,106,106,106,106
@@ -438,7 +438,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 442,DG 500 22m,DG 505M 22m,DG Flugzeugbau,Open,MG,x,,,,110,110,110,110,110,110,110
 443,Stemme S10,Stemme S10,Stemme,Open,MG,x,,,,110,110,112,112,110,110,110
 444,Stemme S10,Stemme S10-VT,Stemme,Open,MG,x,,,,110,110,112,112,110,110,110
-445,B13,B13,Akaflieg Berlin,Open,MG,,,,,109,109,109,109,109,109,109
+445,B13,B13e,Akaflieg Berlin,Open,FG,x,,,,109,109,109,109,109,109,109
 446,Mü 27,Mü 27,Akaflieg München,Open,GL,,,,,106,106,106,106,106,106,106
 447,ASW 28,ASW 28,Alexander Schleicher,Standard,GL,,,,,108,108,108,108,108,108,108
 448,ASW 28,ASW 28 E,Alexander Schleicher,Standard,MG,,,,,108,108,108,108,108,108,108
@@ -593,6 +593,6 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 603,SparrowHawk,SparrowHawk,Windward Performance,Club,GL,,,,,85,85,85,85,85,85,85
 604,DuckHawk,DuckHawk,Windward Performance,15,GL,,,,,114,114,114,114,114,114,114
 605,C-201 Marianne,C-201B Marianne,Centrair,Double,GL,,,,,100,100,100,100,100,100,100
-606,DG 1000 18m,DG 1000S neo 18m,DG Flugzeugbau,Double,GL,x,,,,106,106,106,106,106,106,107
-607,DG 1000 18m,DG 1000T neo 18m,DG Flugzeugbau,Double,MG,x,,,,106,106,106,106,106,106,107
-
+606,Nixus,Nixus,Nixus Project,Open,MG,x,,,,126,126,126,126,126,126,126
+607,DG 1000 18m,DG 1000S neo 18m,DG Flugzeugbau,Double,GL,x,,,,106,106,106,106,106,106,107
+608,DG 1000 18m,DG 1000T neo 18m,DG Flugzeugbau,Double,MG,x,,,,106,106,106,106,106,106,107
