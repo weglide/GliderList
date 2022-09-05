@@ -550,7 +550,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 558,Schweizer SGS 1-36 Sprite,Schweizer SGS 1-36 Sprite,Schweizer Aircraft,Club,GL,,,,x,76,76,76,76,76,76,76
 559,Schweizer SGS 2-32,Schweizer SGS 2-32,Schweizer Aircraft,Double,GL,x,,,x,83,83,83,83,83,83,83
 560,Schweizer SGS 2-33,Schweizer SGS 2-33,Schweizer Aircraft,Double,GL,x,,,x,54,54,54,54,54,54,54
-561,DFS Habicht,DFS Habicht,Deutsche Forschungsanstalt für Segelflug,Club,GL,,,,x,60,60,60,60,60,60,60
+561,Habicht,Habicht,DFS,Club,GL,,,,x,60,60,60,60,60,60,60
 562,Antares 21E,Antares 21E,Lange Aviation,Open,MG,,,,,121,121,121,121,121,121,124
 563,Antares 21E,Antares 20E/21,Lange Aviation,Open,MG,,,,,121,121,121,121,121,121,124
 564,ASW 20 16.6m,ASW 20-J 16.6m,Alexander Schleicher,18,MG,,,,,112,112,112,112,112,112,112
@@ -599,4 +599,4 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 609,DG 1000 18m FG,DG 1000 neo 18m FG,DG Flugzeugbau,Double,GL,x,,,,105,105,105,105,105,105,105
 610,Mü 17,Mü 17,Akaflieg München,Club,GL,,,,,64,64,64,64,64,64,64
 611,LS 8,LS 8T neo,DG Flugzeugbau,Standard,MG,,,,,108,108,108,108,108,108,109
-612,DFS Olympia Meise,DFS Olympia Meise,Deutsche Forschungsanstalt für Segelflug,Club,GL,,,,x,64,64,64,64,64,64,64
+612,Olympia Meise,Olympia Meise,DFS,Club,GL,,,,x,64,64,64,64,64,64,64
