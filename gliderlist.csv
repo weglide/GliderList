@@ -339,9 +339,9 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 342,Duo Discus XL,Duo Discus XL,Schempp-Hirth,Double,GL,x,,,,111,111,111,111,111,111,113,113
 343,Duo Discus XL,Duo Discus XLT,Schempp-Hirth,Double,MG,x,,,,111,111,111,111,111,111,113,113
 344,LS 11,LS 11,Rolladen-Schneider,Double,GL,x,,,,111,111,111,111,111,111,113,113
-345,DG 1000 20m,DG 1000M 20m,DG Flugzeugbau,Double,MG,x,,,,110,110,110,110,110,110,110,110
-346,DG 1000 20m,DG 1000S 20m,DG Flugzeugbau,Double,GL,x,,,,110,110,110,110,110,110,110,110
-347,DG 1000 20m,DG 1000T 20m,DG Flugzeugbau,Double,MG,x,,,,110,110,110,110,110,110,110,110
+345,DG 1000 20m,DG 1000M 20m,DG Flugzeugbau,Double,MG,x,,,,110,110,110,110,110,110,110,111
+346,DG 1000 20m,DG 1000S 20m,DG Flugzeugbau,Double,GL,x,,,,110,110,110,110,110,110,110,111
+347,DG 1000 20m,DG 1000T 20m,DG Flugzeugbau,Double,MG,x,,,,110,110,110,110,110,110,110,111
 348,Duo Discus,Duo Discus,Schempp-Hirth,Double,GL,x,,,,110,110,110,110,110,110,112,112
 349,Duo Discus,Duo Discus T,Schempp-Hirth,Double,MG,x,,,,110,110,110,110,110,110,112,112
 350,fs 33,fs 33,Akaflieg Stuttgart,Double,GL,x,,,,109,109,109,109,109,109,109,109
@@ -539,7 +539,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 547,Slingsby T.41 Skylark 2,Slingsby T.41 Skylark 2,Slingsby,Club,GL,,,,x,77,77,77,77,77,77,77,77
 548,Ventus 2c 18m,Ventus 2cxa FES 18m,Schempp-Hirth,18,FG,,,,,119,119,119,119,119,119,121,121
 549,L-13 Blaník,L-13 Blaník,LET,Double,GL,x,,,x,78,78,78,78,78,78,78,78
-550,DG 1000 20m,DG 1000E neo 20m,DG Flugzeugbau,Double,FG,x,,,,110,110,110,110,110,110,111,111
+550,DG 1000 20m,DG 1000E neo 20m,DG Flugzeugbau,Double,FG,x,,,,110,110,110,110,110,110,111,112
 551,DG 1000 18m,DG 1000E neo 18m,DG Flugzeugbau,Double,FG,x,,,,106,106,106,106,106,106,107,107
 552,Duo Discus XL,Duo Discus XL FES,Schempp-Hirth,Double,FG,x,,,,111,111,111,111,111,111,113,113
 553,Pilatus B4 RG,Pilatus B4 RG,Pilatus,Club,GL,,,,,88,88,88,88,88,88,88,88
@@ -573,9 +573,9 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 581,EB 28,EB 28 edition,Binder,Open,MG,x,,,,124,124,126,126,124,124,125,125
 582,Ventus 2c 18m,Ventus 2cxa 18m,Schempp-Hirth,18,GL,,,,,119,119,119,119,119,119,121,121
 583,Ventus 2c 15m,Ventus 2cxa 15m,Schempp-Hirth,15,GL,,,,,114,114,114,114,114,114,115,115
-584,DG 1000 20m,DG 1000M neo 20m,DG Flugzeugbau,Double,MG,x,,,,110,110,110,110,110,110,111,111
-585,DG 1000 20m,DG 1000S neo 20m,DG Flugzeugbau,Double,GL,x,,,,110,110,110,110,110,110,111,111
-586,DG 1000 20m,DG 1000T neo 20m,DG Flugzeugbau,Double,MG,x,,,,110,110,110,110,110,110,111,111
+584,DG 1000 20m,DG 1000M neo 20m,DG Flugzeugbau,Double,MG,x,,,,110,110,110,110,110,110,111,112
+585,DG 1000 20m,DG 1000S neo 20m,DG Flugzeugbau,Double,GL,x,,,,110,110,110,110,110,110,111,112
+586,DG 1000 20m,DG 1000T neo 20m,DG Flugzeugbau,Double,MG,x,,,,110,110,110,110,110,110,111,112
 589,DG 800 15m,DG 808S 15m,DG Flugzeugbau,15,GL,,,,,113,113,113,113,113,113,113,113
 590,DG 800 15m,DG 800LA 15m,DG Flugzeugbau,15,MG,,,,,113,113,113,113,113,113,112,112
 591,DG 800 18m,DG 800LA 18m,DG Flugzeugbau,18,MG,,,,,118,118,118,118,118,118,118,118
