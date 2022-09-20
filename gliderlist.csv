@@ -392,20 +392,20 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 395,ASH 25,ASH 25,Alexander Schleicher,Open,GL,x,,,,122,122,122,122,122,122,122,122
 396,ASH 25,ASH 25 E,Alexander Schleicher,Open,MG,x,,,,122,122,122,122,122,122,122,122
 397,ASH 25,ASH 25 M,Alexander Schleicher,Open,MG,x,,,,122,122,122,122,122,122,122,122
-398,JS1C 21m,JS1C 21m,Jonker Sailplanes,Open,GL,,,,,122,122,124,122,122,122,127,127
-399,JS1C 21m,JS1C TJ 21m,Jonker Sailplanes,Open,MG,,,,,122,122,124,122,122,122,127,127
+398,JS1C 21m,JS1C 21m,Jonker Sailplanes,Open,GL,,,,,122,122,124,122,122,122,127,126
+399,JS1C 21m,JS1C TJ 21m,Jonker Sailplanes,Open,MG,,,,,122,122,124,122,122,122,127,126
 400,LAK-20 26m,LAK-20M 26m,Sportinė Aviacija,Open,MG,,,,,122,122,122,122,122,122,122,122
 401,LAK-20 26m,LAK-20T 26m,Sportinė Aviacija,Open,MG,,,,,122,122,122,122,122,122,122,122
 402,Nimbus 3 25.5m,Nimbus 3 25.5m,Schempp-Hirth,Open,GL,,,,,122,122,122,122,122,122,122,122
 403,Nimbus 3 25.5m,Nimbus 3M 25.5m,Schempp-Hirth,Open,MG,,,,,122,122,122,122,122,122,122,122
 404,Nimbus 3 25.5m,Nimbus 3T 25.5m,Schempp-Hirth,Open,MG,,,,,122,122,122,122,122,122,122,122
 405,AS 22-2,AS 22-2,Alexander Schleicher,Open,GL,x,,,,121,121,121,121,121,121,121,121
-406,ASH 31 Mi 21m,ASH 31 Mi 21m,Alexander Schleicher,Open,MG,,,,,121,121,123,121,121,121,125,125
+406,ASH 31 Mi 21m,ASH 31 Mi 21m,Alexander Schleicher,Open,MG,,,,,121,121,123,121,121,121,125,124
 407,ASW 22 24m,ASW 22 24m,Alexander Schleicher,Open,GL,,,,,121,121,121,121,121,121,121,121
 408,ASW 22 24m,ASW 22E 24m,Alexander Schleicher,Open,MG,,,,,121,121,121,121,121,121,121,121
 409,Nimbus 3 24.5m,Nimbus 3 24.5m,Schempp-Hirth,Open,GL,,,,,121,121,121,121,121,121,121,121
 410,Nimbus 3 24.5m,Nimbus 3T 24.5m,Schempp-Hirth,Open,MG,,,,,121,121,121,121,121,121,121,121
-411,Antares 20,Antares 20E,Lange Aviation,Open,MG,,,,,120,120,122,122,120,120,123,123
+411,Antares 20,Antares 20E,Lange Aviation,Open,MG,,,,,120,120,122,122,120,120,123,122
 412,LAK-20 23m,LAK-20M 23m,Sportinė Aviacija,Open,MG,,,,,120,120,122,122,120,120,120,120
 413,LAK-20 23m,LAK-20T 23m,Sportinė Aviacija,Open,MG,,,,,120,120,122,122,120,120,120,120
 415,Nimbus 3D 24.6m,Nimbus 3D 24.6m,Schempp-Hirth,Open,GL,x,,,,120,120,120,120,120,120,120,120
@@ -551,8 +551,8 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 559,Schweizer SGS 2-32,Schweizer SGS 2-32,Schweizer Aircraft,Double,GL,x,,,x,83,83,83,83,83,83,83,83
 560,Schweizer SGS 2-33,Schweizer SGS 2-33,Schweizer Aircraft,Double,GL,x,,,x,54,54,54,54,54,54,54,54
 561,Habicht,Habicht,DFS,Club,GL,,,,x,60,60,60,60,60,60,60,60
-562,Antares 21E,Antares 21E,Lange Aviation,Open,MG,,,,,121,121,121,121,121,121,124,124
-563,Antares 21E,Antares 20E/21,Lange Aviation,Open,MG,,,,,121,121,121,121,121,121,124,124
+562,Antares 21E,Antares 21E,Lange Aviation,Open,MG,,,,,121,121,121,121,121,121,124,123
+563,Antares 21E,Antares 20E/21,Lange Aviation,Open,MG,,,,,121,121,121,121,121,121,124,123
 564,ASW 20 16.6m,ASW 20-J 16.6m,Alexander Schleicher,18,MG,,,,,112,112,112,112,112,112,112,112
 565,LAK-19 18m,LAK-19 T 18m,Sportinė Aviacija,18,MG,,,,,114,114,116,114,114,114,113,113
 566,LAK-19 15m,LAK-19 T 15m,Sportinė Aviacija,Standard,MG,,,,,108,108,108,108,108,108,108,108
