@@ -101,14 +101,14 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 103,Ventus c 17.6m,Ventus c 17.6m,Schempp-Hirth,18,GL,,,,,115,115,115,115,115,115,115,115
 104,Ventus c 17.6m,Ventus cM 17.6m,Schempp-Hirth,18,MG,,,,,115,115,115,115,115,115,115,115
 105,Ventus c 17.6m,Ventus cT 17.6m,Schempp-Hirth,18,MG,,,,,115,115,115,115,115,115,115,115
-106,ASW 28 18m,ASW 28 18m,Alexander Schleicher,18,GL,,,,,114,114,116,114,114,114,113,113
-107,ASW 28 18m,ASW 28 E 18m,Alexander Schleicher,18,MG,,,,,114,114,116,114,114,114,113,113
-108,Discus 2c 18m,Discus 2c 18m,Schempp-Hirth,18,GL,,,,,114,114,114,114,114,114,113,113
-109,Discus 2c 18m,Discus 2cFES 18m,Schempp-Hirth,18,FG,,,,,114,114,114,114,114,114,113,113
-110,Discus 2c 18m,Discus 2cT 18m,Schempp-Hirth,18,MG,,,,,114,114,114,114,114,114,113,113
-111,LAK-19 18m,LAK-19 18m,Sportinė Aviacija,18,GL,,,,,114,114,116,114,114,114,113,113
-112,LS 8 18m,LS 8 18m,DG Flugzeugbau,18,GL,,,,,114,114,114,114,114,114,113,113
-113,LS 8 18m,LS 8T 18m,DG Flugzeugbau,18,MG,,,,,114,114,114,114,114,114,113,113
+106,ASW 28 18m,ASW 28 18m,Alexander Schleicher,18,GL,,,,,114,114,116,114,114,114,113,114
+107,ASW 28 18m,ASW 28 E 18m,Alexander Schleicher,18,MG,,,,,114,114,116,114,114,114,113,114
+108,Discus 2c 18m,Discus 2c 18m,Schempp-Hirth,18,GL,,,,,114,114,114,114,114,114,113,114
+109,Discus 2c 18m,Discus 2cFES 18m,Schempp-Hirth,18,FG,,,,,114,114,114,114,114,114,113,114
+110,Discus 2c 18m,Discus 2cT 18m,Schempp-Hirth,18,MG,,,,,114,114,114,114,114,114,113,114
+111,LAK-19 18m,LAK-19 18m,Sportinė Aviacija,18,GL,,,,,114,114,116,114,114,114,113,114
+112,LS 8 18m,LS 8 18m,DG Flugzeugbau,18,GL,,,,,114,114,114,114,114,114,113,114
+113,LS 8 18m,LS 8T 18m,DG Flugzeugbau,18,MG,,,,,114,114,114,114,114,114,113,114
 114,DG 600 17m,DG 600 17m,DG Flugzeugbau,18,GL,,,,,113,113,113,113,113,113,113,113
 115,DG 600 17m,DG 600M 17m,DG Flugzeugbau,18,MG,,,,,113,113,113,113,113,113,113,113
 116,Ventus 16.6m,Ventus a 16.6m,Schempp-Hirth,18,GL,,,,,113,113,113,113,113,113,113,113
@@ -495,7 +495,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 502,Discus,Discus bM WL,Schempp-Hirth,Standard,MG,,x,,,108,108,108,108,108,108,108,108
 503,Discus,Discus bT WL,Schempp-Hirth,Standard,MG,,x,,,108,108,108,108,108,108,108,108
 504,AS 34 Me 15m,AS 34 Me 15m,Alexander Schleicher,Standard,FG,,,,,108,108,108,108,108,108,108,108
-505,AS 34 Me 18m,AS 34 Me 18m,Alexander Schleicher,18,FG,,,,,114,114,114,114,114,114,113,113
+505,AS 34 Me 18m,AS 34 Me 18m,Alexander Schleicher,18,FG,,,,,114,114,114,114,114,114,113,114
 506,SZD-48 Jantar Std. 2,SZD-48 Jantar Std. 2 WL,PZL Bielsko,Club,GL,,x,,,101,101,101,101,101,101,101,101
 507,LS 1-e/f,LS 1-f neo,Rolladen-Schneider,Club,GL,,x,,,101,101,101,101,101,101,101,101
 508,LS 3,LS 3 WL,Rolladen-Schneider,15,GL,,x,,,108,108,108,108,108,108,108,108
@@ -554,7 +554,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 562,Antares 21E,Antares 21E,Lange Aviation,Open,MG,,,,,121,121,121,121,121,121,124,123
 563,Antares 21E,Antares 20E/21,Lange Aviation,Open,MG,,,,,121,121,121,121,121,121,124,123
 564,ASW 20 16.6m,ASW 20-J 16.6m,Alexander Schleicher,18,MG,,,,,112,112,112,112,112,112,112,112
-565,LAK-19 18m,LAK-19 T 18m,Sportinė Aviacija,18,MG,,,,,114,114,116,114,114,114,113,113
+565,LAK-19 18m,LAK-19 T 18m,Sportinė Aviacija,18,MG,,,,,114,114,116,114,114,114,113,114
 566,LAK-19 15m,LAK-19 T 15m,Sportinė Aviacija,Standard,MG,,,,,108,108,108,108,108,108,108,108
 567,Ka 2,Ka 2 b,Alexander Schleicher,Double,GL,x,,,x,78,78,78,78,78,78,78,78
 568,Doppelraab,Doppelraab,Raab,Double,GL,x,,,x,54,54,54,54,54,54,54,54
@@ -565,7 +565,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 573,L23 SuperBlanik,L23 SuperBlanik,LET,Double,GL,x,,,x,78,78,78,78,78,78,78,78
 574,Lom-61 Favorit,Lom-61 Favorit,Lommatzsch,Club,GL,,,,x,75,75,75,75,75,75,75,75
 575,DG 300,DG 300G WL,DG Flugzeugbau,Standard,MG,,x,,,105,105,105,105,105,105,105,105
-576,LS 8 18m,LS 8e 18m,DG Flugzeugbau,18,FG,,,,,114,114,114,114,114,114,113,113
+576,LS 8 18m,LS 8e 18m,DG Flugzeugbau,18,FG,,,,,114,114,114,114,114,114,113,114
 577,Nimbus 3D 25.6m,Nimbus 3D 25.6m,Schempp-Hirth,Open,GL,x,,,,121,121,121,121,121,121,121,121
 578,Nimbus 3D 25.6m,Nimbus 3DM 25.6m,Schempp-Hirth,Open,MG,x,,,,121,121,121,121,121,121,121,121
 579,Nimbus 3D 25.6m,Nimbus 3DT 25.6m,Schempp-Hirth,Open,MG,x,,,,121,121,121,121,121,121,121,121
