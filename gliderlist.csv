@@ -454,9 +454,9 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 460,LS 8,LS 8T,DG Flugzeugbau,Standard,MG,,,,,108,108,108,108,108,108,108,108
 461,LS 8,LS 8e neo,DG Flugzeugbau,Standard,FG,,,,,108,108,108,108,108,108,109,109
 462,AK-8,AK-8,Akaflieg Karlsruhe,Standard,GL,,,,,107,107,107,107,107,107,107,107
-463,ASW 24,ASW 24,Alexander Schleicher,Standard,GL,,,,,107,107,107,107,107,107,107,107
-464,ASW 24,ASW 24 B,Alexander Schleicher,Standard,GL,,,,,107,107,107,107,107,107,107,107
-465,ASW 24,ASW 24 E,Alexander Schleicher,Standard,MG,,,,,107,107,107,107,107,107,107,107
+463,ASW 24,ASW 24,Alexander Schleicher,Standard,GL,,,,,107,107,107,107,107,107,107,106
+464,ASW 24,ASW 24 B,Alexander Schleicher,Standard,GL,,,,,107,107,107,107,107,107,107,106
+465,ASW 24,ASW 24 E,Alexander Schleicher,Standard,MG,,,,,107,107,107,107,107,107,107,106
 467,Discus,Discus a,Schempp-Hirth,Standard,GL,,,,,107,107,107,107,107,107,107,107
 468,Discus,Discus b,Schempp-Hirth,Standard,GL,,,,,107,107,107,107,107,107,107,106
 469,Discus,Discus bM,Schempp-Hirth,Standard,MG,,,,,107,107,107,107,107,107,107,106
@@ -475,8 +475,8 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 482,HpH 304C Wasp,HpH 304C Wasp,HpH Sailplanes,Standard,GL,,,,,104,104,104,104,104,104,104,104
 483,LS 4,LS 4,Rolladen-Schneider,Standard,GL,,,,,104,104,104,104,104,104,104,104
 484,SZD-56-2 Diana 2,SZD-56-2 Diana 2 FES,Avionic,15,FG,,,,,114,116,116,116,114,114,116,116
-485,ASW 24,ASW 24 WL,Alexander Schleicher,Standard,GL,,x,,,108,108,108,108,108,108,108,108
-486,ASW 24,ASW 24 E WL,Alexander Schleicher,Standard,MG,,x,,,108,108,108,108,108,108,108,108
+485,ASW 24,ASW 24 WL,Alexander Schleicher,Standard,GL,,x,,,108,108,108,108,108,108,108,107
+486,ASW 24,ASW 24 E WL,Alexander Schleicher,Standard,MG,,x,,,108,108,108,108,108,108,108,107
 487,ASW 19,ASW 19 WL,Alexander Schleicher,Club,GL,,x,,,101,101,101,101,101,101,101,101
 488,Duo Discus,Duo Discus WL,Schempp-Hirth,Double,GL,x,x,,,111,111,111,111,111,111,113,113
 489,Duo Discus,Duo Discus T WL,Schempp-Hirth,Double,MG,x,x,,,111,111,111,111,111,111,113,113
