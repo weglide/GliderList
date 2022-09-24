@@ -22,7 +22,7 @@ class XCSoarData(NamedTuple):
 
 
 def open_gliderlist():
-    with open("data/gliderlist.csv") as file:
+    with open("gliderlist.csv") as file:
         reader = csv.reader(file, delimiter=",")
         next(reader)
         gliders = []
