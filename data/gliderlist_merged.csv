@@ -264,7 +264,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 266,D 37,D 37,Akaflieg Darmstadt,Club,GL,13.0,300.0,387.4,460.0,,,,100,100,100,100,100,100,100,100
 267,DG 100,DG 100,DG Flugzeugbau,Club,GL,11.0,230.0,332.75,418.0,,,,100,100,100,100,100,100,100,100
 268,Elfe 17m,Elfe 17m,Neukom,Club,GL,13.3,270.0,,380.0,,,,100,100,100,100,100,100,100,100
-269,Hornet,Hornet,Glasflügel,Club,GL,9.8,227.0,318.0,,,,,100,100,100,100,100,100,100,100
+269,Hornet,Hornet,Glasflügel,Club,GL,9.8,227.0,318.0,420.0,,,,100,100,100,100,100,100,100,100
 270,LS 1-e/f,LS 1-e,Rolladen-Schneider,Club,GL,9.74,200.0,287.33,341.0,,,,100,100,100,100,100,100,100,100
 271,LS 1-e/f,LS 1-f,Rolladen-Schneider,Club,GL,9.74,230.0,328.238,390.0,,,,100,100,100,100,100,100,100,100
 272,Phöbus B3/C,Phöbus B3,Bölkow,Club,GL,14.06,225.0,310.0,459.0,,,,100,100,100,100,100,100,100,100
@@ -602,3 +602,5 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 613,SZD-59 15m,SZD-59 15m,Allstar PZL Glider,Club,GL,10.66,270.0,,540.0,,,x,100,100,100,100,100,100,100,100
 614,Archaeopteryx,Archaeopteryx,Ruppert Composite,Club,MG,12.8,64,,191,,,x,76,76,76,76,76,76,76,76
 615,LS 4,LS 4 Jet neo,Rolladen-Schneider,Standard,MG,10.5,240.0,338.0,505.0,,,,105,105,105,105,105,105,106,106
+616,Arcus,Arcus J,Schempp-Hirth,Double,MG,15.6,485.0,702.0,800.0,x,,,114,114,116,114,114,114,120,120
+617,Hornet,Hornet C,Glasflügel,Club,GL,9.8,227.0,318.0,450.0,,,,100,100,100,100,100,100,100,100
