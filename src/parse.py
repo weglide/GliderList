@@ -1,6 +1,6 @@
 import csv
 from .polar import open_polar, Polar
-from typing import NamedTuple, Dict, List
+from typing import NamedTuple
 
 
 class XCSoarData(NamedTuple):
@@ -33,7 +33,7 @@ def open_gliderlist():
     return gliders
 
 
-def open_gliderlist_data() -> Dict[str, List]:
+def open_gliderlist_data() -> dict[str, list]:
     with open("data/gliderlist_data.csv") as file:
         reader = csv.reader(file, delimiter=",")
         next(reader)
@@ -56,7 +56,7 @@ def open_gliderlist_data() -> Dict[str, List]:
                 ["", ""]
                 if polar is None
                 else [
-                    f"{polar.min_speed * 3.6:.2f}",
+                    f"{polar.min_speed_ms * 3.6:.2f}",
                     ":".join([f"{c:.7f}" for c in polar.coeffs]),
                 ]
             )
@@ -65,7 +65,7 @@ def open_gliderlist_data() -> Dict[str, List]:
     return gliders
 
 
-def open_xcsoar() -> Dict[int, XCSoarData]:
+def open_xcsoar() -> dict[int, XCSoarData]:
     # ID,Name,ReferenceMass,Maxwater,Speed1,Sink1,Speed2,Sink2,Speed3,Sink3,Wingarea,NoIdea,Index,Empty Mass
     with open("data/xcsoar.csv") as file:
         reader = csv.reader(file, delimiter=",")
@@ -120,7 +120,7 @@ def open_polars():
     return gliders
 
 
-def write(gliders, polars: Dict[int, List], xcsoar_data: Dict[int, XCSoarData]):
+def write(gliders, polars: dict[int, list], xcsoar_data: dict[int, XCSoarData]):
     with open("data/dmst_new.csv", "w") as file:
         writer = csv.writer(file)
         writer.writerow(
@@ -153,7 +153,7 @@ def write(gliders, polars: Dict[int, List], xcsoar_data: Dict[int, XCSoarData]):
                 writer.writerow(glider[:3] + [""] * 5)
 
 
-def merge(gliders: List, gliders_data: Dict):
+def merge(gliders: list, gliders_data: dict):
     with open("data/gliderlist_merged.csv", "w") as file:
         writer = csv.writer(file)
         writer.writerow(
@@ -177,6 +177,7 @@ def merge(gliders: List, gliders_data: Dict):
                 "Double Seater",
                 "Exclude Live",
                 "Vintage",
+                "Self-Launcher",
                 "2016",
                 "2017",
                 "2018",

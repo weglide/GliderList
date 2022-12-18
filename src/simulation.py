@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-from typing import Optional, Tuple
 
 import numpy as np
 
@@ -15,7 +14,7 @@ class Simulation:
     netto_straight: np.ndarray
     thermal_radius: float = 150.0  # European average thermal, meter
 
-    def run(self, polar: Polar, mac_cready: Optional[float] = None) -> float:
+    def run(self, polar: Polar, mac_cready: float | None = None) -> float:
         # use thermal_strength to gain needed altitude
         best_config = polar.thermal_config_for_radius(self.thermal_radius, 0)
         if best_config is None:
@@ -64,7 +63,7 @@ class Simulation:
 
         return best_speed
 
-    def find_best_mass(self, polar: Polar) -> Tuple[float, float, float]:
+    def find_best_mass(self, polar: Polar) -> tuple[float, float, float]:
         step_size = 100.0
         best_speed = 0.0
         prev_speed = 0.0

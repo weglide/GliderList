@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from functools import cached_property, partial
-from typing import Callable, List, NamedTuple, Optional, Tuple
+from typing import Callable, NamedTuple
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -79,8 +79,8 @@ class PolarInfo(NamedTuple):
     mass: float
     wing_loading: float
     min_speed: float
-    index: Optional[int] = None
-    glider_class: Optional[str] = None
+    index: int | None = None
+    glider_class: str | None = None
 
 
 @dataclass
@@ -89,7 +89,7 @@ class Polar:
     mass: float
     min_speed_ms: float
     name: str
-    mtow: Optional[float] = None
+    mtow: float | None = None
 
     @property
     def save_min_speed_ms(self):
@@ -228,7 +228,7 @@ class Polar:
 
     def thermal_config_for_radius(
         self, radius: float, alt: int
-    ) -> Optional[ThermalConfig]:
+    ) -> ThermalConfig | None:
         config = None
         min_thermal_speed = self.min_speed_bank_alt(0, alt)
         thermal_speeds = np.linspace(min_thermal_speed, min_thermal_speed + 20, 300)
@@ -295,7 +295,7 @@ class Polar:
         plt.plot(x * 3.6, y)
 
     @property
-    def encoded_coeffs(self) -> List[float]:
+    def encoded_coeffs(self) -> list[float]:
         running = 1
         data = []
         for e, coeff in zip(ENCODING, self.coeffs):
@@ -303,7 +303,7 @@ class Polar:
             data.append(running * e)
         return data
 
-    def decode(self, encoded_coeffs: List[float]) -> List[float]:
+    def decode(self, encoded_coeffs: list[float]) -> list[float]:
         running = 1
         data = []
         for e, coeff in zip(ENCODING, encoded_coeffs):
@@ -312,11 +312,11 @@ class Polar:
         return data
 
 
-Point = Tuple[float, float]
-PolarData = List[Point]
+Point = tuple[float, float]
+PolarData = list[Point]
 
 
-def polar_point(line: str) -> Optional[Point]:
+def polar_point(line: str) -> Point | None:
     entries = line.split()
     if not entries:
         return None
@@ -337,7 +337,7 @@ def save_func(func: Callable, input: str):
 save_float = partial(save_func, float)
 
 
-def open_polar(name: str) -> Tuple[PolarInfo, PolarData]:
+def open_polar(name: str) -> tuple[PolarInfo, PolarData]:
     data = []
     with open(POLAR_FOLDER + "/" + name) as file:
         # print(f"Parsing {name} ...")
@@ -362,15 +362,15 @@ def open_polar(name: str) -> Tuple[PolarInfo, PolarData]:
         "wingarea",
         "mass",
         "wing_loading",
-        "min_speed_ms",
+        "min_speed",
         "index",
         "glider_class",
     ]
     info = {k: save_float(lines[i]) for i, k in enumerate(fields) if i < data_start}
-    if info.get("min_speed_ms") is None:
-        info["min_speed_ms"] = data[0][0]
-    info = PolarInfo(**info)  # type: ignore
-    return info, data
+    if info.get("min_speed") is None:
+        info["min_speed"] = data[0][0]
+    polar_info = PolarInfo(**info)  # type: ignore
+    return polar_info, data
 
 
 def main():
