@@ -17,5 +17,10 @@ def test_unique_name():
     assert len(pks) == len(set(pks))
 
 
-if __name__ == "__main__":
-    test_unique_pk()
+def test_selflauncher_is_motorglider():
+    with open("gliderlist.csv") as file:
+        reader = csv.reader(file, delimiter=",")
+        next(reader)
+        for row in reader:
+            if row[10] == "x":
+                assert row[5] != "GL"
