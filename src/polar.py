@@ -1,24 +1,72 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from functools import partial
+from functools import cached_property, partial
 from typing import Callable, List, NamedTuple, Optional, Tuple
 
 import matplotlib.pyplot as plt
 import numpy as np
+
 from .utils import radius, required_bank_for_radius
+
+
+def density_factor(alt: float) -> float:
+    ISA_LAPSE_RATE: float = 0.0065  # Lapse Rate of Standard Atmosphere
+    ISA_TEMPERATURE: float = 288.15  # Temperature of Standard Atmosphere
+
+    T: float = ISA_TEMPERATURE
+    L: float = ISA_LAPSE_RATE
+
+    K: float = 0.190266  # defined in comments
+
+    return np.power(T / (T + L * alt), 1 / K)
+
+
+GRAVITY = 9.81
 
 POLAR_FOLDER = "./polars"
 
+ENCODING = (0.48412173, 0.93094931, 0.12066504, 0.25892759, 0.52097507)
+
+to_km_h = lambda speed: speed * 3.6
+to_m_s = lambda speed: speed / 3.6
+
+
+def radius(tas: float, bank: float):
+    """Radius that is achieved when flying with certain speed and bank"""
+    return np.power(tas, 2) / (GRAVITY * np.tan(np.radians(bank)))
+
+
+def required_bank_for_radius(radius: float, speed: float):
+    """Bank angle that must be flown to achieve a radius with a certain speed"""
+    return np.degrees(np.arctan(np.power(speed, 2) / (GRAVITY * radius)))
+
+
+class PolarPoint(NamedTuple):
+    speed_ms: float  # m/s
+    v_speed: float  # m/s
+
+    @property
+    def speed(self):
+        return to_km_h(self.speed_ms)
+
+    @property
+    def ld(self):
+        return -self.speed_ms / self.v_speed
+
 
 class ThermalConfig(NamedTuple):
-    speed: float
+    speed_ms: float
     bank: float
-    sink: float
+    v_speed: float
+
+    @property
+    def speed(self):
+        return to_km_h(self.speed_ms)
 
     def __str__(self):
         return (
-            f"Config: {self.bank:.0f}°, {self.speed*3.6:.1f} km/h, {self.sink:.2f} m/s"
+            f"Config: {self.bank:.0f}°, {self.speed:.1f} km/h, {self.v_speed:.2f} m/s"
         )
 
 
@@ -35,34 +83,24 @@ class PolarInfo(NamedTuple):
     glider_class: Optional[str] = None
 
 
-def density_factor(altitude: float) -> float:
-    ISA_LAPSE_RATE: float = 0.0065  # Lapse Rate of Standard Atmosphere
-    ISA_TEMPERATURE: float = 288.15  # Temperature of Standard Atmosphere
-
-    T: float = ISA_TEMPERATURE
-    L: float = ISA_LAPSE_RATE
-
-    K: float = 0.190266  # defined in comments
-
-    return np.power(T / (T + L * altitude), 1 / K)
-
-
 @dataclass
 class Polar:
-    a: float
-    b: float
-    c: float
+    coeffs: np.ndarray
     mass: float
-    # mtow: Optional[float] # TODO add
-    min_speed: float  # = 22  # m/s = 79 km/h
+    min_speed_ms: float
     name: str
+    mtow: Optional[float] = None
 
     @property
-    def save_min_speed(self):
-        return self.min_speed + 2  # 7.2 km/h above min speed
+    def save_min_speed_ms(self):
+        return self.min_speed_ms + 1
 
-    def into_polar_ref(self, tas: float, phi: float, altitude: float) -> float:
-        """Move tas into the reference system of the polar(0m altitude, 0° bank)
+    @property
+    def exponents(self) -> np.ndarray:
+        return np.arange(len(self.coeffs) - 1, -1, -1)
+
+    def into_polar_ref(self, tas: float, phi: float, alt: float) -> float:
+        """Move tas into the reference system of the polar(0m alt, 0° bank)
 
         Da im Kreisflug die Flächenbelastung hochgeht, muss die Geradeausfluggeschwindigkeit
         kleiner sein, als die IAS im Kreisflug
@@ -70,72 +108,62 @@ class Polar:
         Args:
             tas (float): True Airspeed (m/s)
             phi (float): Bank of the glider (degrees)
-            altitude (float): Altitude the glider is flying at (m)
+            alt (float): Altitude the glider is flying at (m)
 
         Returns:
             float: The equivalent airspeed at 0 m and 0° bank
         """
-        ias = tas * np.sqrt(density_factor(altitude))
+        ias = tas * np.sqrt(density_factor(alt))
         ias_polar = ias * np.sqrt(np.cos(np.radians(phi)))
         return ias_polar
 
-    def from_polar_ref(self, ias_polar: float, phi: float, altitude: float) -> float:
+    def from_polar_ref(self, ias_polar: float, phi: float, alt: float) -> float:
         """Reverse function of into_polar_ref
 
         Args:
             tas (float): True Airspeed (m/s)
             phi (float): Bank of the glider (degrees)
-            altitude (float): Altitude the glider is flying at (m)
+            alt (float): Altitude the glider is flying at (m)
 
         Returns:
             float: The equivalent airspeed at 0 m and 0° bank
         """
         ias = ias_polar / np.sqrt(np.cos(np.radians(phi)))
-        tas = ias / np.sqrt(density_factor(altitude))
+        tas = ias / np.sqrt(density_factor(alt))
         return tas
 
-    def transform_sink(
+    def transform_v_speed(
         self,
-        sink_level_0m: float,
+        v_speed_level_0m: float,
         phi: float,
-        altitude: float,
+        alt: float,
     ) -> float:
         # W(phi=0,alt=0m) -> w(phi=X,alt=0m)
-        # die Sinkgeschwindigkeit im Kreis muss höher sein als im Geradeausflug
-        sink_bank_0m = sink_level_0m * np.power(np.cos(np.radians(phi)), -3 / 2)
+        # die v_speedgeschwindigkeit im Kreis muss höher sein als im Geradeausflug
+        v_speed_bank_0m = v_speed_level_0m * np.power(np.cos(np.radians(phi)), -3 / 2)
         # W(phi=X,alt=0m) à w(phi=X,alt=Xm)
-        # Die Sinkgeschwindigkeit im Kreis, in einer Höhe größer 0 muss höher sein.
-        sink_bank_xm = sink_bank_0m / np.sqrt(density_factor(altitude))
+        # Die v_speedgeschwindigkeit im Kreis, in einer Höhe größer 0 muss höher sein.
+        v_speed_bank_xm = v_speed_bank_0m / np.sqrt(density_factor(alt))
 
-        return sink_bank_xm
+        return v_speed_bank_xm
 
-    def evaluate(self, tas: float, phi: float, altitude: int):
-        ias_polar = self.into_polar_ref(tas, phi, altitude)
-        sink_polar = self(ias_polar)
-        sink_bank_xm = self.transform_sink(sink_polar, phi, altitude)
-        return sink_bank_xm
+    def evaluate(self, tas: float, phi: float, alt: int):
+        ias_polar = self.into_polar_ref(tas, phi, alt)
+        v_speed_polar = self(ias_polar)
+        v_speed_bank_xm = self.transform_v_speed(v_speed_polar, phi, alt)
+        return v_speed_bank_xm
+
+    def netto(self, brutto: float, tas: float, phi: float, alt: int):
+        return brutto - self.evaluate(tas, phi, alt)
 
     def __str__(self):
-        return f"Mass: {self.mass} kg, L/D: {self.best_ld:.0f} @ {self.best_ld_speed*3.6:.0f} km/h, min sink {self.min_sink:.2f} m/s @ {self.min_sink_speed * 3.6:.0f} km/h"
+        return f"Mass: {self.mass} kg, L/D: {self.best_ld:.0f} @ {self.best_ld.speed:.0f} km/h, min sink {self.min_sink:.2f} m/s @ {self.min_sink.speed:.0f} km/h"
 
-    def plt(self):
-        x = np.arange(self.min_speed, 50)
-        y = np.array([self(i) for i in x])
-        plt.plot(x * 3.6, y)
-
-    def for_mass(self, new_mass: float) -> Polar:
+    def with_mass(self, new_mass: float) -> Polar:
         """Calculate new coefficients for different mass
 
-        The increase in sink speed and glide speed is proportional to the square root of the increase in mass.
+        The increase in v_speed speed and glide speed is proportional to the square root of the increase in mass.
         The coefficients transform like:
-
-        .. math::
-            \lambda y = \tilde{a}(\lambda x)^2 + \tilde{b}\lambda x + \tilde{c}
-            \begin{align*}
-                \tilde{a} &= \frac{a}{\lambda} \\
-                \tilde{b} &= b \\
-                \tilde{c} &= c\lambda
-            \end{align*}
 
         Args:
             new_mass (float): Mass of the new polar
@@ -143,17 +171,23 @@ class Polar:
         Returns:
             Polar: Newly generated polar
         """
-        factor = np.sqrt(new_mass / self.mass)
-        a = self.a / factor
-        b = self.b
-        c = self.c * factor
-        min_speed = factor * self.min_speed
-        return Polar(a, b, c, new_mass, min_speed, self.name)
+        load_factor = np.sqrt(new_mass / self.mass)
+        transformed = self.coeffs * load_factor ** (1 - self.exponents)
+        min_speed_ms = load_factor * self.min_speed_ms
+        return Polar(transformed, new_mass, min_speed_ms, self.name)
 
     def __call__(self, x: float) -> float:
-        return self.a * x**2 + self.b * x + self.c
+        return np.sum(self.coeffs * (x**self.exponents))
 
-    def get_root(self, x_1, y_1) -> Point:
+    @property
+    def speeds(self):
+        return np.arange(self.min_speed_ms, 80, 0.1)
+
+    @property
+    def v_speeds(self):
+        return np.array([self(s) for s in self.speeds])
+
+    def get_root(self, x_1: float, y_1: float) -> float:
         """Return the point on the polar whose tangent passes through point.
 
         Solve the polynomial equation that a point on the polar needs to fullfill if his tangent
@@ -165,114 +199,121 @@ class Polar:
         .. math::
             y_1 + m * (x - x_1) = ax^2 + bx + c
 
-        which simplifies to
-
-        .. math::
-            ax^2 - 2ax_1x + y_1 - c - bx_1
-
-
         Args:
             point (Point): Point that the tangent needs to pass
 
         Returns:
             Point: Tangent point to the polar
         """
-        a = self.a
-        b = -2 * self.a * x_1
-        c = y_1 - self.c - self.b * x_1
+        m = (self.v_speeds - y_1) / (self.speeds - x_1)
+        # ix = np.argmax(np.where(m < 0, m, -np.inf))
+        ix = np.argmax(m)
+        return self.speeds[ix]
 
-        poly = np.polynomial.Polynomial((c, b, a))
-        roots = poly.roots()
-        return roots[1]
+    @cached_property
+    def min_sink(self) -> PolarPoint:
+        ix = np.argmax(self.v_speeds)
+        return PolarPoint(self.speeds[ix], self.v_speeds[ix])
 
-    @property
-    def min_sink_speed(self) -> float:
-        return max(self.min_speed, -self.b / (2 * self.a))
+    @cached_property
+    def best_ld(self) -> PolarPoint:
+        speed_to_fly = self.get_root(0, 0)
+        return PolarPoint(speed_to_fly, self(speed_to_fly))
 
-    @property
-    def min_sink(self) -> float:
-        return self(self.min_sink_speed)
-
-    @property
-    def best_ld_speed(self) -> float:
-        return self.get_root(0, 0)
-
-    @property
-    def best_ld(self) -> float:
-        return -self.best_ld_speed / self(self.best_ld_speed)
-
-    def best_ld_headwind(self, headwind: float) -> float:
-        speed_to_fly = self.get_root(headwind, 0)
-        return -(speed_to_fly - headwind) / self(speed_to_fly)
-
-    def to_netto(self, brutto: float) -> float:
-        pass
-
-    def speed_to_fly(self, mac_cready: float, netto: float) -> float:
-        return max(self.min_speed, self.get_root(0, mac_cready - netto))
+    def speed_to_fly(
+        self, mac_cready: float, netto: float, headwind: float
+    ) -> PolarPoint:
+        speed = max(self.min_speed_ms, self.get_root(headwind, mac_cready - netto))
+        return PolarPoint(speed, self(speed))
 
     def thermal_config_for_radius(
-        self, radius: float, altitude: float
+        self, radius: float, alt: int
     ) -> Optional[ThermalConfig]:
         config = None
-        for tas in np.linspace(
-            self.min_speed_alt_bank(0, altitude), self.min_speed + 10, 300
-        ):
+        min_thermal_speed = self.min_speed_bank_alt(0, alt)
+        thermal_speeds = np.linspace(min_thermal_speed, min_thermal_speed + 20, 300)
+        for tas in thermal_speeds:
             rb = required_bank_for_radius(radius, tas)
-            # print(f"Speed {tas*3.6:.2f} km/h requires bank of {rb:.2f}°")
-            if rb > self.max_bank_for_tas(tas, altitude):
+            if rb > self.max_bank_for_tas(tas, alt):
                 continue
-            sink = self.evaluate(tas, rb, altitude)
-            if config is None or np.abs(sink) < np.abs(config.sink):
-                config = ThermalConfig(tas, rb, sink)
+            v_speed = self.evaluate(tas, rb, alt)
+            if config is None or np.abs(v_speed) < np.abs(config.v_speed):
+                config = ThermalConfig(tas, rb, v_speed)
         return config
 
-    def min_speed_alt_bank(self, phi: float, altitude: float) -> float:
-        return self.from_polar_ref(self.save_min_speed, phi, altitude)
+    def min_speed_bank_alt(self, phi: float, alt: float) -> float:
+        """Minium speed that can safely be flown at bank `phi` and altitude `alt`"""
+        return self.from_polar_ref(self.save_min_speed_ms, phi, alt)
 
-    def max_bank_for_tas(self, tas: float, altitude: float) -> float:
+    def max_bank_for_tas(self, tas: float, alt: float) -> float:
+        """Maxmium bank that can safely be flown at speed `tas` and altitude `alt`"""
         return np.degrees(
             np.arccos(
                 np.power(
-                    self.save_min_speed / (tas * np.sqrt(density_factor(altitude))), 2
+                    self.save_min_speed_ms / (tas * np.sqrt(density_factor(alt))), 2
                 )
             )
         )
 
-    def min_radius_for_speed(self, tas: float, altitude: float) -> float:
-        max_bank = self.max_bank_for_tas(tas, altitude)
+    def min_radius_for_speed(self, tas: float, alt: float) -> float:
+        """Minimum radius that can safely be flown at speed `tas` and altitude `alt`"""
+        max_bank = self.max_bank_for_tas(tas, alt)
         return radius(tas, max_bank)
+
+    @staticmethod
+    def ls_4() -> Polar:
+        return Polar(
+            coeffs=np.array([-0.0000115, -0.0017534, 0.1040406, -1.9786322]),
+            mass=338.0,
+            min_speed_ms=to_m_s(70.0),
+            name="LS 4",
+        )
 
     @classmethod
     def from_filename(cls, filename: str) -> Polar:
         info, data = open_polar(filename)
-        return Polar.from_data_points(data, info.mass, info.min_speed / 3.6, filename)
+        return Polar.from_data_points(data, info.mass, to_m_s(info.min_speed), filename)
 
     @classmethod
     def from_data_points(
-        cls, data: PolarData, mass: float, min_speed: float, filename: str
+        cls, data: PolarData, mass: float, min_speed_ms: float, filename: str
     ) -> Polar:
         """Second degree polynomial regression to polar data."""
-        # km/h -0.0002227, 0.040399, -2.48156
-        # m/s -0.002886, 0.1454, -2.4815
-        # from FB a 0.1037, b -8.8112 c 301.56
-        # For an unloaded JS1 at 35.7 kg/sq.m the parameters are: a = +1.54, b = -2.81, and c = 1.85
-        x = np.array([p[0] for p in data])
-        x = x / 3.6
+        x = to_m_s(np.array([p[0] for p in data]))
         y = np.array([p[1] for p in data])
-        res = np.polyfit(x, y, 2)
+        res = np.polyfit(x, y, 4)
         return Polar(
-            a=res[0],
-            b=res[1],
-            c=res[2],
+            coeffs=res,
             mass=mass,
-            min_speed=min_speed,
+            min_speed_ms=min_speed_ms,
             name=filename.split(".")[0],
         )
 
+    def plt(self):
+        x = np.arange(self.min_speed, 50)
+        y = np.array([self(i) for i in x])
+        plt.plot(x * 3.6, y)
+
+    @property
+    def encoded_coeffs(self) -> List[float]:
+        running = 1
+        data = []
+        for e, coeff in zip(ENCODING, self.coeffs):
+            running *= coeff
+            data.append(running * e)
+        return data
+
+    def decode(self, encoded_coeffs: List[float]) -> List[float]:
+        running = 1
+        data = []
+        for e, coeff in zip(ENCODING, encoded_coeffs):
+            data.append(coeff / (running * e))
+            running = coeff / e
+        return data
+
 
 Point = Tuple[float, float]
-PolarData = List[Tuple[Point]]
+PolarData = List[Point]
 
 
 def polar_point(line: str) -> Optional[Point]:
@@ -310,6 +351,9 @@ def open_polar(name: str) -> Tuple[PolarInfo, PolarData]:
                 data_start = i
             data.append(point)
 
+    if data_start is None:
+        raise ValueError("No data found")
+
     fields = [
         "name",
         "registration",
@@ -318,14 +362,14 @@ def open_polar(name: str) -> Tuple[PolarInfo, PolarData]:
         "wingarea",
         "mass",
         "wing_loading",
-        "min_speed",
+        "min_speed_ms",
         "index",
         "glider_class",
     ]
     info = {k: save_float(lines[i]) for i, k in enumerate(fields) if i < data_start}
-    if info.get("min_speed") is None:
-        info["min_speed"] = data[0][0]
-    info = PolarInfo(**info)
+    if info.get("min_speed_ms") is None:
+        info["min_speed_ms"] = data[0][0]
+    info = PolarInfo(**info)  # type: ignore
     return info, data
 
 
@@ -341,8 +385,7 @@ def main():
     )
     for polar_file in polars:
         polar = Polar.from_filename(polar_file)
-        polar = polar.for_mass(525)
-        # print(f"Min speed: {polar.min_speed_alt_bank(0, 40) * 3.6:.2f}")
+        polar = polar.with_mass(525)
 
 
 if __name__ == "__main__":

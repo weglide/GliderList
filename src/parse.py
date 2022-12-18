@@ -1,5 +1,5 @@
 import csv
-from .polar import open_polar
+from .polar import open_polar, Polar
 from typing import NamedTuple, Dict, List
 
 
@@ -40,7 +40,27 @@ def open_gliderlist_data() -> Dict[str, List]:
         gliders = {}
         for row in reader:
             gliders[row[0]] = row[3:7]
+            polar = None
+            if row[7].endswith((".POL", ".pol")):
+                polar = Polar.from_filename(row[7])
+            elif ":" in row[7]:
+                data = row[7].split(":")
+                points = [
+                    (float(data[i]), float(data[i + 1])) for i in range(len(data) // 2)
+                ]
+                polar = Polar.from_data_points(
+                    points, float(row[5]), (points[0][0] - 20) / 3.6, ""
+                )
 
+            polar_data = (
+                ["", ""]
+                if polar is None
+                else [
+                    f"{polar.min_speed * 3.6:.2f}",
+                    ":".join([f"{c:.7f}" for c in polar.coeffs]),
+                ]
+            )
+            gliders[row[0]].extend(polar_data)
         print(f"Parsed {len(gliders)} gliders from data gliderlist")
     return gliders
 
@@ -138,19 +158,22 @@ def merge(gliders: List, gliders_data: Dict):
         writer = csv.writer(file)
         writer.writerow(
             [
-                # [0: 6]
+                # [0: 6] glider
                 "ID",
                 "Glider",
                 "Model",
                 "Manufacturer",
                 "Competition Class",
                 "Kind",
-                # [6: 10]
+                # [6: 10] data
                 "Wingarea",
                 "Empty Weight",
                 "Reference Mass",
                 "MTOW",
-                # [10: ]
+                # [10: 12] polar data
+                "Min Speed",
+                "Polar Coeffs",
+                # [12: ] glider
                 "Double Seater",
                 "Exclude Live",
                 "Vintage",
@@ -168,8 +191,8 @@ def merge(gliders: List, gliders_data: Dict):
             data = gliders_data.get(glider[0])
             try:
                 writer.writerow(glider[:6] + data + glider[6:7] + glider[8:])
-            except TypeError:
-                print(glider)
+            except TypeError as e:
+                print(glider, e)
 
 
 if __name__ == "__main__":
