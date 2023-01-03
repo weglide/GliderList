@@ -46,11 +46,17 @@ def open_gliderlist_data() -> dict[str, list]:
             elif ":" in row[7]:
                 data = row[7].split(":")
                 points = [
-                    (float(data[i]), float(data[i + 1])) for i in range(len(data) // 2)
+                    (float(data[i]), float(data[i + 1])) for i in range(0, len(data), 2)
                 ]
                 polar = Polar.from_data_points(
                     points, float(row[5]), (points[0][0] - 20) / 3.6, ""
                 )
+
+            if polar is not None:
+                sink = polar.evaluate(40, 0, 0)
+                print(f"{row[1]}: {sink}")
+                if sink > 0:
+                    raise AssertionError
 
             polar_data = (
                 ["", ""]
