@@ -190,7 +190,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 192,Zugvogel IIIa,Zugvogel IIIa,Scheibe-Flugzeugbau,Club,GL,,,,x,,88,88,88,88,88,88,88,88
 193,Greif 2,Greif 2,Heinkel Flugzeugwerke,Club,GL,,,,x,,86,86,86,86,86,86,86,86
 194,M-25,M-25,-,Club,GL,,,,,,86,86,86,86,86,86,86,86
-195,Pilatus B4 FG,Pilatus B4 FG,Pilatus,Club,GL,,,,,,86,86,86,86,86,86,86,86
+195,Pilatus B4 FG,Pilatus B4 FG,Pilatus,Club,GL,,,,x,,86,86,86,86,86,86,86,86
 196,SB 5,SB 5a,Akaflieg Braunschweig,Club,GL,,,,x,,86,86,86,86,86,86,86,86
 197,SB 5,SB 5b,Akaflieg Braunschweig,Club,GL,,,,x,,86,86,86,86,86,86,86,86
 198,SB 5,SB 5c,Akaflieg Braunschweig,Club,GL,,,,x,,86,86,86,86,86,86,86,86
@@ -542,7 +542,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 550,DG 1000 20m,DG 1000E neo 20m,DG Flugzeugbau,Double,FG,x,,,,,110,110,110,110,110,110,111,112
 551,DG 1000 18m,DG 1000E neo 18m,DG Flugzeugbau,Double,FG,x,,,,,106,106,106,106,106,106,107,107
 552,Duo Discus XL,Duo Discus XL FES,Schempp-Hirth,Double,FG,x,,,,,111,111,111,111,111,111,113,113
-553,Pilatus B4 RG,Pilatus B4 RG,Pilatus,Club,GL,,,,,,88,88,88,88,88,88,88,88
+553,Pilatus B4 RG,Pilatus B4 RG,Pilatus,Club,GL,,,,x,,88,88,88,88,88,88,88,88
 554,ASG 29 15m,ASG 29 RES 15m,Alexander Schleicher,15,FG,,,,,x,114,114,116,114,114,114,114,114
 555,ASG 29 18m,ASG 29 RES 18m,Alexander Schleicher,18,FG,,,,,x,119,119,121,119,119,119,121,121
 556,Schweizer SGS 1-26,Schweizer SGS 1-26,Schweizer Aircraft,Club,GL,,,,x,,63,63,63,63,63,63,63,63
