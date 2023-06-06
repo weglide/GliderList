@@ -24,3 +24,12 @@ def test_selflauncher_is_motorglider():
         for row in reader:
             if row[10] == "x":
                 assert row[5] != "GL"
+
+
+def test_double_is_doubleseater():
+    with open("gliderlist.csv") as file:
+        reader = csv.reader(file, delimiter=",")
+        next(reader)
+        for row in reader:
+            if row[4] == "Double":
+                assert row[6] == "x"

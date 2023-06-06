@@ -566,7 +566,7 @@
         "name": "Arcus E"
     },
     "DG-808 B": {
-        "id": 79,
+        "id": 77,
         "name": "DG 808 18m"
     },
     "ASW-22": {
@@ -1302,5 +1302,13 @@
     "Doppelraab": {
         "id": 568,
         "name": "Doppelraab"
+    },
+    "EB29R": {
+        "id": 372,
+        "name": "EB 29R"
+    },
+    "DG-500 M": {
+        "id": 362,
+        "name": "DG 500M 20m"
     }
 }

@@ -369,7 +369,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 372,EB 29,EB 29R,Binder,Open,MG,,,,,x,125,125,127,127,125,125,129,129
 373,Eta,Eta,ETA Aircraft,Open,MG,x,,,,x,125,125,127,125,125,125,127,127
 374,NimEta,NimEta X,ETA Aircraft,Open,MG,,,,,x,125,125,127,127,125,125,128,128
-375,ASH 30 Mi,ASH 30 Mi,Alexander Schleicher,Open,MG,,,,,x,124,124,126,124,124,124,124,124
+375,ASH 30 Mi,ASH 30 Mi,Alexander Schleicher,Open,MG,x,,,,x,124,124,126,124,124,124,124,124
 376,ASW 22 BL,ASW 22 BL,Alexander Schleicher,Open,GL,,,,,,124,124,124,124,124,124,124,124
 377,ASW 22 BL,ASW 22 BLE,Alexander Schleicher,Open,MG,,,,,x,124,124,124,124,124,124,124,124
 378,EB 28,EB 28,Binder,Open,MG,x,,,,x,124,124,126,126,124,124,125,125
@@ -418,7 +418,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 422,Nimbus 3 22.9m,Nimbus 3 22.9m,Schempp-Hirth,Open,GL,,,,,,119,119,119,119,119,119,119,119
 423,Glasflügel 604 24m,Glasflügel 604 24m,Glasflügel,Open,GL,,,,,,118,118,118,118,118,118,118,118
 424,LS 5,LS 5,Rolladen-Schneider,Open,GL,,,,,,118,118,118,118,118,118,118,118
-425,SB 10,SB 10,Akaflieg Braunschweig,Open,GL,,,,,,118,118,118,118,118,118,118,118
+425,SB 10,SB 10,Akaflieg Braunschweig,Open,GL,x,,,,,118,118,118,118,118,118,118,118
 426,ASW 17,ASW 17,Alexander Schleicher,Open,GL,,,,,,115,115,115,115,115,115,115,115
 427,Glasflügel 604,Glasflügel 604,Glasflügel,Open,GL,,,,,,114,114,114,114,114,114,114,114
 428,Kestrel 22m,Kestrel 22m,Glasflügel,Open,GL,,,,,,114,114,114,114,114,114,114,114
@@ -591,7 +591,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 602,Cumulus CU IIf,Cumulus CU IIf,Gerhard Reinhard,Club,GL,,,,x,,54,54,54,54,54,54,54,54
 603,SparrowHawk,SparrowHawk,Windward Performance,Club,GL,,,,,,85,85,85,85,85,85,85,85
 604,DuckHawk,DuckHawk,Windward Performance,15,GL,,,,,,114,114,114,114,114,114,114,114
-605,C-201 Marianne,C-201B Marianne,Centrair,Double,GL,,,,,,100,100,100,100,100,100,100,100
+605,C-201 Marianne,C-201B Marianne,Centrair,Double,GL,x,,,,,100,100,100,100,100,100,100,100
 606,Nixus,Nixus,Nixus Project,Open,MG,x,,,,x,126,126,126,126,126,126,126,126
 607,DG 1000 18m,DG 1000S neo 18m,DG Flugzeugbau,Double,GL,x,,,,,106,106,106,106,106,106,107,107
 608,DG 1000 18m,DG 1000T neo 18m,DG Flugzeugbau,Double,MG,x,,,,,106,106,106,106,106,106,107,107
