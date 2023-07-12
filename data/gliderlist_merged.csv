@@ -599,8 +599,8 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 610,Mü 17,Mü 17,Akaflieg München,Club,GL,13.30,160.0,,255.0,,,,,,,64,64,64,64,64,64,64,64
 611,LS 8,LS 8T neo,DG Flugzeugbau,Standard,MG,10.5,325.0,377.0,525.0,83.40,-0.0000024:0.0002707:-0.0130232:0.2855048:-2.9129016,,,,,108,108,108,108,108,108,109,109
 612,Olympia Meise,Olympia Meise,DFS,Club,GL,15.00,160.0,,255.0,,,,,x,,64,64,64,64,64,64,64,64
-613,SZD-59 15m,SZD-59 15m,Allstar PZL Glider,Club,GL,10.66,270.0,,540.0,,,,,x,,100,100,100,100,100,100,100,100
-614,Archaeopteryx,Archaeopteryx,Ruppert Composite,Club,MG,12.8,64,,191,,,,,x,x,76,76,76,76,76,76,76,76
+613,SZD-59 15m,SZD-59 15m,Allstar PZL Glider,Club,GL,10.66,270.0,,540.0,,,,,,,100,100,100,100,100,100,100,100
+614,Archaeopteryx,Archaeopteryx,Ruppert Composite,Club,MG,12.8,64,,191,,,,,,x,76,76,76,76,76,76,76,76
 615,LS 4,LS 4 Jet neo,Rolladen-Schneider,Standard,MG,10.5,240.0,338.0,505.0,70.00,-0.0000051:0.0007003:-0.0375377:0.8764579:-8.0044517,,,,,105,105,105,105,105,105,106,106
 616,Arcus,Arcus J,Schempp-Hirth,Double,MG,15.6,485.0,702.0,800.0,78.00,-0.0000054:0.0008429:-0.0498947:1.2824907:-12.5555260,x,,,,114,114,116,114,114,114,120,120
 617,Hornet,Hornet C,Glasflügel,Club,GL,9.8,227.0,318.0,450.0,71.00,-0.0000010:0.0001645:-0.0123437:0.3513426:-3.9083796,,,,,100,100,100,100,100,100,100,100
@@ -619,3 +619,6 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 630,Stratos 300,Stratos 300,HFL Leichtflugzeugbau,Club,GL,13.86,170.0,,300.0,,,,,,,64,64,64,64,64,64,64,64
 631,LS 1,LS 1-c neo,Rolladen-Schneider,Club,GL,9.74,200.0,287.33,341.0,64.00,-0.0000075:0.0009986:-0.0515472:1.1425118:-9.6818903,,,,,99,99,99,99,99,99,99,99
 632,FK-3,FK-3,VFW-Fokker,Club,GL,13.8,240.0,,400.0,,,,,,,105,105,105,105,105,105,105,105
+633,Swift-Light,Swift-Light E,Aériane,Club,FG,12.5,95.0,,191.0,,,,,,x,76,76,76,76,76,76,76,76
+634,Swift-Light,Swift-Light,Aériane,Club,GL,12.5,60.0,,191.0,,,,,,,76,76,76,76,76,76,76,76
+635,Diamant 16.5,Diamant 16.5,FFA,18,GL,12.2,270.0,,408.0,,,,,,,105,105,105,105,105,105,105,105
