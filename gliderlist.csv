@@ -599,8 +599,8 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 610,Mü 17,Mü 17,Akaflieg München,Club,GL,,,,,,64,64,64,64,64,64,64,64
 611,LS 8,LS 8T neo,DG Flugzeugbau,Standard,MG,,,,,,108,108,108,108,108,108,109,109
 612,Olympia Meise,Olympia Meise,DFS,Club,GL,,,,x,,64,64,64,64,64,64,64,64
-613,SZD-59 15m,SZD-59 15m,Allstar PZL Glider,Club,GL,,,,x,,100,100,100,100,100,100,100,100
-614,Archaeopteryx,Archaeopteryx,Ruppert Composite,Club,MG,,,,x,x,76,76,76,76,76,76,76,76
+613,SZD-59 15m,SZD-59 15m,Allstar PZL Glider,Club,GL,,,,,,100,100,100,100,100,100,100,100
+614,Archaeopteryx,Archaeopteryx,Ruppert Composite,Club,MG,,,,,x,76,76,76,76,76,76,76,76
 615,LS 4,LS 4 Jet neo,Rolladen-Schneider,Standard,MG,,x,,,,105,105,105,105,105,105,106,106
 616,Arcus,Arcus J,Schempp-Hirth,Double,MG,x,,,,,114,114,116,114,114,114,120,120
 617,Hornet,Hornet C,Glasflügel,Club,GL,,,,,,100,100,100,100,100,100,100,100
@@ -619,5 +619,5 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 630,Stratos 300,Stratos 300,HFL Leichtflugzeugbau,Club,GL,,,,,,64,64,64,64,64,64,64,64
 631,LS 1,LS 1-c neo,Rolladen-Schneider,Club,GL,,x,,,,99,99,99,99,99,99,99,99
 632,FK-3,FK-3,VFW-Fokker,Club,GL,,,,,,105,105,105,105,105,105,105,105
-633,Swift-Light,Swift-Light E,Aériane,Club,FG,,,,x,x,76,76,76,76,76,76,76,76
-634,Swift-Light,Swift-Light,Aériane,Club,GL,,,,x,,76,76,76,76,76,76,76,76
+633,Swift-Light,Swift-Light E,Aériane,Club,FG,,,,,x,76,76,76,76,76,76,76,76
+634,Swift-Light,Swift-Light,Aériane,Club,GL,,,,,,76,76,76,76,76,76,76,76
