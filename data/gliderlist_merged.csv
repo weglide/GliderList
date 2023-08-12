@@ -160,7 +160,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 162,SHK,SHK,Schempp-Hirth,Club,GL,14.70,260.0,,370.0,,,,,x,,96,96,96,96,96,96,96,96
 163,VSO-10,VSO-10,VSO,Club,GL,12.0,250.0,348.0,380.0,65.00,-0.0000062:0.0007898:-0.0399612:0.8796798:-7.6293816,,,,,96,96,96,96,96,96,96,96
 164,Mü 22b,Mü 22b,Akaflieg München,Club,GL,13.7,280.0,,360.0,,,,,,,95,95,95,95,95,95,95,95
-165,G 102 Astir CS Top,G 102 Astir CS Top,Grob Aircraft,Club,GL,12.4,305.0,368.28,450.0,67.00,-0.0000032:0.0004632:-0.0269015:0.6525676:-6.2349560,,,,,94,94,94,94,94,94,94,94
+165,G 102 Astir CS Top,G 102 Astir CS Top,Grob Aircraft,Club,MG,12.4,305.0,368.28,450.0,67.00,-0.0000032:0.0004632:-0.0269015:0.6525676:-6.2349560,,,,,94,94,94,94,94,94,94,94
 166,Elfe FG,Elfe FG,Neukom,Club,GL,11.9,261.0,327.25,354.0,69.00,-0.0000009:0.0001400:-0.0104951:0.2956208:-3.4091256,,,,,94,94,94,94,94,94,94,94
 167,Phöbus A,Phöbus A,Bölkow,Club,GL,13.16,210.0,,350.0,,,,,,,94,94,94,94,94,94,94,94
 168,Silent 2,Silent 2,Alisport,Club,MG,,,,,,,,,,x,94,94,94,94,94,94,94,94
@@ -622,3 +622,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 633,Swift-Light,Swift-Light E,Aériane,Club,FG,12.5,95.0,,191.0,,,,,,x,76,76,76,76,76,76,76,76
 634,Swift-Light,Swift-Light,Aériane,Club,GL,12.5,60.0,,191.0,,,,,,,76,76,76,76,76,76,76,76
 635,Diamant 16.5,Diamant 16.5,FFA,18,GL,12.2,270.0,,408.0,,,,,,,105,105,105,105,105,105,105,105
+636,AC-5,AC-5M,Aviastroitel,Club,MG,7.7,180.0,,300.0,,,,,,x,84,84,84,84,84,84,84,84
+637,AC-5,AC-5K,Aviastroitel,Club,MG,7.7,180.0,,300.0,,,,,,x,84,84,84,84,84,84,84,84
+638,AC-5,AC-5Me,Aviastroitel,Club,FG,7.7,180.0,,300.0,,,,,,x,84,84,84,84,84,84,84,84
+639,Reiher III,Reiher III,DFS,Club,GL,19.36,230.0,,315.00,,,,,x,,80,80,80,80,80,80,80,80
