@@ -116,7 +116,10 @@
     "name": "ASH 26 E"
   },
   "Vans RV-6a": {},
-  "Cirrus 18m": {},
+  "Cirrus 18m": {
+    "id": 264,
+    "name": "Cirrus"
+  },
   "Banjo MH": {
     "id": 239,
     "name": "Banjo"
