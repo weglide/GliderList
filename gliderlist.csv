@@ -242,7 +242,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 244,Spatz 13m,Spatz 13m,Scheibe-Flugzeugbau,Club,GL,,,,x,,74,74,74,74,74,74,74,74
 245,Piccolo,Piccolo,Technoflug,Club,MG,,,,,x,68,68,68,68,68,68,68,68
 246,Song,Song,Gramex,Club,MG,,,x,,x,65,65,65,65,65,65,65,65
-247,Stratos 2e,Stratos 2e,HFL Leichtflugzeugbau,Club,GL,,,,,,64,64,64,64,64,64,64,64
+247,Stratos 2e,Stratos 2e,HFL Leichtflugzeugbau,Club,MG,,,,,,64,64,64,64,64,64,64,64
 248,Rhönsperber,Rhönsperber,DFS,Club,GL,,,,x,,62,62,62,62,62,62,62,62
 249,Rhönbussard,Rhönbussard,DFS,Club,GL,,,,x,,60,60,60,60,60,60,60,60
 250,Grunau Baby,Grunau Baby,Schneider,Club,GL,,,,x,,54,54,54,54,54,54,54,54
@@ -616,7 +616,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Double Seater,Winglets,Exclu
 627,LS 1,LS 1-d neo,Rolladen-Schneider,Club,GL,,x,,,,99,99,99,99,99,99,99,99
 628,HP 24,HP 24 15m,HP Aircraft,15,GL,,,,,,111,111,111,111,111,111,111,111
 629,GP 14 Velo SE,GP 14 Velo SE,GP Gliders,Club,MG,,,,,,104,104,104,104,104,104,104,104
-630,Stratos 300,Stratos 300,HFL Leichtflugzeugbau,Club,GL,,,,,,64,64,64,64,64,64,64,64
+630,Stratos 300,Stratos 300,HFL Leichtflugzeugbau,Club,MG,,,,,,64,64,64,64,64,64,64,64
 631,LS 1,LS 1-c neo,Rolladen-Schneider,Club,GL,,x,,,,99,99,99,99,99,99,99,99
 632,FK-3,FK-3,VFW-Fokker,Club,GL,,,,,,105,105,105,105,105,105,105,105
 633,Swift-Light,Swift-Light E,Aériane,Club,FG,,,,,x,76,76,76,76,76,76,76,76
