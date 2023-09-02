@@ -242,7 +242,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 244,Spatz 13m,Spatz 13m,Scheibe-Flugzeugbau,Club,GL,10.90,135.0,,245.0,,,,,x,,74,74,74,74,74,74,74,74
 245,Piccolo,Piccolo,Technoflug,Club,MG,10.60,180.0,,297.0,,,,,,x,68,68,68,68,68,68,68,68
 246,Song,Song,Gramex,Club,MG,,,,,,,,x,,x,65,65,65,65,65,65,65,65
-247,Stratos 2e,Stratos 2e,HFL Leichtflugzeugbau,Club,GL,15.0,155.0,,280.0,,,,,,,64,64,64,64,64,64,64,64
+247,Stratos 2e,Stratos 2e,HFL Leichtflugzeugbau,Club,MG,15.0,155.0,,280.0,,,,,,,64,64,64,64,64,64,64,64
 248,Rhönsperber,Rhönsperber,DFS,Club,GL,15.10,177.0,,267.0,,,,,x,,62,62,62,62,62,62,62,62
 249,Rhönbussard,Rhönbussard,DFS,Club,GL,14.10,150.0,,245.0,,,,,x,,60,60,60,60,60,60,60,60
 250,Grunau Baby,Grunau Baby,Schneider,Club,GL,14.20,160.0,,250.0,,,,,x,,54,54,54,54,54,54,54,54
@@ -616,7 +616,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 627,LS 1,LS 1-d neo,Rolladen-Schneider,Club,GL,9.74,200.0,287.33,341.0,64.00,-0.0000075:0.0009986:-0.0515472:1.1425118:-9.6818903,,,,,99,99,99,99,99,99,99,99
 628,HP 24,HP 24 15m,HP Aircraft,15,GL,10.02,239.0,,375.0,,,,,,,111,111,111,111,111,111,111,111
 629,GP 14 Velo SE,GP 14 Velo SE,GP Gliders,Club,MG,7.0,205.0,,420.0,,,,,,,104,104,104,104,104,104,104,104
-630,Stratos 300,Stratos 300,HFL Leichtflugzeugbau,Club,GL,13.86,170.0,,300.0,,,,,,,64,64,64,64,64,64,64,64
+630,Stratos 300,Stratos 300,HFL Leichtflugzeugbau,Club,MG,13.86,170.0,,300.0,,,,,,,64,64,64,64,64,64,64,64
 631,LS 1,LS 1-c neo,Rolladen-Schneider,Club,GL,9.74,200.0,287.33,341.0,64.00,-0.0000075:0.0009986:-0.0515472:1.1425118:-9.6818903,,,,,99,99,99,99,99,99,99,99
 632,FK-3,FK-3,VFW-Fokker,Club,GL,13.8,240.0,,400.0,,,,,,,105,105,105,105,105,105,105,105
 633,Swift-Light,Swift-Light E,Aériane,Club,FG,12.5,95.0,,191.0,,,,,,x,76,76,76,76,76,76,76,76
@@ -626,3 +626,4 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 637,AC-5,AC-5K,Aviastroitel,Club,MG,7.7,180.0,,300.0,,,,,,x,84,84,84,84,84,84,84,84
 638,AC-5,AC-5Me,Aviastroitel,Club,FG,7.7,180.0,,300.0,,,,,,x,84,84,84,84,84,84,84,84
 639,Reiher III,Reiher III,DFS,Club,GL,19.36,230.0,,315.00,,,,,x,,80,80,80,80,80,80,80,80
+640,LS 3,LS 3 neo,Rolladen-Schneider,15,GL,10.5,270.0,372.75,472.0,72.00,-0.0000038:0.0005210:-0.0279720:0.6474645:-5.9972768,,,,,109,109,109,109,109,109,109,109
