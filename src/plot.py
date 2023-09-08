@@ -12,7 +12,7 @@ def plot_optimal_climb(polar: Polar):
     for radius in np.linspace(80, 220, 5):
         speeds = np.array([
             s
-            for s in np.linspace(polar.min_speed, polar.min_speed + 20, 100)
+            for s in np.linspace(polar.min_speed_ms, polar.min_speed_ms + 20, 100)
             if polar.min_speed_bank_alt(required_bank_for_radius(radius, s), 0) < s
         ])
         sink = [
@@ -20,7 +20,8 @@ def plot_optimal_climb(polar: Polar):
             for tas in speeds
         ]
         best = polar.thermal_config_for_radius(radius, 0)
-        plt.plot(best.speed * 3.6, best.sink, "-ro")
+        assert best is not None
+        plt.plot(best.speed * 3.6, best.v_speed, "-ro")
         plt.plot(speeds * 3.6, sink, label=f"Radius: {radius:.1f} m")
 
     plt.xlabel("Speed [km/h]")
@@ -95,7 +96,7 @@ def plot_sink_for_radius_speed(polar: Polar):
         x = np.array(
             [
                 i
-                for i in np.linspace(polar.min_speed, polar.min_speed + 20, 300)
+                for i in np.linspace(polar.min_speed_ms, polar.min_speed_ms + 20, 300)
                 if polar.min_speed_bank_alt(required_bank_for_radius(radius, i), 0) < i
             ]
         )
@@ -113,7 +114,7 @@ def plot_speed_for_radius(polar: Polar):
         x = np.array(
             [
                 i
-                for i in np.linspace(polar.min_speed, 40)
+                for i in np.linspace(polar.min_speed_ms, 40)
                 if polar.min_speed_bank_alt(required_bank_for_radius(radius, i), 0) < i
             ]
         )
@@ -126,8 +127,8 @@ def plot_speed_for_radius(polar: Polar):
 
 def plot_radius(polar: Polar):
     for phi in np.linspace(20, 50, 4):
-        min_speed = polar.min_speed_bank_alt(phi, 0)
-        x = np.linspace(min_speed, 40)
+        min_speed_ms = polar.min_speed_bank_alt(phi, 0)
+        x = np.linspace(min_speed_ms, 40)
         y = np.array([radius(i, phi) for i in x])
         plt.plot(x * 3.6, y, label=f"Bank: {phi}°")
     plt.xlabel("Speed [km/h]")
@@ -158,7 +159,7 @@ def plot_min_speed_weight_altitude(polar: Polar):
 
 
 def plot_at_altitude(polar: Polar):
-    speed = polar.min_sink_speed  # m/s
+    speed = polar.min_sink.speed_ms  # m/s
     x = np.linspace(0, 10000)
     y = np.array([polar.evaluate(speed, alt=i, phi=0) for i in x])
     plt.plot(x, y, label=polar.name)
@@ -168,7 +169,7 @@ def plot_at_altitude(polar: Polar):
 
 
 def plot_at_bank(polar: Polar):
-    speed = polar.min_sink_speed
+    speed = polar.min_sink.speed_ms
     x = np.linspace(0, 60)
     y = np.array([polar.evaluate(speed, alt=0, phi=i) for i in x])
     plt.plot(x, y, label=polar.name)
@@ -181,7 +182,7 @@ def plot_speed_to_fly_weight(polar: Polar):
     for mass_diff in np.linspace(0, 300, 5):
         new_polar = polar.with_mass(polar.mass + mass_diff)
         x = np.linspace(0, 5)
-        y = np.array([new_polar.speed_to_fly(i, 0.0) * 3.6 for i in x])
+        y = np.array([new_polar.speed_to_fly(i, 0.0, 0.0).speed_ms * 3.6 for i in x])
         plt.plot(x, y, label=f"Mass: {new_polar.mass:.0f} kg")
     plt.xlabel("MacCready [m/s]")
     plt.ylabel("Speed to fly [km/h]")
@@ -199,52 +200,100 @@ def plot_speed_best_ld_speed_headwind(polar: Polar):
     plt.title("Best L/D at different weights and headwinds")
 
 
-def plot_speed_best_ld_headwind(polar: Polar):
-    for mass_diff in np.linspace(0, 300, 5):
-        new_polar = polar.with_mass(polar.mass + mass_diff)
-        x = np.linspace(-20, 20)
-        y = np.array([new_polar.best_ld_headwind(i) for i in x])
-        plt.plot(x * 3.6, y, label=f"Mass: {new_polar.mass:.0f} kg")
-    plt.xlabel("Headwind [km/h]")
-    plt.ylabel("Best L/D")
-    plt.title("Speed to fly at different weights and headwinds")
+def plot_polar(polar: Polar):
+    items = 350
+    plt.plot(polar.speeds[:items] * 3.6, polar.v_speeds[:items], label="Fit")
+
+    plt.xlabel("Speed [km/h]")
+    plt.ylabel("Sink [m/s]")
 
 
 def main():
-    polars = (
-        "LS4.POL",
-        "LS3.POL",
-        "LS3A.POL",
-        "LS8.POL",
-        "LS8_neo_2016.POL",
-        "LS7.POL",
-        # "LS6_1990.POL",
-    )
-    # polars = ("LS8.POL", "LS8_neo_2016.POhat L")
-    polars = (
-        # "LS4.POL",
-        "LS8_neo_2016.POL",
-        # "VENTUS2ct_18_new.POL",
-        # "ASG32.POL",
-        # "LS6C_18.POL",
-        # "LS8_18.POL",
-        # "JS-MD-3_18m.POL",
-        # "ArcusT_2011.POL",
-    )
-    for polar_file in polars:
-        polar_info, data = open_polar(polar_file)
-        # plt.plot([x[0] for x in data], [x[1] for x in data])
-        polar = Polar.from_filename(polar_file)
+    polar_file = "LS8_neo_2016.POL"
 
-        polar.speed_to_fly(0.0, 2.0)
-        plot_optimal_climb(polar)
-        # plot_speed_to_fly_weight(polar)
-        # polar = polar.with_mass(800)
-        # # plot_xc_speed_thermal_mass(polar)
-        # plot_xc_speed_thermal(polar)
+    # plot the actual data
+    polar_info, data = open_polar(polar_file)
+    plt.plot([d[0] for d in data], [d[1] for d in data], label="Measured")
+
+    polar = Polar.from_filename(polar_file)
+    plot_polar(polar)
+
     plt.legend()
     plt.show()
 
 
+def compare_with_xcsoar():
+    polar = Polar(
+    #   np.array([-0.0000002, -0.0000033, 0.0000181, 0.0006924, -0.3305156]),  # nimbus
+      np.array([-0.0000022, 0.0003027, -0.0178467, 0.4667099, -5.0310928]),  # ls7
+      597,
+      65.10 / 3.6,
+      name="Nimbus 4",
+      mtow=850,
+    )
+
+    plot_polar(polar)
+    plt.legend()
+    plt.show()
+
+
+def xcsoar_polyfit(v: list[float], w: list[float]) -> tuple[float, float, float]:
+    v1, v2, v3 = v
+    w1, w2, w3 = w
+    d = v1 * v1 * (v2 - v3) + v2 * v2 * (v3 - v1) + v3 * v3 * (v1 - v2)
+    if d == 0:
+        a = 0.0
+    else:
+        a = -((v2 - v3) * (w1 - w3) + (v3 - v1) * (w2 - w3)) / d
+
+    d = v2 - v3
+    if d == 0:
+        b = 0.0
+    else:
+        b = -(w2 - w3 + a * (v2 * v2 - v3 * v3)) / d
+
+    c = -(w3 + a * v3 * v3 + b * v3)
+    return a, b, c
+
+
+
+def coeff_to_lx(a, b, c):
+    b = b * 100 / 3.6
+    a = a * (100 / 3.6) ** 2
+    return -a, -b, -c
+
+
+def coeff_from_lx(a, b, c):
+    b = b / (100 / 3.6)
+    a = a / (100 / 3.6) ** 2
+    return -a, -b, -c
+
+
+
 if __name__ == "__main__":
-    main()
+    # main()
+    # plot three points
+    x = np.array([103.77,  155.65,  180.00]) / 3.6
+    y = np.array([-0.73, -1.47, -2.66])
+
+
+    # x = np.array([85.1, 127.98, 162.74]) / 3.6
+    # y = np.array([-0.41, -0.75, -1.4])
+
+
+    # it's the same
+    res = np.polyfit(x, y, 2)
+    z = np.arange(80, 180) / 3.6
+    zz = res[0] * z**2 + res[1] * z + res[2]
+    plt.plot(z * 3.6, zz, label="Simple Fit")
+
+    res = coeff_from_lx(1.78, -3.03, 1.93)
+    zz = res[0] * z**2 + res[1] * z + res[2]
+    plt.plot(z * 3.6, zz, label="LX Polar")
+
+    plt.plot(x * 3.6, y, label="XCSoar")
+    plt.show()
+    plt.legend()
+
+
+    # compare_with_xcsoar()

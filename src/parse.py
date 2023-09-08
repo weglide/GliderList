@@ -49,12 +49,12 @@ def open_gliderlist_data() -> dict[str, list]:
                     (float(data[i]), float(data[i + 1])) for i in range(0, len(data), 2)
                 ]
                 polar = Polar.from_data_points(
-                    points, float(row[5]), (points[0][0] - 20) / 3.6, ""
+                    points, float(row[5]), (points[0][0] - 20) / 3.6, filename="", order=2
                 )
 
             if polar is not None:
                 sink = polar.evaluate(40, 0, 0)
-                print(f"{row[1]}: {sink}")
+                print(f"Sink at 144 km/h for {row[1]}: {sink}")
                 if sink > 0:
                     raise AssertionError
 
@@ -71,7 +71,7 @@ def open_gliderlist_data() -> dict[str, list]:
     return gliders
 
 
-def open_xcsoar() -> dict[int, XCSoarData]:
+def open_xcsoar() -> dict[str, XCSoarData]:
     # ID,Name,ReferenceMass,Maxwater,Speed1,Sink1,Speed2,Sink2,Speed3,Sink3,Wingarea,NoIdea,Index,Empty Mass
     with open("data/xcsoar.csv") as file:
         reader = csv.reader(file, delimiter=",")

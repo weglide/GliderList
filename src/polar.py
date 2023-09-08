@@ -32,16 +32,6 @@ to_km_h = lambda speed: speed * 3.6
 to_m_s = lambda speed: speed / 3.6
 
 
-def radius(tas: float, bank: float):
-    """Radius that is achieved when flying with certain speed and bank"""
-    return np.power(tas, 2) / (GRAVITY * np.tan(np.radians(bank)))
-
-
-def required_bank_for_radius(radius: float, speed: float):
-    """Bank angle that must be flown to achieve a radius with a certain speed"""
-    return np.degrees(np.arctan(np.power(speed, 2) / (GRAVITY * radius)))
-
-
 class PolarPoint(NamedTuple):
     speed_ms: float  # m/s
     v_speed: float  # m/s
@@ -272,16 +262,18 @@ class Polar:
     @classmethod
     def from_filename(cls, filename: str) -> Polar:
         info, data = open_polar(filename)
-        return Polar.from_data_points(data, info.mass, to_m_s(info.min_speed), filename)
+        return Polar.from_data_points(data, info.mass, to_m_s(info.min_speed), filename, order=4)
 
     @classmethod
     def from_data_points(
-        cls, data: PolarData, mass: float, min_speed_ms: float, filename: str
+        cls, data: PolarData, mass: float, min_speed_ms: float, filename: str, order: int = 2
     ) -> Polar:
         """Second degree polynomial regression to polar data."""
         x = to_m_s(np.array([p[0] for p in data]))
         y = np.array([p[1] for p in data])
-        res = np.polyfit(x, y, 4)
+
+        # only do second order polyfit for xcsoar
+        res = np.polyfit(x, y, order)
         return Polar(
             coeffs=res,
             mass=mass,
@@ -290,7 +282,7 @@ class Polar:
         )
 
     def plt(self):
-        x = np.arange(self.min_speed, 50)
+        x = np.arange(self.min_speed_ms, 50)
         y = np.array([self(i) for i in x])
         plt.plot(x * 3.6, y)
 
