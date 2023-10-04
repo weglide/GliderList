@@ -1,4 +1,4 @@
-ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Reference Mass,MTOW,Min Speed,Polar Coeffs,Double Seater,Exclude Live,Vintage,Self-Launcher,2016,2017,2018,2019,2020,2021,2022,2023,2024
+ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Reference Mass,MTOW,Min Speed,Polar Coeffs,Double Seater,Exclude Live,Vintage,Self-Launcher,2016,2017,2018,2019,2020,2021,2022,2023
 1,SZD-56-2 Diana 2,SZD-56-2 Diana 2,Avionic,15,GL,8.64,185.0,,525.0,,,,,,,114,116,116,116,114,114,116,116,116
 2,JS3 15m,JS3 15m,Jonker Sailplanes,15,GL,8.75,350,,525,,,,,,,116,116,116,116,114,114,116,116,116
 3,JS3 15m,JS3 RES 15m,Jonker Sailplanes,15,MG,8.75,350,,525,,,,,,x,116,116,116,116,114,114,116,116,116
@@ -637,3 +637,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 648,Briegleb BG-12,Briegleb BG-12/16,Briegleb,Club,GL,13.1,227.0,,409.0,,,,,x,,85,85,85,85,85,85,85,85,85
 649,CVT M-200,CVT M-200,Morelli,Double,GL,17.5,345.0,,570.0,,,x,,x,,79,79,79,79,79,79,79,79,79
 650,Morelli M-100,Morelli M-100,Morelli,Club,GL,13.1,155.0,,315.0,,,,,x,,79,79,79,79,79,79,79,79,79
+651,Schweizer SGS 1-35,Schweizer SGS 1-35,Schweizer,Club,GL,9.64,180,,300.0,,,,,,,99,99,99,99,99,99,99,99,99
+652,Schweizer SGS 1-35,Schweizer SGS 1-35C,Schweizer,Club,GL,9.64,180,,300.0,,,,,,,93,93,93,93,93,93,93,93,93
+653,Schweizer SGS 1-35,Schweizer SGS 1-35A,Schweizer,Club,GL,9.64,180,,300.0,,,,,,,102,102,102,102,102,102,102,102,102
+654,SZD-55-1 Nexus,SZD-55-2 Nexus-e-Motion,Allstar PZL Glider,Standard,FG,9.6,215.0,309.12,500.0,68.50,-0.0000019:0.0002539:-0.0150434:0.3708053:-3.7224274,,,,,107,107,107,107,107,107,107,107,107
