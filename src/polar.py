@@ -171,7 +171,7 @@ class Polar:
 
     @property
     def speeds(self):
-        return np.arange(self.min_speed_ms, 80, 0.1)
+        return np.arange(self.min_speed_ms, 70, 0.1)
 
     @property
     def v_speeds(self):
@@ -196,7 +196,6 @@ class Polar:
             Point: Tangent point to the polar
         """
         m = (self.v_speeds - y_1) / (self.speeds - x_1)
-        # ix = np.argmax(np.where(m < 0, m, -np.inf))
         ix = np.argmax(m)
         return self.speeds[ix]
 
@@ -262,11 +261,18 @@ class Polar:
     @classmethod
     def from_filename(cls, filename: str) -> Polar:
         info, data = open_polar(filename)
-        return Polar.from_data_points(data, info.mass, to_m_s(info.min_speed), filename, order=4)
+        return Polar.from_data_points(
+            data, info.mass, to_m_s(info.min_speed), filename, order=2
+        )
 
     @classmethod
     def from_data_points(
-        cls, data: PolarData, mass: float, min_speed_ms: float, filename: str, order: int = 2
+        cls,
+        data: PolarData,
+        mass: float,
+        min_speed_ms: float,
+        filename: str,
+        order: int = 2,
     ) -> Polar:
         """Second degree polynomial regression to polar data."""
         x = to_m_s(np.array([p[0] for p in data]))
@@ -281,10 +287,10 @@ class Polar:
             name=filename.split(".")[0],
         )
 
-    def plt(self):
-        x = np.arange(self.min_speed_ms, 50)
-        y = np.array([self(i) for i in x])
-        plt.plot(x * 3.6, y)
+    def plt(self, label: str = ""):
+        x = self.speeds
+        y = self.v_speeds
+        plt.plot(x * 3.6, y, label=label)
 
     @property
     def encoded_coeffs(self) -> list[float]:
@@ -368,16 +374,17 @@ def open_polar(name: str) -> tuple[PolarInfo, PolarData]:
 def main():
     # polars = ("LS4.POL", "LS3.POL", "LS8.POL", "LS7.POL", "LS6_1990.POL")
     # polars = ("LS8.POL", "LS8_neo_2016.POL")
-    polars = (
-        "LS8_neo_2016.POL",
-        # "VENTUS2ct_18_new.POL",
-        # "ASG32.POL",
-        # "LS6C_18.POL",
-        # "JS-MD-3_18m.POL",
-    )
-    for polar_file in polars:
-        polar = Polar.from_filename(polar_file)
-        polar = polar.with_mass(525)
+    for order in (2, 3, 4):
+        polar = Polar.from_filename("LS3A78.POL")
+        print(f"Speed to fly: {polar.speed_to_fly(0.0, 0.0, 0.0).speed_ms * 3.6:.2f}")
+        print(f"Speed to fly: {polar.speed_to_fly(0.5, 0.0, 0.0).speed_ms * 3.6:.2f}")
+        print(f"Speed to fly: {polar.speed_to_fly(1.0, 0.0, 0.0).speed_ms * 3.6:.2f}")
+        print(f"Speed to fly: {polar.speed_to_fly(1.5, 0.0, 0.0).speed_ms * 3.6:.2f}")
+        print(f"Speed to fly: {polar.speed_to_fly(2.0, 0.0, 0.0).speed_ms * 3.6:.2f}")
+        polar.plt(label=f"order {order}")
+
+    plt.legend()
+    plt.show()
 
 
 if __name__ == "__main__":
