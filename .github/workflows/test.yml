@@ -16,7 +16,7 @@ jobs:
         python-version: 3.8
 
     - name: Install pytest
-      run: pip3 install pytest numpy
+      run: pip3 install pytest numpy matplotlib
   
     - name: Run tests
       run: pytest
