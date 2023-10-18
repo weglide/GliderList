@@ -10,11 +10,13 @@ from .simulation import Simulation
 def plot_optimal_climb(polar: Polar):
     polar = polar.with_mass(400)
     for radius in np.linspace(80, 220, 5):
-        speeds = np.array([
-            s
-            for s in np.linspace(polar.min_speed_ms, polar.min_speed_ms + 20, 100)
-            if polar.min_speed_bank_alt(required_bank_for_radius(radius, s), 0) < s
-        ])
+        speeds = np.array(
+            [
+                s
+                for s in np.linspace(polar.min_speed_ms, polar.min_speed_ms + 20, 100)
+                if polar.min_speed_bank_alt(required_bank_for_radius(radius, s), 0) < s
+            ]
+        )
         sink = [
             polar.evaluate(tas, required_bank_for_radius(radius, tas), 0)
             for tas in speeds
@@ -224,12 +226,12 @@ def main():
 
 def compare_with_xcsoar():
     polar = Polar(
-    #   np.array([-0.0000002, -0.0000033, 0.0000181, 0.0006924, -0.3305156]),  # nimbus
-      np.array([-0.0000022, 0.0003027, -0.0178467, 0.4667099, -5.0310928]),  # ls7
-      597,
-      65.10 / 3.6,
-      name="Nimbus 4",
-      mtow=850,
+        #   np.array([-0.0000002, -0.0000033, 0.0000181, 0.0006924, -0.3305156]),  # nimbus
+        np.array([-0.0000022, 0.0003027, -0.0178467, 0.4667099, -5.0310928]),  # ls7
+        597,
+        65.10 / 3.6,
+        name="Nimbus 4",
+        mtow=850,
     )
 
     plot_polar(polar)
@@ -256,7 +258,6 @@ def xcsoar_polyfit(v: list[float], w: list[float]) -> tuple[float, float, float]
     return a, b, c
 
 
-
 def coeff_to_lx(a, b, c):
     b = b * 100 / 3.6
     a = a * (100 / 3.6) ** 2
@@ -269,31 +270,26 @@ def coeff_from_lx(a, b, c):
     return -a, -b, -c
 
 
-
 if __name__ == "__main__":
-    # main()
-    # plot three points
-    x = np.array([103.77,  155.65,  180.00]) / 3.6
-    y = np.array([-0.73, -1.47, -2.66])
-
-
-    # x = np.array([85.1, 127.98, 162.74]) / 3.6
-    # y = np.array([-0.41, -0.75, -1.4])
-
-
-    # it's the same
-    res = np.polyfit(x, y, 2)
-    z = np.arange(80, 180) / 3.6
-    zz = res[0] * z**2 + res[1] * z + res[2]
-    plt.plot(z * 3.6, zz, label="Simple Fit")
-
-    res = coeff_from_lx(1.78, -3.03, 1.93)
-    zz = res[0] * z**2 + res[1] * z + res[2]
-    plt.plot(z * 3.6, zz, label="LX Polar")
-
-    plt.plot(x * 3.6, y, label="XCSoar")
-    plt.show()
-    plt.legend()
-
+    a = [
+        ["eb29r", 700, 0.63, -0.58, 0.42],
+        ["EB 29", 700, 0.62, -0.74, 0.55],
+        ["JS3 TJ 15m", 450, 0.98, -1.85, 1.47],
+        ["HpH 304C Wasp", 356, 1.54, -2.42, 1.56],
+        ["DG 500M 22m", 530, 2.06, -3.38, 1.93],
+        ["Silent 2", 302, 1.25, -1.46, 0.93],
+        ["Phöbus A", 395, 1.28, -1.43, 1.35],
+        ["DG 500 22m", 530, 2.06, -3.38, 1.93],
+        ["DG 1000S 18m", 492, 2.51, -4.30, 2.48],
+        ["DG 505 M Orion 20m", 528, 1.47, -2.35, 1.51],
+        ["SZD-38 Jantar 1", 401, 3.01, -5.57, 3.23],
+        ["SZD-56-2 Diana 2 FES", 242, 1.57, -2.32, 1.33],
+        ["Bee", 318, 1.73, -2.8, 1.73],
+        ["ASH 30 Mi", 831, 0.81, -1.29, 0.96],
+    ]
+    for el in a:
+        assert len(el) == 5, el
+        res = coeff_from_lx(*el[2:])
+        print(el[0], el[1], f"{res[0]:.6f}={res[1]:.4f}={res[2]:.2f}")
 
     # compare_with_xcsoar()

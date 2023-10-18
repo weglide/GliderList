@@ -1,3 +1,4 @@
+import numpy as np
 import csv
 from .polar import open_polar, Polar
 from typing import NamedTuple
@@ -44,6 +45,7 @@ def open_gliderlist_data() -> dict[str, list]:
             if row[7].endswith((".POL", ".pol")):
                 polar = Polar.from_filename(row[7])
             elif ":" in row[7]:
+                # three speeds and sink, do polyfit
                 data = row[7].split(":")
                 points = [
                     (float(data[i]), float(data[i + 1])) for i in range(0, len(data), 2)
@@ -51,10 +53,19 @@ def open_gliderlist_data() -> dict[str, list]:
                 polar = Polar.from_data_points(
                     points, float(row[5]), (points[0][0] - 20) / 3.6, filename="", order=2
                 )
+            elif "=" in row[7]:
+                # coeffs directly in file
+                coeffs = np.array([float(r) for r in row[7].split("=")])
+                polar = Polar(
+                    coeffs=coeffs,
+                    mass=float(row[5]),
+                    min_speed_ms=float(row[8]) / 3.6,
+                    name="",
+                )
 
             if polar is not None:
                 sink = polar.evaluate(40, 0, 0)
-                print(f"Sink at 144 km/h for {row[1]}: {sink}")
+                print(f"Sink at 144 km/h for {row[1]}: {sink:.3f}")
                 if sink > 0:
                     raise AssertionError
 
