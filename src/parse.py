@@ -43,7 +43,8 @@ def open_gliderlist_data() -> dict[str, list]:
             gliders[row[0]] = row[3:7]
             polar = None
             if row[7].endswith((".POL", ".pol")):
-                polar = Polar.from_filename(row[7])
+                reference_mass = float(row[5])
+                polar = Polar.from_filename(row[7], reference_mass)
             elif ":" in row[7]:
                 # three speeds and sink, do polyfit
                 data = row[7].split(":")

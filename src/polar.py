@@ -259,10 +259,10 @@ class Polar:
         )
 
     @classmethod
-    def from_filename(cls, filename: str) -> Polar:
+    def from_filename(cls, filename: str, reference_mass: float) -> Polar:
         info, data = open_polar(filename)
         return Polar.from_data_points(
-            data, info.mass, to_m_s(info.min_speed), filename, order=2
+            data, reference_mass, to_m_s(info.min_speed), filename, order=2
         )
 
     @classmethod
