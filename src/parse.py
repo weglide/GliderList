@@ -51,8 +51,12 @@ def open_gliderlist_data() -> dict[str, list]:
                 points = [
                     (float(data[i]), float(data[i + 1])) for i in range(0, len(data), 2)
                 ]
+                if row[8]:
+                    min_speed_ms = float(row[8]) / 3.6
+                else:
+                    min_speed_ms = (points[0][0] - 20) / 3.6
                 polar = Polar.from_data_points(
-                    points, float(row[5]), (points[0][0] - 20) / 3.6, filename="", order=2
+                    points, float(row[5]), min_speed_ms, filename="", order=2
                 )
             elif "=" in row[7]:
                 # coeffs directly in file
