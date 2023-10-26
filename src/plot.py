@@ -1,3 +1,4 @@
+import csv
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -5,6 +6,24 @@ from .polar import Polar, open_polar
 
 from .utils import radius, required_bank_for_radius
 from .simulation import Simulation
+from src.grouping import (
+    old_18_m,
+    new_18_m,
+    old_below_18_m,
+    old_double,
+    new_double,
+    old_15_m,
+    new_15_m,
+    exoctic_15_m,
+    new_standard,
+    old_standard,
+    common_club,
+    old_club,
+    rest_club,
+    old_open,
+    new_open,
+    exotic_open
+)
 
 
 def plot_optimal_climb(polar: Polar):
@@ -191,6 +210,17 @@ def plot_speed_to_fly_weight(polar: Polar):
     plt.title("Speed to fly at different weights")
 
 
+def plot_speed_to_fly_mac_cready(polar: Polar):
+    for mac_cready in np.linspace(0, 5, 5):
+        new_polar = polar.with_mass(polar.mass)
+        x = np.linspace(0, 5)
+        y = np.array([new_polar.speed_to_fly(i, 0.0, 0.0).speed_ms * 3.6 for i in x])
+        plt.plot(x, y, label=f"Mass: {new_polar.mass:.0f} kg")
+    plt.xlabel("MacCready [m/s]")
+    plt.ylabel("Speed to fly [km/h]")
+    plt.title("Speed to fly at different weights")
+
+
 def plot_speed_best_ld_speed_headwind(polar: Polar):
     for mass_diff in np.linspace(0, 300, 5):
         new_polar = polar.with_mass(polar.mass + mass_diff)
@@ -270,26 +300,74 @@ def coeff_from_lx(a, b, c):
     return -a, -b, -c
 
 
-if __name__ == "__main__":
-    a = [
-        ["eb29r", 700, 0.63, -0.58, 0.42],
-        ["EB 29", 700, 0.62, -0.74, 0.55],
-        ["JS3 TJ 15m", 450, 0.98, -1.85, 1.47],
-        ["HpH 304C Wasp", 356, 1.54, -2.42, 1.56],
-        ["DG 500M 22m", 530, 2.06, -3.38, 1.93],
-        ["Silent 2", 302, 1.25, -1.46, 0.93],
-        ["Phöbus A", 395, 1.28, -1.43, 1.35],
-        ["DG 500 22m", 530, 2.06, -3.38, 1.93],
-        ["DG 1000S 18m", 492, 2.51, -4.30, 2.48],
-        ["DG 505 M Orion 20m", 528, 1.47, -2.35, 1.51],
-        ["SZD-38 Jantar 1", 401, 3.01, -5.57, 3.23],
-        ["SZD-56-2 Diana 2 FES", 242, 1.57, -2.32, 1.33],
-        ["Bee", 318, 1.73, -2.8, 1.73],
-        ["ASH 30 Mi", 831, 0.81, -1.29, 0.96],
-    ]
-    for el in a:
-        assert len(el) == 5, el
-        res = coeff_from_lx(*el[2:])
-        print(el[0], el[1], f"{res[0]:.6f}={res[1]:.4f}={res[2]:.2f}")
+def get_all_polars(
+    comp_class: str | None = None, names: list[str] | None = None
+) -> list[Polar]:
+    with open("data/gliderlist_merged.csv") as file:
+        polars = []
+        reader = csv.reader(file, delimiter=",")
+        next(reader)
+        for row in reader:
+            data = row[11].split(":")
+            if not data or not data[0]:
+                continue
 
-    # compare_with_xcsoar()
+            if comp_class is not None and row[4] != comp_class:
+                continue
+
+            if names is not None and row[2] not in names:
+                continue
+
+            coeffs = np.array([float(data[i]) for i in range(0, len(data))])
+            mass = float(row[8])
+            min_speed_ms = float(row[10]) / 3.6
+            mtow = float(row[9])
+            polar = Polar(
+                coeffs, mass, min_speed_ms, row[2], mtow, wing_area=float(row[6])
+            )
+            polars.append(polar)
+    return polars
+
+
+def plt_group(names: list[str], wingloading: float = 45.0):
+    polars = get_all_polars(names=names)
+    polars.sort(key=lambda polar: -polar.best_ld_value)
+    for polar in polars:
+        assert polar.wing_area is not None
+        new_mass = wingloading * polar.wing_area
+        polar = polar.with_mass(new_mass)
+        polar.plt(label=f"{polar.name}, {polar.best_ld_value:.1f}")
+        print(f"{polar.name}: {polar.speed_to_fly(2.0, 0.0, 0.0).speed_ms * 3.6:.0f}")
+
+    plt.title(f"Wingloading of {wingloading:.0f} kg/m^2")
+    plt.legend()
+    plt.show()
+
+
+def compare_polar_with_fit():
+    filename = "VENT_176.POL"
+    info, data = open_polar(filename)
+    speeds = [d[0] for d in data]
+    v_speeds = [d[1] for d in data]
+    plt.plot(speeds, v_speeds, label="Polar Ventus c 17.6m")
+
+    polar = get_all_polars(names=["Ventus c 17.6m"])[0]
+
+    print(f"Wing area for ventus: {polar.wing_area}")
+    polar.plt("Fit Ventus c 17.6m")
+
+    filename = "ASG29-18.POL"
+    info, data = open_polar(filename)
+    speeds = [d[0] for d in data]
+    v_speeds = [d[1] for d in data]
+    plt.plot(speeds, v_speeds, label="Polar ASG 29 18m")
+
+    polar = get_all_polars(names=["ASG 29 18m"])[0]
+    polar.plt("Fit ASG 29 18m")
+
+    plt.legend()
+    plt.show()
+
+
+if __name__ == "__main__":
+    plt_group(names=old_open, wingloading=45.0)
