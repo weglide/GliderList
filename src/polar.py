@@ -10,6 +10,9 @@ import numpy as np
 from .utils import radius, required_bank_for_radius
 
 
+MAX_SPEED = 65  # 65 m/s = 234 km/h
+
+
 def density_factor(alt: float) -> float:
     ISA_LAPSE_RATE: float = 0.0065  # Lapse Rate of Standard Atmosphere
     ISA_TEMPERATURE: float = 288.15  # Temperature of Standard Atmosphere
@@ -80,6 +83,7 @@ class Polar:
     min_speed_ms: float
     name: str
     mtow: float | None = None
+    wing_area: float | None = None
 
     @property
     def save_min_speed_ms(self):
@@ -87,6 +91,7 @@ class Polar:
 
     @property
     def exponents(self) -> np.ndarray:
+        # array([2, 1, 0])
         return np.arange(len(self.coeffs) - 1, -1, -1)
 
     def into_polar_ref(self, tas: float, phi: float, alt: float) -> float:
@@ -171,7 +176,7 @@ class Polar:
 
     @property
     def speeds(self):
-        return np.arange(self.min_speed_ms, 70, 0.1)
+        return np.arange(self.min_speed_ms, 55, 0.1)
 
     @property
     def v_speeds(self):
@@ -208,6 +213,10 @@ class Polar:
     def best_ld(self) -> PolarPoint:
         speed_to_fly = self.get_root(0, 0)
         return PolarPoint(speed_to_fly, self(speed_to_fly))
+
+    @cached_property
+    def best_ld_value(self) -> float:
+        return -self.best_ld.speed_ms / self.best_ld.v_speed
 
     def speed_to_fly(
         self, mac_cready: float, netto: float, headwind: float
@@ -278,8 +287,28 @@ class Polar:
         x = to_m_s(np.array([p[0] for p in data]))
         y = np.array([p[1] for p in data])
 
-        # only do second order polyfit for xcsoar
+        # how many speeds are missing
+        # if MAX_SPEED > x[-1]:
+        #     missing_x = np.arange(x[-1], MAX_SPEED, 1)
+        #     print(f"{len(missing_x)} speeds are missing")
+
+        #     # do a polyfit with second order
+        #     coeffs = np.polyfit(x, y, 2)
+
+        #     # use it to predict the remaining speeds
+        #     exponents = np.array([2, 1, 0])
+        #     missing_y = np.array([np.sum(coeffs * (el**exponents)) for el in missing_x])
+
+        #     assert len(missing_x) == len(missing_y), f"{len(missing_x)}, {len(missing_y)}"
+
+        #     x = np.concatenate([x, missing_x], axis=0)
+        #     y = np.concatenate([y, missing_y], axis=0)
+
+        #     assert len(x) == len(y), f"{len(x)}, {len(y)}"
+
         res = np.polyfit(x, y, order)
+
+        # only do second order polyfit for xcsoar
         return Polar(
             coeffs=res,
             mass=mass,
@@ -372,10 +401,8 @@ def open_polar(name: str) -> tuple[PolarInfo, PolarData]:
 
 
 def main():
-    # polars = ("LS4.POL", "LS3.POL", "LS8.POL", "LS7.POL", "LS6_1990.POL")
-    # polars = ("LS8.POL", "LS8_neo_2016.POL")
     for order in (2, 3, 4):
-        polar = Polar.from_filename("LS3A78.POL")
+        polar = Polar.from_filename("LS3A78.POL", 400)
         print(f"Speed to fly: {polar.speed_to_fly(0.0, 0.0, 0.0).speed_ms * 3.6:.2f}")
         print(f"Speed to fly: {polar.speed_to_fly(0.5, 0.0, 0.0).speed_ms * 3.6:.2f}")
         print(f"Speed to fly: {polar.speed_to_fly(1.0, 0.0, 0.0).speed_ms * 3.6:.2f}")
