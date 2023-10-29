@@ -525,7 +525,7 @@ ID,Glider,Model,Wingarea,Empty Mass,Reference Mass,MTOW,Polar,Min Speed
 202,SZD-30 Pirat,SZD-30 Pirat,13.8,260.0,358.8,370.0,PIRAT.POL,
 516,SZD-32 Foka 5,SZD-32 Foka 5,12.16,256.0,,385.0,,
 141,SZD-36 Cobra 15,SZD-36 Cobra 15,11.6,275.0,350.0,405.0,70.8:-0.6:94.5:-0.69:148.1:-1.83,
-436,SZD-38 Jantar 1,SZD-38 Jantar 1,13.38,293.0,401,515.0,-0.003901=0.2005=-3.23,65
+436,SZD-38 Jantar 1,SZD-38 Jantar 1,13.38,293.0,401,515.0,-0.0039=0.2005=-3.23,70
 132,SZD-39 Cobra 17,SZD-39 Cobra 17,17.00,298.0,,490.0,,
 517,SZD-41 Jantar Std.,SZD-41 Jantar Std.,10.66,244.0,,460.0,,
 518,SZD-41 Jantar Std.,SZD-41 Jantar Std. WL,10.66,244.0,,460.0,,
