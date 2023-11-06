@@ -1321,5 +1321,49 @@
   "AC-4": {
     "id": 531,
     "name": "AC-4 Russia"
+  },
+  "JS-3 18M RES": {
+    "id": 64,
+    "name": "JS3 RES 18m"
+  },
+  "LS-8e": {
+    "id": 461,
+    "name": "LS 8e neo"
+  },
+  "Twin Astir III SL": {
+    "id": 580,
+    "name": "G 103 Twin 3 SL 20m"
+  },
+  "DG-1001 M": {
+    "id": 345,
+    "name": "DG 1000M 20m"
+  },
+  "Duo Discus FES": {
+    "id": 552,
+    "name": "Duo Discus XL FES"
+  },
+  "Valentin Kiwi": {
+    "id": 177,
+    "name": "Kiwi"
+  },
+  "LAK-17 C FES": {
+    "id": 622,
+    "name": "LAK-17C FES 18m"
+  },
+  "EB29DR": {
+    "id": 371,
+    "name": "EB 29DR"
+  },
+  "Slingsby T-49 Capstan": {
+    "id": 539,
+    "name": "Slingsby T.49 Capstan"
+  },
+  "SB-12": {
+    "id": 260,
+    "name": "SB 12"
+  },
+  "AK-5": {
+    "id": 256,
+    "name": "AK-5"
   }
 }
