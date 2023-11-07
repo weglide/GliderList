@@ -208,6 +208,7 @@ def merge(gliders: list, gliders_data: dict):
                 "2021",
                 "2022",
                 "2023",
+                "2024",
             ]
         )
         for glider in gliders:
