@@ -1,4 +1,4 @@
-ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Reference Mass,MTOW,Min Speed,Polar Coeffs,Double Seater,Exclude Live,Vintage,Self-Launcher,2016,2017,2018,2019,2020,2021,2022,2023
+ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Reference Mass,MTOW,Min Speed,Polar Coeffs,Double Seater,Exclude Live,Vintage,Self-Launcher,2016,2017,2018,2019,2020,2021,2022,2023,2024
 1,SZD-56-2 Diana 2,SZD-56-2 Diana 2,Avionic,15,GL,8.64,185.0,242,525.0,70.00,-0.0020350:0.0835000:-1.3300000,,,,,114,116,116,116,114,114,116,116,116
 2,JS3 15m,JS3 15m,Jonker Sailplanes,15,GL,8.75,300,450,525,80.00,-0.0012700:0.0666000:-1.4700000,,,,,116,116,116,116,114,114,116,116,116
 3,JS3 15m,JS3 RES 15m,Jonker Sailplanes,15,MG,8.75,350,450,525,80.00,-0.0012700:0.0666000:-1.4700000,,,,x,116,116,116,116,114,114,116,116,116
@@ -201,8 +201,8 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 203,Sie-3,Sie-3,Paul Siebert,Club,GL,11.84,210.0,264.0,340.0,62.00,-0.0038937:0.1517195:-2.2069313,,,x,,86,86,86,86,86,86,86,86,86
 204,Solo L 33,Solo L 33,-,Club,GL,11.0,210.0,321.2,340.0,70.00,-0.0033819:0.1356461:-2.0799403,,,,,86,86,86,86,86,86,86,86,86
 205,Std. Austria,Std. Austria,Schempp-Hirth,Club,GL,13.5,205.0,,323.0,,,,,x,,86,86,86,86,86,86,86,86,86
-206,VT-16 Orlic,VT-16 Orlic,-,Club,GL,12.8,215.0,335.0,345.0,60.00,-0.0040500:0.1395000:-1.8000000,,,,,86,86,86,86,86,86,86,86,86
-207,VT-16 Orlic,VT-16 Orlic 2,-,Club,GL,12.8,215.0,335.0,345.0,60.00,-0.0040500:0.1395000:-1.8000000,,,,,86,86,86,86,86,86,86,86,86
+206,VT-16 Orlik,VT-16 Orlik,-,Club,GL,12.8,215.0,335.0,345.0,60.00,-0.0040500:0.1395000:-1.8000000,,,x,,86,86,86,86,86,86,86,86,86
+207,VT-16 Orlik,VT-116 Orlik 2,-,Club,GL,12.8,215.0,335.0,345.0,60.00,-0.0040500:0.1395000:-1.8000000,,,x,,86,86,86,86,86,86,86,86,86
 208,Zugvogel,Zugvogel I,Scheibe-Flugzeugbau,Club,GL,,,,,,,,,x,,86,86,86,86,86,86,86,86,86
 209,Zugvogel,Zugvogel II,Scheibe-Flugzeugbau,Club,GL,,,,,,,,,x,,86,86,86,86,86,86,86,86,86
 210,Zugvogel,Zugvogel IV,Scheibe-Flugzeugbau,Club,GL,,,,,,,,,x,,86,86,86,86,86,86,86,86,86

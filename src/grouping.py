@@ -208,7 +208,7 @@ rest_club = [
     "Carat",
     "PW 5",
     "SF 30",
-    "VT-16 Orlic",
+    "VT-16 Orlik",
     "SZD-51 Junior",
     "Schweizer SGS 1-36 Sprite",
     "H-101 Salto",
