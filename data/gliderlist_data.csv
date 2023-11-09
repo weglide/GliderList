@@ -437,7 +437,7 @@ ID,Glider,Model,Wingarea,Empty Mass,Reference Mass,MTOW,Polar,Min Speed
 57,PIK-20 D/E,PIK-20 E,10.0,320.0,423.0,470.0,PIK20E.POL,
 195,Pilatus B4 FG,Pilatus B4 FG,14.05,230.0,335.795,350.0,B4.POL,
 553,Pilatus B4 RG,Pilatus B4 RG,14.05,230.0,335.795,350.0,B4.POL,
-306,Pipistrel Sinus,Pipistrel Sinus,12.26,285.0,,472.5,,
+306,Pipistrel Sinus,Pipistrel Sinus,12.26,285.0,450.0,472.5,-0.00321408=0.1386=-2.38,65
 213,PW 5,PW 5,10.16,185.0,245.87,300.0,PW5.POL,
 297,PW 6,PW 6,15.3,360.0,546.0,546.0,104.0:-0.847:152.0:-1.994:200.0:-4.648,
 317,PZL KR-03A Puchatek,PZL KR-03A Puchatek,19.44,350.0,,540.0,,

@@ -300,7 +300,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 303,Kranich 3,Kranich 3,DFS,Double,GL,21.06,420.0,509.652,550.0,61.00,-0.0043869:0.1676463:-2.4234069,x,,x,,80,80,80,80,80,80,80,80,80
 304,L23 SuperBlanik,L23 SuperBlanik 18.2m,LET,Double,GL,19.15,382.0,472.0,500.0,65.00,-0.0050292:0.2282585:-3.3568004,x,,x,,80,80,80,80,80,80,80,80,80
 305,ASK 13,ASK 13,Alexander Schleicher,Double,GL,17.5,386.0,488.0,480.0,64.00,-0.0041961:0.1707547:-2.6008187,x,,x,,79,79,79,79,79,79,79,79,79
-306,Pipistrel Sinus,Pipistrel Sinus,Pipistrel,Double,MG,12.26,285.0,,472.5,,,x,x,,x,78,78,78,78,78,78,78,78,78
+306,Pipistrel Sinus,Pipistrel Sinus,Pipistrel,Double,MG,12.26,285.0,450.0,472.5,65.00,-0.0032141:0.1386000:-2.3800000,x,x,,x,78,78,78,78,78,78,78,78,78
 307,RF-10,RF-10,Fournier,Double,MG,18.70,600.0,,800.0,,,x,x,,x,78,78,78,78,78,78,78,78,78
 308,RF-5B,RF-5B,Fournier,Double,MG,19.0,500.0,,700.0,,,x,x,,x,78,78,78,78,78,78,78,78,78
 309,SF 28 A,SF 28 A,Scheibe-Flugzeugbau,Double,MG,18.5,400.0,,610.0,,,x,x,,x,78,78,78,78,78,78,78,78,78
