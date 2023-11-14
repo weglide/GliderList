@@ -1132,7 +1132,15 @@
   },
   "Rubik R-18 Kanya": {},
   "Scheibe SF 40": {},
-  "SGS 2-33A": {},
+  "SGS 2-33A": {
+    "id": 560,
+    "name": "Schweizer SGS 2-33"
+  },
+  "SGS 2-32": {
+    "id": 559,
+    "name": "Schweizer SGS 2-32"
+  },
+
   "Ka-4": {
     "id": 332,
     "name": "Ka 4 Rhönlerche II"
