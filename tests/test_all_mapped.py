@@ -255,7 +255,6 @@ no_mapping = [
     "RF 7",
     "Pilatus PC-6",
     "Piaggio P.149",
-    "JS-2 21m SL",
     "LET L-33 Solo",
     "Bell 206",
     "DJI Phantom",
