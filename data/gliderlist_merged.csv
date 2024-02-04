@@ -642,9 +642,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 653,Schweizer SGS 1-35,Schweizer SGS 1-35A,Schweizer,Club,GL,9.64,180,,300.0,,,,,,,102,102,102,102,102,102,102,102,102
 654,SZD-55-1 Nexus,SZD-55-2 Nexus-e-Motion,Allstar PZL Glider,Standard,FG,9.6,215.0,309.12,500.0,68.50,-0.0026853:0.1147550:-1.8145096,,,,,107,107,107,107,107,107,107,107,107
 655,JS5 24m,JS5 24m,Jonker Sailplanes,Open,MG,12.8,450.0,,780.0,,,,,,x,127,127,127,127,127,127,127,127,127
-656,JS4 18m,JS4 18m,Jonker Sailplanes,18,GL,11.25,291.0,,600.0,,,,,,,114,114,114,114,114,114,114,114,114
-657,JS4 18m,JS4 TJ 18m,Jonker Sailplanes,18,MG,11.25,341.0,,600.0,,,,,,,114,114,114,114,114,114,114,114,114
-658,JS4 18m,JS4 RES 18m,Jonker Sailplanes,18,FG,11.25,341.0,,600.0,,,,,,x,114,114,114,114,114,114,114,114,114
-659,JS4 15m,JS4 15m,Jonker Sailplanes,Standard,GL,10.0,280.0,,525.0,,,,,,,109,109,109,109,109,109,109,109,109
-660,JS4 15m,JS4 TJ 15m,Jonker Sailplanes,Standard,MG,10.0,330.0,,525.0,,,,,,,109,109,109,109,109,109,109,109,109
-661,JS4 15m,JS4 RES 15m,Jonker Sailplanes,Standard,FG,10.0,330.0,,525.0,,,,,,x,109,109,109,109,109,109,109,109,109
+656,Schweizer SGU 2-22,Schweizer SGU 2-22,Schweizer,Double,GL,20.0,204.0,,376.0,,,x,,x,,50,50,50,50,50,50,50,50,50
+657,Schreder HP-18,Schreder HP-18,Richard Schreder,Club,GL,10.5,213.0,,446.0,,,,,,,100,100,100,100,100,100,101,101,101
+658,AN 66B,AN 66B,Neukom,18,GL,12.6,250.0,,400.0,,,,,,,108,108,108,108,108,108,108,108,108
+659,Franklin PS-2,Franklin PS-2,Franklin,Club,GL,17.0,100.0,,181.0,,,,,x,,50,50,50,50,50,50,50,50,50
