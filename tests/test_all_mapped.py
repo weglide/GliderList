@@ -5,6 +5,7 @@ OGN_DDB_URL = "https://ddb.glidernet.org/download/?j=1&t=1"
 
 # aircrafts which we do not want to track
 no_mapping = [
+    "Wild Thing WT01",
     "Scottish Aviation Bulldog",
     "A22 Foxbat",
     " FK 9 Mark VI",
