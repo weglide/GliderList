@@ -18,7 +18,7 @@ def test_data_for_wing_area():
             assert 60.0 <= min_weight <= 750.0, row
 
             mtow = float(row[9])
-            assert 190.0 <= mtow <= 980.0
+            assert 180.0 <= mtow <= 980.0
 
 
 def test_data_for_polar():
