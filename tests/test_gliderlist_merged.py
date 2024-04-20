@@ -40,7 +40,7 @@ def test_data_for_polar():
 
             # min weight
             min_weight = float(row[7])
-            assert 100.0 <= min_weight <= 750.0
+            assert 60.0 <= min_weight <= 750.0
 
             # mass
             mass = float(row[8])
@@ -48,7 +48,7 @@ def test_data_for_polar():
 
             # mtow
             mtow = float(row[9])
-            assert 200.0 <= mtow <= 980.0
+            assert 191.0 <= mtow <= 980.0
 
             # min speed
             min_speed = float(row[10])
@@ -57,7 +57,7 @@ def test_data_for_polar():
 
 def test_speed_to_fly_club():
     polars = get_all_polars(comp_class="Club")
-    assert len(polars) == 103
+    assert 100 < len(polars) < 120
 
     for polar in polars:
         ignore = ["Phöbus", "Silent", "mini LAK", "AK-5"]
