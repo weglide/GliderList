@@ -619,8 +619,8 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 630,Stratos 300,Stratos 300,HFL Leichtflugzeugbau,Club,MG,13.86,170.0,,300.0,,,,,,,64,64,64,64,64,64,64,64,64
 631,LS 1,LS 1-c neo,Rolladen-Schneider,Club,GL,9.74,200.0,287.33,341.0,64.00,-0.0033108:0.1416404:-2.1850724,,,,,99,99,99,99,99,99,99,99,99
 632,FK-3,FK-3,VFW-Fokker,Club,GL,13.8,240.0,,400.0,,,,,,,105,105,105,105,105,105,105,105,105
-633,Swift-Light,Swift-Light E,Aériane,Club,FG,12.5,95.0,,191.0,,,,,,x,76,76,76,76,76,76,76,76,76
-634,Swift-Light,Swift-Light,Aériane,Club,GL,12.5,60.0,,191.0,,,,,,,76,76,76,76,76,76,76,76,76
+633,Swift-Light,Swift-Light E,Aériane,Club,FG,12.5,95.0,191.0,191.0,50.00,-0.0058752:0.1927200:-2.2960000,,,,x,76,76,76,76,76,76,76,76,76
+634,Swift-Light,Swift-Light,Aériane,Club,GL,12.5,60.0,191.0,191.0,50.00,-0.0058752:0.1927200:-2.2960000,,,,,76,76,76,76,76,76,76,76,76
 635,Diamant 16.5,Diamant 16.5,FFA,18,GL,12.2,270.0,,408.0,,,,,,,105,105,105,105,105,105,105,105,105
 636,AC-5,AC-5M,Aviastroitel,Club,MG,7.7,180.0,,300.0,,,,,,x,84,84,84,84,84,84,84,84,84
 637,AC-5,AC-5K,Aviastroitel,Club,MG,7.7,180.0,,300.0,,,,,,x,84,84,84,84,84,84,84,84,84
