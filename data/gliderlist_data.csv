@@ -479,7 +479,7 @@ ID,Glider,Model,Wingarea,Empty Mass,Reference Mass,MTOW,Polar,Min Speed
 533,SF 36,SF 36,15.60,515.0,,715.0,,
 228,SFS 31,SFS 31,12.00,300.0,,430.0,,
 162,SHK,SHK,14.70,260.0,,370.0,,
-203,Sie-3,Sie-3,11.84,210.0,264.0,340.0,KA6E.POL,,
+203,Sie-3,Sie-3,11.84,210.0,264.0,340.0,KA6E.POL,
 287,Silence E 75,Silence E 75,,,,,,
 168,Silent 2,Silent 2,8.9,130,302,300,-0.001620=0.0526=-0.93,65
 218,Silent AE-1,Silent AE-1,,,,,,
