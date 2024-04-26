@@ -1159,5 +1159,13 @@
   "Jastreb Vuk-T": {
     "id": 643,
     "name": "Vuk-T"
+  },
+  "Swiftlight": {
+    "id": 634,
+    "name": "Swift-Light"
+  },
+  "Swiftlight-E": {
+    "id": 633,
+    "name": "Swift-Light E"
   }
 }
