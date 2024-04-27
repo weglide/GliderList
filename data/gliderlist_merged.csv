@@ -524,7 +524,7 @@ ID,Glider,Model,Manufacturer,Competition Class,Kind,Wingarea,Empty Weight,Refere
 531,AC-4 Russia,AC-4 Russia,Aviastroitel,Club,GL,7.7,140.0,226.38,250.0,74.00,-0.0041532:0.1863329:-2.8733967,,,x,,84,84,84,84,84,84,84,84,84
 532,mini LAK,mini LAK,Sportinė Aviacija,Club,GL,8.41,163.0,343.3,350.0,81.80,-0.0022551:0.1137596:-2.1359126,,,,,103,103,105,105,103,103,103,103,103
 533,SF 36,SF 36,Scheibe-Flugzeugbau,Club,MG,15.60,515.0,,715.0,,,x,,,x,74,74,74,74,74,74,74,74,74
-534,Stemme S12,Stemme S12,Stemme,Open,MG,19.95,690.0,,900.0,,,x,,,x,114,114,114,114,114,114,114,114,114
+534,Stemme S12,Stemme S12,Stemme,Open,MG,19.95,690.0,900.0,900.0,75.00,-0.0018500:0.0940000:-1.7900000,x,,,x,114,114,114,114,114,114,114,114,114
 535,Slingsby T.30 Prefect,Slingsby T.30 Prefect,Slingsby,Club,GL,14.25,176.9,,266.3,,,,,x,,54,54,54,54,54,54,54,54,54
 536,Slingsby T.31 Tandem Tutor,Slingsby T.31 Tandem Tutor,Slingsby,Double,GL,15.8,176.0,,376.0,,,x,,x,,54,54,54,54,54,54,54,54,54
 537,Slingsby T.34 Sky,Slingsby T.34 Sky,Slingsby,Club,GL,17.37,250.0,,363.0,,,,,x,,60,60,60,60,60,60,60,60,60
