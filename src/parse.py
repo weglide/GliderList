@@ -70,7 +70,7 @@ def open_gliderlist_data() -> dict[str, list]:
 
             if polar is not None:
                 sink = polar.evaluate(40, 0, 0)
-                print(f"Sink at 144 km/h for {row[1]}: {sink:.3f}")
+                print(f"Sink at 144 km/h for {row[2]}: {sink:.3f}")
                 if sink > 0:
                     raise AssertionError
 
