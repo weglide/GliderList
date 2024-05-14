@@ -116,7 +116,7 @@ ID,Glider,Model,Wingarea,Empty Mass,Reference Mass,MTOW,Polar,Min Speed
 174,Carat,Carat,11.0,350.0,459.8,490.0,CARAT.POL,
 601,CB-15 Crystal,CB-15 Crystal,,,,,,
 264,Cirrus,Cirrus,10.04,202.0,307.22,390.0,CIRRUS15_2.POL,
-265,Cirrus,Cirrus VTC 17.74m,,,,,,
+265,Cirrus,Cirrus VTC 17.74m,12.6,276.0,330.0,400.0,80.0:-0.6:120.0:-1.1:160.0:-2.2,
 257,Cirrus B 18.34m,Cirrus B 18.34m,12.6,260.0,330.0,390.0,100.0:-0.74:120.0:-1.06:150.0:-1.88,
 154,Club Libelle,Club Libelle,9.8,225.0,318.5,350.0,H205.POL,
 302,Condor 4,Condor 4,,,,,,
