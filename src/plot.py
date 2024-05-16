@@ -297,7 +297,7 @@ def coeff_to_lx(a, b, c):
 def coeff_from_lx(a, b, c):
     b = b / (100 / 3.6)
     a = a / (100 / 3.6) ** 2
-    return -a, -b, -c
+    return f"{-a:.5}={-b:.5}={-c:.5}"
 
 
 def get_all_polars(
@@ -370,4 +370,5 @@ def compare_polar_with_fit():
 
 
 if __name__ == "__main__":
-    plt_group(names=old_open, wingloading=45.0)
+    # plt_group(names=old_open, wingloading=45.0)
+    print(coeff_from_lx(1.1851, -1.63, 1.04623))
