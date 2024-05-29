@@ -34,3 +34,10 @@ jobs:
       run: |
         aws s3 cp data/gliderlist_merged.csv s3://$AWS_S3_BUCKET/gliderlist_merged.csv
 
+
+    - name: Copy ogn mapping to S3
+      env: 
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+      run: |
+        aws s3 cp ogn_ddb_mapping.json s3://$AWS_S3_BUCKET/ogn_ddb_mapping.json
+
