@@ -1167,5 +1167,25 @@
   "Swiftlight-E": {
     "id": 633,
     "name": "Swift-Light E"
+  },
+  "Ventus 2ax": {
+    "id": 16,
+    "name": "Ventus 2ax"
+  },
+  "Ventus 2a": {
+    "id": 15,
+    "name": "Ventus 2a"
+  },
+  "LET LF-107 Lunak": {
+    "id": 236,
+    "name": "Lunak LF 107"
+  },
+  "AS 34Me": {
+    "id": 505,
+    "name": "AS 34 Me 18m"
+  },
+  "Glasflugel 604": {
+    "id": 427,
+    "name": "Glasflügel 604"
   }
 }
