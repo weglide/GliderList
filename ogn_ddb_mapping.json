@@ -1191,5 +1191,13 @@
   "AS 33Me": {
     "id": 496,
     "name": "AS 33 Me 18m"
+  },
+  "Slingsby T51 Dart 15": {
+    "id": 542,
+    "name": "Slingsby T.51 Dart"
+  },
+  "LS-11": {
+    "id": 344,
+    "name": "LS 11"
   }
 }
