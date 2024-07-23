@@ -122,7 +122,6 @@ no_mapping = [
     "Vans RV-9",
     "Cessna 175",
     "Extra 330",
-    "SGS 1-34",
     "Rallye 180T-D",
     "VL3 Evolution",
     "CallAir A-9",
