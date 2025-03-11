@@ -1,5 +1,6 @@
-import requests
 import json
+
+import requests
 
 OGN_DDB_URL = "https://ddb.glidernet.org/download/?j=1&t=1"
 
@@ -302,6 +303,9 @@ all_we_know = list([k for (k, v) in mapping.items() if v]) + no_mapping
 def test_all_mapped():
     """Test if all aircraft names in the ogn ddb are either mapped to a WeGlide type or ignored"""
     response = requests.get(OGN_DDB_URL)
+    if response.status_code != 200:
+        raise Exception(f"Failed to get OGN DDB data: {response.text}")
+
     devices = response.json()["devices"]
     for device in devices:
         name = device["aircraft_model"]
