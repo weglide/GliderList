@@ -293,6 +293,7 @@ no_mapping = [
     "Remos GX",
     "Zodiac CH601XL",
     "WT9 Dynamic",
+    "Breezer B400-6",
 ]
 
 mapping_file = open("ogn_ddb_mapping.json")
