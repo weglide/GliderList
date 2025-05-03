@@ -939,7 +939,6 @@
     "id": 559,
     "name": "Schweizer SGS 2-32"
   },
-
   "Ka-4": {
     "id": 332,
     "name": "Ka 4 Rhönlerche II"
@@ -1223,5 +1222,9 @@
   "HPH 304TS": {
     "id": 341,
     "name": "HpH 304 TS Twin Shark"
+  },
+  "LS-2": {
+    "id": 60,
+    "name": "LS 2"
   }
 }
