@@ -192,7 +192,6 @@ no_mapping = [
     "Capstan",
     "Jodel DR-1050",
     "MS-892 Commodore",
-    "Crystal",
     "DHC-1 Chipmunk",
     "Motorplane",
     "Sensation",

@@ -1226,5 +1226,9 @@
   "LS-2": {
     "id": 60,
     "name": "LS 2"
+  },
+  "Crystal": {
+    "id": 601,
+    "name": "CB-15 Crystal"
   }
 }
