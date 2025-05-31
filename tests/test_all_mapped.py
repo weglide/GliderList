@@ -297,6 +297,7 @@ no_mapping = [
     "Sonex-B",
     "Sonaca 200",
     "Caudron C800",
+    "Diana 4",
 ]
 
 mapping_file = open("ogn_ddb_mapping.json")
