@@ -51,10 +51,6 @@
     "id": 146,
     "name": "LS 1-c"
   },
-  "Discus bT": {
-    "id": 470,
-    "name": "Discus bT"
-  },
   "Nimbus 4DM": {
     "id": 392,
     "name": "Nimbus 4DM"
@@ -147,17 +143,29 @@
     "id": 458,
     "name": "LS-8"
   },
-  "Discus": {
+  "Discus CS": {
+    "id": 466,
+    "name": "Discus CS"
+  },
+  "Discus a": {
     "id": 467,
     "name": "Discus a"
+  },
+  "Discus b": {
+    "id": 468,
+    "name": "Discus b"
+  },
+  "Discus bM": {
+    "id": 469,
+    "name": "Discus bM"
+  },
+  "Discus bT": {
+    "id": 470,
+    "name": "Discus bT"
   },
   "SZD-56-2 Diana 2": {
     "id": 1,
     "name": "SZD-56-2 Diana 2"
-  },
-  "Discus t": {
-    "id": 470,
-    "name": "Discus bT"
   },
   "PW-5": {
     "id": 213,
