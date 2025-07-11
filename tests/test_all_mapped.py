@@ -299,6 +299,7 @@ no_mapping = [
     "Caudron C800",
     "Diana 4",
     "Akaflieg München Mü17 Merle",
+    "Air Tractor AT-802",
 ]
 
 mapping_file = open("ogn_ddb_mapping.json")

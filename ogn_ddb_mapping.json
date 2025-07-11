@@ -1230,5 +1230,9 @@
   "Crystal": {
     "id": 601,
     "name": "CB-15 Crystal"
+  },
+  "NimEta": {
+    "id": 374,
+    "name": "NimEta"
   }
 }
