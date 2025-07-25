@@ -1,0 +1,79 @@
+name: Test and Publish
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: "pyproject.toml"
+      - name: Install dependencies
+        run: uv sync
+      - name: Lint
+        run: uv run ruff check .
+      - name: Format
+        run: uv run ruff format --diff .
+      - name: Check types
+        run: uv run mypy .
+      - name: Run tests
+        run: uv run pytest
+
+  publish:
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-central-1
+      - name: Copy gliderlist to S3
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        run: |
+          aws s3 cp data/gliderlist.csv s3://$AWS_S3_BUCKET/gliderlist.csv
+      - name: Copy ogn mapping to S3
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        run: |
+          aws s3 cp ogn_ddb_mapping.json s3://$AWS_S3_BUCKET/ogn_ddb_mapping.json
+
+      - name: Send import command to staging server rest api
+        run: uv run scripts/trigger_sync.py
+        env:
+          USER_EMAIL: ${{ secrets.USER_EMAIL_STAGING }}
+          USER_PASSWORD: ${{ secrets.USER_PASSWORD_STAGING}}
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          API_KEY: ${{ secrets.API_KEY_STAGING }}
+          API_URL: ${{ secrets.API_URL_STAGING }}
+      - name: Test if last aircraft is in the staging database
+        run: uv run scripts/assert_sync.py
+        env:
+          API_URL: ${{ secrets.API_URL_STAGING }}
+
+      - name: Send import command to prod server rest api
+        run: uv run scripts/trigger_sync.py
+        env:
+          USER_EMAIL: ${{ secrets.USER_EMAIL_PROD }}
+          USER_PASSWORD: ${{ secrets.USER_PASSWORD_PROD}}
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          API_KEY: ${{ secrets.API_KEY_PROD }}
+          API_URL: ${{ secrets.API_URL_PROD }}
+      - name: Test if last aircraft is in the prod database
+        run: uv run scripts/assert_sync.py
+        env:
+          API_URL: ${{ secrets.API_URL_PROD }}
