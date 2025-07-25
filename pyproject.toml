@@ -4,8 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "python-dotenv>=1.1.1",
-]
+dependencies = ["python-dotenv>=1.1.1"]
 [dependency-groups]
-dev = ["numpy>=2.3.2", "pytest>=8.3.5", "requests>=2.32.3"]
+dev = [
+    "mypy>=1.17.0",
+    "numpy>=2.3.2",
+    "pytest>=8.3.5",
+    "requests>=2.32.3",
+    "ruff>=0.12.5",
+    "types-requests>=2.32.4.20250611",
+]
