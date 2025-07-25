@@ -1,6 +1,7 @@
 import csv
 import json
 
+
 def test_ogn_ddb_mapping():
     with open("gliderlist.csv") as file:
         reader = csv.reader(file, delimiter=",")
